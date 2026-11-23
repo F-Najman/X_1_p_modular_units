@@ -1,13 +1,16 @@
-# Modular units on X_1(191)
+# Gonality and modular units on X_1(p)
 
 Code, solver inputs and logs for the paper
 
-> F. Najman, *The gonality of X_1(191) is not attained by a modular unit*.
+> F. Najman, *The Q-gonality of X_1(p) is not always attained by a modular unit*.
 
 The paper proves that gon_Q X_1(191) <= 380, while every non-constant modular unit on
-X_1(191) defined over Q has degree at least 381. This disproves Conjecture 3.5 of
-Derickx and Stoll ([arXiv:2505.14109v2](https://arxiv.org/abs/2505.14109v2)) and answers
+X_1(191) defined over Q has degree at least 381. So the Q-gonality of X_1(p) is not
+always attained by a modular unit: this disproves Conjecture 3.5 of Derickx and Stoll
+([arXiv:2505.14109v2](https://arxiv.org/abs/2505.14109v2)) for p = 191 and answers
 Question 1 of Derickx and van Hoeij (J. Algebra 417 (2014)) negatively for N = 191.
+The paper also shows gon_Q X_1(191) >= 304 (Proposition 3.5, a proof without
+computations), so 304 <= gon_Q X_1(191) <= 380 < 381 <= mu_Q(191) <= 478.
 
 All commands below are run from the repository root.
 
