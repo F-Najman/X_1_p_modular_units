@@ -38,9 +38,9 @@ The path to the SCIP binary is passed in the environment variable `SCIP`.
 | Section 8.2 b) | original run of the 56 programs | `code/check_models.py` | `logs/original_run/` |
 | Section 8.2 c) | the 56 programs rebuilt independently and solved with HiGHS (floating point) | `code/highs_crosscheck.py` | `logs/checks/highs.tsv` |
 | Section 8.2 d) | independent recomputation of Proposition 5.2 | `code/independent_checks.py` | `logs/checks/independent_checks.txt` |
-| Section 8.2 e) | two independent enumerations for Proposition 6.3 | `code/wide_gaps_check.c`, `code/wide_gaps.cpp` | as above |
+| Section 8.2 e) | two independent enumerations for Proposition 6.3 (counts agree up to the factor 10, 8, 6, 4 of cyclic shifts, except for the two supports with 10 non-zero exponents and gaps alternately 8, 11 and 9, 10, which are invariant under the shift by 19) | `code/wide_gaps_check.c`, `code/wide_gaps.cpp` | as above |
 | Section 8.2 f) | known positive: with 478 in place of 380, exact SCIP finds (H_4H_7/(H_1H_8))_4 | `code/known_positive.py` | `logs/checks/known_positive.txt` |
-| Section 8.2 g) | mu_Q(p) for small primes p agrees with Derickx and van Hoeij | `code/validate_small_primes.py` | `logs/checks/validate_small_primes.txt` |
+| Section 8.2 g) | for primes 11 <= p <= 83, the smallest degree of a non-constant unit with all \|e_k\| <= 3 equals the value of Derickx and van Hoeij (gon_Q X_1(p) for p <= 37, their best modular unit for 41 <= p <= 83). This tests the model; for p >= 41 it does not determine mu_Q(p) | `code/validate_small_primes.py` | `logs/checks/validate_small_primes.txt` |
 
 `checks.tsv` lists the 56 programs of Proposition 6.5 (the cusp order s, the gap j, the sign
 sigma, the exponents fixed in the split of P(0,1,-1)), the number of nodes of the original run
