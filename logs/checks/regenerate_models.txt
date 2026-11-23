@@ -1,0 +1,57 @@
+order4 regenerated and audited (both files): identical
+order3 regenerated and audited (both files): identical
+order2_gap1 regenerated and audited (both files): identical up to row names
+order2_gap2 regenerated and audited (both files): identical up to row names
+order2_gap3 regenerated and audited (both files): identical up to row names
+order1_gap1 regenerated and audited (both files): identical up to row names
+order1_gap2 regenerated and audited (both files): identical
+order1_gap3 regenerated and audited (both files): identical up to row names
+order1_gap4 regenerated and audited (both files): identical up to row names
+order1_gap5 regenerated and audited (both files): identical up to row names
+order1_gap6 regenerated and audited (both files): identical up to row names
+order1_gap7 regenerated and audited (both files): identical up to row names
+s0_g1_e1 regenerated and audited (both files): identical
+s0_g2_e-1 regenerated and audited (both files): identical
+s0_g2_e1 regenerated and audited (both files): identical
+s0_g3_e-1 regenerated and audited (both files): identical
+s0_g3_e1 regenerated and audited (both files): identical
+s0_g4_e-1 regenerated and audited (both files): identical
+s0_g4_e1 regenerated and audited (both files): identical
+s0_g5_e-1 regenerated and audited (both files): identical
+s0_g5_e1 regenerated and audited (both files): identical
+s0_g6_e-1 regenerated and audited (both files): identical
+s0_g6_e1 regenerated and audited (both files): identical
+s0_g7_e-1 regenerated and audited (both files): identical
+s0_g7_e1 regenerated and audited (both files): identical
+s0_g1_e-1_x3v-1 regenerated and audited (both files): identical
+s0_g1_e-1_x3v1 regenerated and audited (both files): identical
+s0_g1_e-1_x95v-1 regenerated and audited (both files): identical
+s0_g1_e-1_x95v1 regenerated and audited (both files): identical
+s0_g1_e-1_x94v-1 regenerated and audited (both files): identical
+s0_g1_e-1_x94v1 regenerated and audited (both files): identical
+s0_g1_e-1_x61v-1 regenerated and audited (both files): identical
+s0_g1_e-1_x61v1 regenerated and audited (both files): identical
+s0_g1_e-1_x41v-1 regenerated and audited (both files): identical
+s0_g1_e-1_x41v1 regenerated and audited (both files): identical
+s0_g1_e-1_x5v-1 regenerated and audited (both files): identical
+s0_g1_e-1_x5v1 regenerated and audited (both files): identical
+s0_g1_e-1_x8v-1 regenerated and audited (both files): identical
+s0_g1_e-1_x8v1 regenerated and audited (both files): identical
+s0_g1_e-1_x64v-1 regenerated and audited (both files): identical
+s0_g1_e-1_x64v1 regenerated and audited (both files): identical
+s0_g1_e-1_x4v-1 regenerated and audited (both files): identical
+s0_g1_e-1_x4v1 regenerated and audited (both files): identical
+s0_g1_e-1_x63v-1 regenerated and audited (both files): identical
+s0_g1_e-1_x63v1 regenerated and audited (both files): identical
+s0_g1_e-1_x38v-1 regenerated and audited (both files): identical
+s0_g1_e-1_x38v1 regenerated and audited (both files): identical
+s0_g1_e-1_x48v-1 regenerated and audited (both files): identical
+s0_g1_e-1_x48v1 regenerated and audited (both files): identical
+s0_g1_e-1_x32v-1 regenerated and audited (both files): identical
+s0_g1_e-1_x32v1 regenerated and audited (both files): identical
+s0_g1_e-1_x62v-1 regenerated and audited (both files): identical
+s0_g1_e-1_x62v1 regenerated and audited (both files): identical
+s0_g1_e-1_x76v-1 regenerated and audited (both files): identical
+s0_g1_e-1_x76v1 regenerated and audited (both files): identical
+s0_g1_e-1_zeros regenerated and audited (both files): identical
+ALL MODELS REPRODUCED

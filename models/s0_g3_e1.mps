@@ -1,0 +1,7148 @@
+* Problem:
+* Class:      MIP
+* Rows:       859
+* Columns:    191 (96 integer, 0 binary)
+* Non-zeros:  10927
+* Format:     Fixed MPS
+*
+NAME
+ROWS
+ N  R0000000
+ L  mass
+ E  sum_e
+ E  R0000003
+ E  endpoint
+ L  gap1_0_0
+ L  gap1_0_1
+ L  gap1_0_2
+ L  gap1_0_3
+ L  gap1_1_0
+ L  gap1_1_1
+ L  gap1_1_2
+ L  gap1_1_3
+ L  gap1_2_0
+ L  gap1_2_1
+ L  gap1_2_2
+ L  gap1_2_3
+ L  gap1_3_0
+ L  gap1_3_1
+ L  gap1_3_2
+ L  gap1_3_3
+ L  gap1_4_0
+ L  gap1_4_1
+ L  gap1_4_2
+ L  gap1_4_3
+ L  gap1_5_0
+ L  gap1_5_1
+ L  gap1_5_2
+ L  gap1_5_3
+ L  gap1_6_0
+ L  gap1_6_1
+ L  gap1_6_2
+ L  gap1_6_3
+ L  gap1_7_0
+ L  gap1_7_1
+ L  gap1_7_2
+ L  gap1_7_3
+ L  gap1_8_0
+ L  gap1_8_1
+ L  gap1_8_2
+ L  gap1_8_3
+ L  gap1_9_0
+ L  gap1_9_1
+ L  gap1_9_2
+ L  gap1_9_3
+ L  R0000045
+ L  R0000046
+ L  R0000047
+ L  R0000048
+ L  R0000049
+ L  R0000050
+ L  R0000051
+ L  R0000052
+ L  R0000053
+ L  R0000054
+ L  R0000055
+ L  R0000056
+ L  R0000057
+ L  R0000058
+ L  R0000059
+ L  R0000060
+ L  R0000061
+ L  R0000062
+ L  R0000063
+ L  R0000064
+ L  R0000065
+ L  R0000066
+ L  R0000067
+ L  R0000068
+ L  R0000069
+ L  R0000070
+ L  R0000071
+ L  R0000072
+ L  R0000073
+ L  R0000074
+ L  R0000075
+ L  R0000076
+ L  R0000077
+ L  R0000078
+ L  R0000079
+ L  R0000080
+ L  R0000081
+ L  R0000082
+ L  R0000083
+ L  R0000084
+ L  R0000085
+ L  R0000086
+ L  R0000087
+ L  R0000088
+ L  R0000089
+ L  R0000090
+ L  R0000091
+ L  R0000092
+ L  R0000093
+ L  R0000094
+ L  R0000095
+ L  R0000096
+ L  R0000097
+ L  R0000098
+ L  R0000099
+ L  R0000100
+ L  R0000101
+ L  R0000102
+ L  R0000103
+ L  R0000104
+ L  R0000105
+ L  R0000106
+ L  R0000107
+ L  R0000108
+ L  R0000109
+ L  R0000110
+ L  R0000111
+ L  R0000112
+ L  R0000113
+ L  R0000114
+ L  R0000115
+ L  R0000116
+ L  R0000117
+ L  R0000118
+ L  R0000119
+ L  R0000120
+ L  R0000121
+ L  R0000122
+ L  R0000123
+ L  R0000124
+ L  R0000125
+ L  R0000126
+ L  R0000127
+ L  R0000128
+ L  R0000129
+ L  R0000130
+ L  R0000131
+ L  R0000132
+ L  R0000133
+ L  R0000134
+ L  R0000135
+ L  R0000136
+ L  R0000137
+ L  R0000138
+ L  R0000139
+ L  R0000140
+ L  R0000141
+ L  R0000142
+ L  R0000143
+ L  R0000144
+ L  R0000145
+ L  R0000146
+ L  R0000147
+ L  R0000148
+ L  R0000149
+ L  R0000150
+ L  R0000151
+ L  R0000152
+ L  R0000153
+ L  R0000154
+ L  R0000155
+ L  R0000156
+ L  R0000157
+ L  R0000158
+ L  R0000159
+ L  R0000160
+ L  R0000161
+ L  R0000162
+ L  R0000163
+ L  R0000164
+ L  R0000165
+ L  R0000166
+ L  R0000167
+ L  R0000168
+ L  R0000169
+ L  R0000170
+ L  R0000171
+ L  R0000172
+ L  R0000173
+ L  R0000174
+ L  R0000175
+ L  R0000176
+ L  R0000177
+ L  R0000178
+ L  R0000179
+ L  R0000180
+ L  R0000181
+ L  R0000182
+ L  R0000183
+ L  R0000184
+ L  R0000185
+ L  R0000186
+ L  R0000187
+ L  R0000188
+ L  R0000189
+ L  R0000190
+ L  R0000191
+ L  R0000192
+ L  R0000193
+ L  R0000194
+ L  R0000195
+ L  R0000196
+ L  R0000197
+ L  R0000198
+ L  R0000199
+ L  R0000200
+ L  R0000201
+ L  R0000202
+ L  R0000203
+ L  R0000204
+ L  R0000205
+ L  R0000206
+ L  R0000207
+ L  R0000208
+ L  R0000209
+ L  R0000210
+ L  R0000211
+ L  R0000212
+ L  R0000213
+ L  R0000214
+ L  R0000215
+ L  R0000216
+ L  R0000217
+ L  R0000218
+ L  R0000219
+ L  R0000220
+ L  R0000221
+ L  R0000222
+ L  R0000223
+ L  R0000224
+ L  R0000225
+ L  R0000226
+ L  R0000227
+ L  R0000228
+ L  R0000229
+ L  R0000230
+ L  R0000231
+ L  R0000232
+ L  R0000233
+ L  R0000234
+ L  R0000235
+ L  R0000236
+ L  R0000237
+ L  R0000238
+ L  R0000239
+ L  R0000240
+ L  R0000241
+ L  R0000242
+ L  R0000243
+ L  R0000244
+ L  R0000245
+ L  R0000246
+ L  R0000247
+ L  R0000248
+ L  R0000249
+ L  R0000250
+ L  R0000251
+ L  R0000252
+ L  R0000253
+ L  R0000254
+ L  R0000255
+ L  R0000256
+ L  R0000257
+ L  R0000258
+ L  R0000259
+ L  R0000260
+ L  R0000261
+ L  R0000262
+ L  R0000263
+ L  R0000264
+ L  R0000265
+ L  R0000266
+ L  R0000267
+ L  R0000268
+ L  R0000269
+ L  R0000270
+ L  R0000271
+ L  R0000272
+ L  R0000273
+ L  R0000274
+ L  R0000275
+ L  R0000276
+ L  R0000277
+ L  R0000278
+ L  R0000279
+ L  R0000280
+ L  R0000281
+ L  R0000282
+ L  R0000283
+ L  R0000284
+ L  R0000285
+ L  R0000286
+ L  R0000287
+ L  R0000288
+ L  R0000289
+ L  R0000290
+ L  R0000291
+ L  R0000292
+ L  R0000293
+ L  R0000294
+ L  R0000295
+ L  R0000296
+ L  R0000297
+ L  R0000298
+ L  R0000299
+ L  R0000300
+ L  R0000301
+ L  R0000302
+ L  R0000303
+ L  R0000304
+ L  R0000305
+ L  R0000306
+ L  R0000307
+ L  R0000308
+ L  R0000309
+ L  R0000310
+ L  R0000311
+ L  R0000312
+ L  R0000313
+ L  R0000314
+ L  R0000315
+ L  R0000316
+ L  R0000317
+ L  R0000318
+ L  R0000319
+ L  R0000320
+ L  R0000321
+ L  R0000322
+ L  R0000323
+ L  R0000324
+ L  R0000325
+ L  R0000326
+ L  R0000327
+ L  R0000328
+ L  R0000329
+ L  R0000330
+ L  R0000331
+ L  R0000332
+ L  R0000333
+ L  R0000334
+ L  R0000335
+ L  R0000336
+ L  R0000337
+ L  R0000338
+ L  R0000339
+ L  R0000340
+ L  R0000341
+ L  R0000342
+ L  R0000343
+ L  R0000344
+ L  R0000345
+ L  R0000346
+ L  R0000347
+ L  R0000348
+ L  R0000349
+ L  R0000350
+ L  R0000351
+ L  R0000352
+ L  R0000353
+ L  R0000354
+ L  R0000355
+ L  R0000356
+ L  R0000357
+ L  R0000358
+ L  R0000359
+ L  R0000360
+ L  R0000361
+ L  R0000362
+ L  R0000363
+ L  R0000364
+ L  R0000365
+ L  R0000366
+ L  R0000367
+ L  R0000368
+ L  R0000369
+ L  R0000370
+ L  R0000371
+ L  R0000372
+ L  R0000373
+ L  R0000374
+ L  R0000375
+ L  R0000376
+ L  R0000377
+ L  R0000378
+ L  R0000379
+ L  R0000380
+ L  R0000381
+ L  R0000382
+ L  R0000383
+ L  R0000384
+ L  gap2_0_0
+ L  gap2_0_1
+ L  gap2_0_2
+ L  gap2_0_3
+ L  gap2_1_0
+ L  gap2_1_1
+ L  gap2_1_2
+ L  gap2_1_3
+ L  gap2_2_0
+ L  gap2_2_1
+ L  gap2_2_2
+ L  gap2_2_3
+ L  gap2_3_0
+ L  gap2_3_1
+ L  gap2_3_2
+ L  gap2_3_3
+ L  gap2_4_0
+ L  gap2_4_1
+ L  gap2_4_2
+ L  gap2_4_3
+ L  gap2_5_0
+ L  gap2_5_1
+ L  gap2_5_2
+ L  gap2_5_3
+ L  gap2_6_0
+ L  gap2_6_1
+ L  gap2_6_2
+ L  gap2_6_3
+ L  gap2_7_0
+ L  gap2_7_1
+ L  gap2_7_2
+ L  gap2_7_3
+ L  gap2_8_0
+ L  gap2_8_1
+ L  gap2_8_2
+ L  gap2_8_3
+ L  gap2_9_0
+ L  gap2_9_1
+ L  gap2_9_2
+ L  gap2_9_3
+ L  R0000425
+ L  R0000426
+ L  R0000427
+ L  R0000428
+ L  R0000429
+ L  R0000430
+ L  R0000431
+ L  R0000432
+ L  R0000433
+ L  R0000434
+ L  R0000435
+ L  R0000436
+ L  R0000437
+ L  R0000438
+ L  R0000439
+ L  R0000440
+ L  R0000441
+ L  R0000442
+ L  R0000443
+ L  R0000444
+ L  R0000445
+ L  R0000446
+ L  R0000447
+ L  R0000448
+ L  R0000449
+ L  R0000450
+ L  R0000451
+ L  R0000452
+ L  R0000453
+ L  R0000454
+ L  R0000455
+ L  R0000456
+ L  R0000457
+ L  R0000458
+ L  R0000459
+ L  R0000460
+ L  R0000461
+ L  R0000462
+ L  R0000463
+ L  R0000464
+ L  R0000465
+ L  R0000466
+ L  R0000467
+ L  R0000468
+ L  R0000469
+ L  R0000470
+ L  R0000471
+ L  R0000472
+ L  R0000473
+ L  R0000474
+ L  R0000475
+ L  R0000476
+ L  R0000477
+ L  R0000478
+ L  R0000479
+ L  R0000480
+ L  R0000481
+ L  R0000482
+ L  R0000483
+ L  R0000484
+ L  R0000485
+ L  R0000486
+ L  R0000487
+ L  R0000488
+ L  R0000489
+ L  R0000490
+ L  R0000491
+ L  R0000492
+ L  R0000493
+ L  R0000494
+ L  R0000495
+ L  R0000496
+ L  R0000497
+ L  R0000498
+ L  R0000499
+ L  R0000500
+ L  R0000501
+ L  R0000502
+ L  R0000503
+ L  R0000504
+ L  R0000505
+ L  R0000506
+ L  R0000507
+ L  R0000508
+ L  R0000509
+ L  R0000510
+ L  R0000511
+ L  R0000512
+ L  R0000513
+ L  R0000514
+ L  R0000515
+ L  R0000516
+ L  R0000517
+ L  R0000518
+ L  R0000519
+ L  R0000520
+ L  R0000521
+ L  R0000522
+ L  R0000523
+ L  R0000524
+ L  R0000525
+ L  R0000526
+ L  R0000527
+ L  R0000528
+ L  R0000529
+ L  R0000530
+ L  R0000531
+ L  R0000532
+ L  R0000533
+ L  R0000534
+ L  R0000535
+ L  R0000536
+ L  R0000537
+ L  R0000538
+ L  R0000539
+ L  R0000540
+ L  R0000541
+ L  R0000542
+ L  R0000543
+ L  R0000544
+ L  R0000545
+ L  R0000546
+ L  R0000547
+ L  R0000548
+ L  R0000549
+ L  R0000550
+ L  R0000551
+ L  R0000552
+ L  R0000553
+ L  R0000554
+ L  R0000555
+ L  R0000556
+ L  R0000557
+ L  R0000558
+ L  R0000559
+ L  R0000560
+ L  R0000561
+ L  R0000562
+ L  R0000563
+ L  R0000564
+ L  R0000565
+ L  R0000566
+ L  R0000567
+ L  R0000568
+ L  R0000569
+ L  R0000570
+ L  R0000571
+ L  R0000572
+ L  R0000573
+ L  R0000574
+ L  R0000575
+ L  R0000576
+ L  R0000577
+ L  R0000578
+ L  R0000579
+ L  R0000580
+ L  R0000581
+ L  R0000582
+ L  R0000583
+ L  R0000584
+ L  R0000585
+ L  R0000586
+ L  R0000587
+ L  R0000588
+ L  R0000589
+ L  R0000590
+ L  R0000591
+ L  R0000592
+ L  R0000593
+ L  R0000594
+ L  R0000595
+ L  R0000596
+ L  R0000597
+ L  R0000598
+ L  R0000599
+ L  R0000600
+ L  R0000601
+ L  R0000602
+ L  R0000603
+ L  R0000604
+ L  R0000605
+ L  R0000606
+ L  R0000607
+ L  R0000608
+ L  R0000609
+ L  R0000610
+ L  R0000611
+ L  R0000612
+ L  R0000613
+ L  R0000614
+ L  R0000615
+ L  R0000616
+ L  R0000617
+ L  R0000618
+ L  R0000619
+ L  R0000620
+ L  R0000621
+ L  R0000622
+ L  R0000623
+ L  R0000624
+ L  R0000625
+ L  R0000626
+ L  R0000627
+ L  R0000628
+ L  R0000629
+ L  R0000630
+ L  R0000631
+ L  R0000632
+ L  R0000633
+ L  R0000634
+ L  R0000635
+ L  R0000636
+ L  R0000637
+ L  R0000638
+ L  R0000639
+ L  R0000640
+ L  R0000641
+ L  R0000642
+ L  R0000643
+ L  R0000644
+ L  R0000645
+ L  R0000646
+ L  R0000647
+ L  R0000648
+ L  R0000649
+ L  R0000650
+ L  R0000651
+ L  R0000652
+ L  R0000653
+ L  R0000654
+ L  R0000655
+ L  R0000656
+ L  R0000657
+ L  R0000658
+ L  R0000659
+ L  R0000660
+ L  R0000661
+ L  R0000662
+ L  R0000663
+ L  R0000664
+ L  R0000665
+ L  R0000666
+ L  R0000667
+ L  R0000668
+ L  R0000669
+ L  R0000670
+ L  R0000671
+ L  R0000672
+ L  R0000673
+ L  R0000674
+ L  R0000675
+ L  R0000676
+ L  R0000677
+ L  R0000678
+ L  R0000679
+ L  R0000680
+ L  R0000681
+ L  R0000682
+ L  R0000683
+ L  R0000684
+ L  R0000685
+ L  R0000686
+ L  R0000687
+ L  R0000688
+ L  R0000689
+ L  R0000690
+ L  R0000691
+ L  R0000692
+ L  R0000693
+ L  R0000694
+ L  R0000695
+ L  R0000696
+ L  R0000697
+ L  R0000698
+ L  R0000699
+ L  R0000700
+ L  R0000701
+ L  R0000702
+ L  R0000703
+ L  R0000704
+ L  R0000705
+ L  R0000706
+ L  R0000707
+ L  R0000708
+ L  R0000709
+ L  R0000710
+ L  R0000711
+ L  R0000712
+ L  R0000713
+ L  R0000714
+ L  R0000715
+ L  R0000716
+ L  R0000717
+ L  R0000718
+ L  R0000719
+ L  R0000720
+ L  R0000721
+ L  R0000722
+ L  R0000723
+ L  R0000724
+ L  R0000725
+ L  R0000726
+ L  R0000727
+ L  R0000728
+ L  R0000729
+ L  R0000730
+ L  R0000731
+ L  R0000732
+ L  R0000733
+ L  R0000734
+ L  R0000735
+ L  R0000736
+ L  R0000737
+ L  R0000738
+ L  R0000739
+ L  R0000740
+ L  R0000741
+ L  R0000742
+ L  R0000743
+ L  R0000744
+ L  R0000745
+ L  R0000746
+ L  R0000747
+ L  R0000748
+ L  R0000749
+ L  R0000750
+ L  R0000751
+ L  R0000752
+ L  R0000753
+ L  R0000754
+ L  R0000755
+ L  R0000756
+ L  R0000757
+ L  R0000758
+ L  R0000759
+ L  R0000760
+ L  R0000761
+ L  R0000762
+ L  R0000763
+ L  R0000764
+ L  cusp1
+ L  cusp2
+ L  cusp3
+ L  cusp4
+ L  cusp5
+ L  cusp6
+ L  cusp7
+ L  cusp8
+ L  cusp9
+ L  cusp10
+ L  cusp11
+ L  cusp12
+ L  cusp13
+ L  cusp14
+ L  cusp15
+ L  cusp16
+ L  cusp17
+ L  cusp18
+ L  cusp19
+ L  cusp20
+ L  cusp21
+ L  cusp22
+ L  cusp23
+ L  cusp24
+ L  cusp25
+ L  cusp26
+ L  cusp27
+ L  cusp28
+ L  cusp29
+ L  cusp30
+ L  cusp31
+ L  cusp32
+ L  cusp33
+ L  cusp34
+ L  cusp35
+ L  cusp36
+ L  cusp37
+ L  cusp38
+ L  cusp39
+ L  cusp40
+ L  cusp41
+ L  cusp42
+ L  cusp43
+ L  cusp44
+ L  cusp45
+ L  cusp46
+ L  cusp47
+ L  cusp48
+ L  cusp49
+ L  cusp50
+ L  cusp51
+ L  cusp52
+ L  cusp53
+ L  cusp54
+ L  cusp55
+ L  cusp56
+ L  cusp57
+ L  cusp58
+ L  cusp59
+ L  cusp60
+ L  cusp61
+ L  cusp62
+ L  cusp63
+ L  cusp64
+ L  cusp65
+ L  cusp66
+ L  cusp67
+ L  cusp68
+ L  cusp69
+ L  cusp70
+ L  cusp71
+ L  cusp72
+ L  cusp73
+ L  cusp74
+ L  cusp75
+ L  cusp76
+ L  cusp77
+ L  cusp78
+ L  cusp79
+ L  cusp80
+ L  cusp81
+ L  cusp82
+ L  cusp83
+ L  cusp84
+ L  cusp85
+ L  cusp86
+ L  cusp87
+ L  cusp88
+ L  cusp89
+ L  cusp90
+ L  cusp91
+ L  cusp92
+ L  cusp93
+ L  cusp94
+ L  cusp95
+COLUMNS
+    z1        R0000000             1   mass                 1
+    z1        cusp1             -191
+    z2        R0000000             1   mass                 1
+    z2        cusp2             -191
+    z3        R0000000             1   mass                 1
+    z3        cusp3             -191
+    z4        R0000000             1   mass                 1
+    z4        cusp4             -191
+    z5        R0000000             1   mass                 1
+    z5        cusp5             -191
+    z6        R0000000             1   mass                 1
+    z6        cusp6             -191
+    z7        R0000000             1   mass                 1
+    z7        cusp7             -191
+    z8        R0000000             1   mass                 1
+    z8        cusp8             -191
+    z9        R0000000             1   mass                 1
+    z9        cusp9             -191
+    z10       R0000000             1   mass                 1
+    z10       cusp10            -191
+    z11       R0000000             1   mass                 1
+    z11       cusp11            -191
+    z12       R0000000             1   mass                 1
+    z12       cusp12            -191
+    z13       R0000000             1   mass                 1
+    z13       cusp13            -191
+    z14       R0000000             1   mass                 1
+    z14       cusp14            -191
+    z15       R0000000             1   mass                 1
+    z15       cusp15            -191
+    z16       R0000000             1   mass                 1
+    z16       cusp16            -191
+    z17       R0000000             1   mass                 1
+    z17       cusp17            -191
+    z18       R0000000             1   mass                 1
+    z18       cusp18            -191
+    z19       R0000000             1   mass                 1
+    z19       cusp19            -191
+    z20       R0000000             1   mass                 1
+    z20       cusp20            -191
+    z21       R0000000             1   mass                 1
+    z21       cusp21            -191
+    z22       R0000000             1   mass                 1
+    z22       cusp22            -191
+    z23       R0000000             1   mass                 1
+    z23       cusp23            -191
+    z24       R0000000             1   mass                 1
+    z24       cusp24            -191
+    z25       R0000000             1   mass                 1
+    z25       cusp25            -191
+    z26       R0000000             1   mass                 1
+    z26       cusp26            -191
+    z27       R0000000             1   mass                 1
+    z27       cusp27            -191
+    z28       R0000000             1   mass                 1
+    z28       cusp28            -191
+    z29       R0000000             1   mass                 1
+    z29       cusp29            -191
+    z30       R0000000             1   mass                 1
+    z30       cusp30            -191
+    z31       R0000000             1   mass                 1
+    z31       cusp31            -191
+    z32       R0000000             1   mass                 1
+    z32       cusp32            -191
+    z33       R0000000             1   mass                 1
+    z33       cusp33            -191
+    z34       R0000000             1   mass                 1
+    z34       cusp34            -191
+    z35       R0000000             1   mass                 1
+    z35       cusp35            -191
+    z36       R0000000             1   mass                 1
+    z36       cusp36            -191
+    z37       R0000000             1   mass                 1
+    z37       cusp37            -191
+    z38       R0000000             1   mass                 1
+    z38       cusp38            -191
+    z39       R0000000             1   mass                 1
+    z39       cusp39            -191
+    z40       R0000000             1   mass                 1
+    z40       cusp40            -191
+    z41       R0000000             1   mass                 1
+    z41       cusp41            -191
+    z42       R0000000             1   mass                 1
+    z42       cusp42            -191
+    z43       R0000000             1   mass                 1
+    z43       cusp43            -191
+    z44       R0000000             1   mass                 1
+    z44       cusp44            -191
+    z45       R0000000             1   mass                 1
+    z45       cusp45            -191
+    z46       R0000000             1   mass                 1
+    z46       cusp46            -191
+    z47       R0000000             1   mass                 1
+    z47       cusp47            -191
+    z48       R0000000             1   mass                 1
+    z48       cusp48            -191
+    z49       R0000000             1   mass                 1
+    z49       cusp49            -191
+    z50       R0000000             1   mass                 1
+    z50       cusp50            -191
+    z51       R0000000             1   mass                 1
+    z51       cusp51            -191
+    z52       R0000000             1   mass                 1
+    z52       cusp52            -191
+    z53       R0000000             1   mass                 1
+    z53       cusp53            -191
+    z54       R0000000             1   mass                 1
+    z54       cusp54            -191
+    z55       R0000000             1   mass                 1
+    z55       cusp55            -191
+    z56       R0000000             1   mass                 1
+    z56       cusp56            -191
+    z57       R0000000             1   mass                 1
+    z57       cusp57            -191
+    z58       R0000000             1   mass                 1
+    z58       cusp58            -191
+    z59       R0000000             1   mass                 1
+    z59       cusp59            -191
+    z60       R0000000             1   mass                 1
+    z60       cusp60            -191
+    z61       R0000000             1   mass                 1
+    z61       cusp61            -191
+    z62       R0000000             1   mass                 1
+    z62       cusp62            -191
+    z63       R0000000             1   mass                 1
+    z63       cusp63            -191
+    z64       R0000000             1   mass                 1
+    z64       cusp64            -191
+    z65       R0000000             1   mass                 1
+    z65       cusp65            -191
+    z66       R0000000             1   mass                 1
+    z66       cusp66            -191
+    z67       R0000000             1   mass                 1
+    z67       cusp67            -191
+    z68       R0000000             1   mass                 1
+    z68       cusp68            -191
+    z69       R0000000             1   mass                 1
+    z69       cusp69            -191
+    z70       R0000000             1   mass                 1
+    z70       cusp70            -191
+    z71       R0000000             1   mass                 1
+    z71       cusp71            -191
+    z72       R0000000             1   mass                 1
+    z72       cusp72            -191
+    z73       R0000000             1   mass                 1
+    z73       cusp73            -191
+    z74       R0000000             1   mass                 1
+    z74       cusp74            -191
+    z75       R0000000             1   mass                 1
+    z75       cusp75            -191
+    z76       R0000000             1   mass                 1
+    z76       cusp76            -191
+    z77       R0000000             1   mass                 1
+    z77       cusp77            -191
+    z78       R0000000             1   mass                 1
+    z78       cusp78            -191
+    z79       R0000000             1   mass                 1
+    z79       cusp79            -191
+    z80       R0000000             1   mass                 1
+    z80       cusp80            -191
+    z81       R0000000             1   mass                 1
+    z81       cusp81            -191
+    z82       R0000000             1   mass                 1
+    z82       cusp82            -191
+    z83       R0000000             1   mass                 1
+    z83       cusp83            -191
+    z84       R0000000             1   mass                 1
+    z84       cusp84            -191
+    z85       R0000000             1   mass                 1
+    z85       cusp85            -191
+    z86       R0000000             1   mass                 1
+    z86       cusp86            -191
+    z87       R0000000             1   mass                 1
+    z87       cusp87            -191
+    z88       R0000000             1   mass                 1
+    z88       cusp88            -191
+    z89       R0000000             1   mass                 1
+    z89       cusp89            -191
+    z90       R0000000             1   mass                 1
+    z90       cusp90            -191
+    z91       R0000000             1   mass                 1
+    z91       cusp91            -191
+    z92       R0000000             1   mass                 1
+    z92       cusp92            -191
+    z93       R0000000             1   mass                 1
+    z93       cusp93            -191
+    z94       R0000000             1   mass                 1
+    z94       cusp94            -191
+    z95       R0000000             1   mass                 1
+    z95       cusp95            -191
+    M0000001  'MARKER'                 'INTORG'
+    e1        sum_e                1   R0000003             1
+    e1        gap1_0_0             1   gap1_0_1             1
+    e1        gap1_0_2            -1   gap1_0_3            -1
+    e1        R0000381             1   R0000382            -1
+    e1        R0000383             1   R0000384            -1
+    e1        gap2_0_0             1   gap2_0_1             1
+    e1        gap2_0_2            -1   gap2_0_3            -1
+    e1        R0000757             1   R0000758            -1
+    e1        R0000759             1   R0000760            -1
+    e1        cusp1              -95   cusp2             -189
+    e1        cusp3             -282   cusp4             -374
+    e1        cusp5             -465   cusp6             -555
+    e1        cusp7             -644   cusp8             -732
+    e1        cusp9             -819   cusp10            -905
+    e1        cusp11            -990   cusp12           -1074
+    e1        cusp13           -1157   cusp14           -1239
+    e1        cusp15           -1320   cusp16           -1400
+    e1        cusp17           -1479   cusp18           -1557
+    e1        cusp19           -1634   cusp20           -1710
+    e1        cusp21           -1785   cusp22           -1859
+    e1        cusp23           -1932   cusp24           -2004
+    e1        cusp25           -2075   cusp26           -2145
+    e1        cusp27           -2214   cusp28           -2282
+    e1        cusp29           -2349   cusp30           -2415
+    e1        cusp31           -2480   cusp32           -2544
+    e1        cusp33           -2607   cusp34           -2669
+    e1        cusp35           -2730   cusp36           -2790
+    e1        cusp37           -2849   cusp38           -2907
+    e1        cusp39           -2964   cusp40           -3020
+    e1        cusp41           -3075   cusp42           -3129
+    e1        cusp43           -3182   cusp44           -3234
+    e1        cusp45           -3285   cusp46           -3335
+    e1        cusp47           -3384   cusp48           -3432
+    e1        cusp49           -3479   cusp50           -3525
+    e1        cusp51           -3570   cusp52           -3614
+    e1        cusp53           -3657   cusp54           -3699
+    e1        cusp55           -3740   cusp56           -3780
+    e1        cusp57           -3819   cusp58           -3857
+    e1        cusp59           -3894   cusp60           -3930
+    e1        cusp61           -3965   cusp62           -3999
+    e1        cusp63           -4032   cusp64           -4064
+    e1        cusp65           -4095   cusp66           -4125
+    e1        cusp67           -4154   cusp68           -4182
+    e1        cusp69           -4209   cusp70           -4235
+    e1        cusp71           -4260   cusp72           -4284
+    e1        cusp73           -4307   cusp74           -4329
+    e1        cusp75           -4350   cusp76           -4370
+    e1        cusp77           -4389   cusp78           -4407
+    e1        cusp79           -4424   cusp80           -4440
+    e1        cusp81           -4455   cusp82           -4469
+    e1        cusp83           -4482   cusp84           -4494
+    e1        cusp85           -4505   cusp86           -4515
+    e1        cusp87           -4524   cusp88           -4532
+    e1        cusp89           -4539   cusp90           -4545
+    e1        cusp91           -4550   cusp92           -4554
+    e1        cusp93           -4557   cusp94           -4559
+    e1        cusp95           -4560
+    e2        sum_e                1   R0000003             4
+    e2        gap1_0_0             1   gap1_0_1            -1
+    e2        gap1_0_2             1   gap1_0_3            -1
+    e2        gap1_1_0             1   gap1_1_1             1
+    e2        gap1_1_2            -1   gap1_1_3            -1
+    e2        gap2_1_0             1   gap2_1_1             1
+    e2        gap2_1_2            -1   gap2_1_3            -1
+    e2        R0000761             1   R0000762            -1
+    e2        R0000763             1   R0000764            -1
+    e2        cusp1             -189   cusp2             -374
+    e2        cusp3             -555   cusp4             -732
+    e2        cusp5             -905   cusp6            -1074
+    e2        cusp7            -1239   cusp8            -1400
+    e2        cusp9            -1557   cusp10           -1710
+    e2        cusp11           -1859   cusp12           -2004
+    e2        cusp13           -2145   cusp14           -2282
+    e2        cusp15           -2415   cusp16           -2544
+    e2        cusp17           -2669   cusp18           -2790
+    e2        cusp19           -2907   cusp20           -3020
+    e2        cusp21           -3129   cusp22           -3234
+    e2        cusp23           -3335   cusp24           -3432
+    e2        cusp25           -3525   cusp26           -3614
+    e2        cusp27           -3699   cusp28           -3780
+    e2        cusp29           -3857   cusp30           -3930
+    e2        cusp31           -3999   cusp32           -4064
+    e2        cusp33           -4125   cusp34           -4182
+    e2        cusp35           -4235   cusp36           -4284
+    e2        cusp37           -4329   cusp38           -4370
+    e2        cusp39           -4407   cusp40           -4440
+    e2        cusp41           -4469   cusp42           -4494
+    e2        cusp43           -4515   cusp44           -4532
+    e2        cusp45           -4545   cusp46           -4554
+    e2        cusp47           -4559   cusp48           -4560
+    e2        cusp49           -4557   cusp50           -4550
+    e2        cusp51           -4539   cusp52           -4524
+    e2        cusp53           -4505   cusp54           -4482
+    e2        cusp55           -4455   cusp56           -4424
+    e2        cusp57           -4389   cusp58           -4350
+    e2        cusp59           -4307   cusp60           -4260
+    e2        cusp61           -4209   cusp62           -4154
+    e2        cusp63           -4095   cusp64           -4032
+    e2        cusp65           -3965   cusp66           -3894
+    e2        cusp67           -3819   cusp68           -3740
+    e2        cusp69           -3657   cusp70           -3570
+    e2        cusp71           -3479   cusp72           -3384
+    e2        cusp73           -3285   cusp74           -3182
+    e2        cusp75           -3075   cusp76           -2964
+    e2        cusp77           -2849   cusp78           -2730
+    e2        cusp79           -2607   cusp80           -2480
+    e2        cusp81           -2349   cusp82           -2214
+    e2        cusp83           -2075   cusp84           -1932
+    e2        cusp85           -1785   cusp86           -1634
+    e2        cusp87           -1479   cusp88           -1320
+    e2        cusp89           -1157   cusp90            -990
+    e2        cusp91            -819   cusp92            -644
+    e2        cusp93            -465   cusp94            -282
+    e2        cusp95             -95
+    e3        sum_e                1   R0000003             9
+    e3        R0000357             1   R0000358            -1
+    e3        R0000359             1   R0000360            -1
+    e3        R0000361             1   R0000362             1
+    e3        R0000363            -1   R0000364            -1
+    e3        R0000733             1   R0000734            -1
+    e3        R0000735             1   R0000736            -1
+    e3        R0000741             1   R0000742             1
+    e3        R0000743            -1   R0000744            -1
+    e3        cusp1             -282   cusp2             -555
+    e3        cusp3             -819   cusp4            -1074
+    e3        cusp5            -1320   cusp6            -1557
+    e3        cusp7            -1785   cusp8            -2004
+    e3        cusp9            -2214   cusp10           -2415
+    e3        cusp11           -2607   cusp12           -2790
+    e3        cusp13           -2964   cusp14           -3129
+    e3        cusp15           -3285   cusp16           -3432
+    e3        cusp17           -3570   cusp18           -3699
+    e3        cusp19           -3819   cusp20           -3930
+    e3        cusp21           -4032   cusp22           -4125
+    e3        cusp23           -4209   cusp24           -4284
+    e3        cusp25           -4350   cusp26           -4407
+    e3        cusp27           -4455   cusp28           -4494
+    e3        cusp29           -4524   cusp30           -4545
+    e3        cusp31           -4557   cusp32           -4560
+    e3        cusp33           -4554   cusp34           -4539
+    e3        cusp35           -4515   cusp36           -4482
+    e3        cusp37           -4440   cusp38           -4389
+    e3        cusp39           -4329   cusp40           -4260
+    e3        cusp41           -4182   cusp42           -4095
+    e3        cusp43           -3999   cusp44           -3894
+    e3        cusp45           -3780   cusp46           -3657
+    e3        cusp47           -3525   cusp48           -3384
+    e3        cusp49           -3234   cusp50           -3075
+    e3        cusp51           -2907   cusp52           -2730
+    e3        cusp53           -2544   cusp54           -2349
+    e3        cusp55           -2145   cusp56           -1932
+    e3        cusp57           -1710   cusp58           -1479
+    e3        cusp59           -1239   cusp60            -990
+    e3        cusp61            -732   cusp62            -465
+    e3        cusp63            -189   cusp64             -95
+    e3        cusp65            -374   cusp66            -644
+    e3        cusp67            -905   cusp68           -1157
+    e3        cusp69           -1400   cusp70           -1634
+    e3        cusp71           -1859   cusp72           -2075
+    e3        cusp73           -2282   cusp74           -2480
+    e3        cusp75           -2669   cusp76           -2849
+    e3        cusp77           -3020   cusp78           -3182
+    e3        cusp79           -3335   cusp80           -3479
+    e3        cusp81           -3614   cusp82           -3740
+    e3        cusp83           -3857   cusp84           -3965
+    e3        cusp85           -4064   cusp86           -4154
+    e3        cusp87           -4235   cusp88           -4307
+    e3        cusp89           -4370   cusp90           -4424
+    e3        cusp91           -4469   cusp92           -4505
+    e3        cusp93           -4532   cusp94           -4550
+    e3        cusp95           -4559
+    e4        sum_e                1   R0000003            16
+    e4        gap1_1_0             1   gap1_1_1            -1
+    e4        gap1_1_2             1   gap1_1_3            -1
+    e4        gap1_2_0             1   gap1_2_1             1
+    e4        gap1_2_2            -1   gap1_2_3            -1
+    e4        gap2_0_0             1   gap2_0_1            -1
+    e4        gap2_0_2             1   gap2_0_3            -1
+    e4        gap2_2_0             1   gap2_2_1             1
+    e4        gap2_2_2            -1   gap2_2_3            -1
+    e4        cusp1             -374   cusp2             -732
+    e4        cusp3            -1074   cusp4            -1400
+    e4        cusp5            -1710   cusp6            -2004
+    e4        cusp7            -2282   cusp8            -2544
+    e4        cusp9            -2790   cusp10           -3020
+    e4        cusp11           -3234   cusp12           -3432
+    e4        cusp13           -3614   cusp14           -3780
+    e4        cusp15           -3930   cusp16           -4064
+    e4        cusp17           -4182   cusp18           -4284
+    e4        cusp19           -4370   cusp20           -4440
+    e4        cusp21           -4494   cusp22           -4532
+    e4        cusp23           -4554   cusp24           -4560
+    e4        cusp25           -4550   cusp26           -4524
+    e4        cusp27           -4482   cusp28           -4424
+    e4        cusp29           -4350   cusp30           -4260
+    e4        cusp31           -4154   cusp32           -4032
+    e4        cusp33           -3894   cusp34           -3740
+    e4        cusp35           -3570   cusp36           -3384
+    e4        cusp37           -3182   cusp38           -2964
+    e4        cusp39           -2730   cusp40           -2480
+    e4        cusp41           -2214   cusp42           -1932
+    e4        cusp43           -1634   cusp44           -1320
+    e4        cusp45            -990   cusp46            -644
+    e4        cusp47            -282   cusp48             -95
+    e4        cusp49            -465   cusp50            -819
+    e4        cusp51           -1157   cusp52           -1479
+    e4        cusp53           -1785   cusp54           -2075
+    e4        cusp55           -2349   cusp56           -2607
+    e4        cusp57           -2849   cusp58           -3075
+    e4        cusp59           -3285   cusp60           -3479
+    e4        cusp61           -3657   cusp62           -3819
+    e4        cusp63           -3965   cusp64           -4095
+    e4        cusp65           -4209   cusp66           -4307
+    e4        cusp67           -4389   cusp68           -4455
+    e4        cusp69           -4505   cusp70           -4539
+    e4        cusp71           -4557   cusp72           -4559
+    e4        cusp73           -4545   cusp74           -4515
+    e4        cusp75           -4469   cusp76           -4407
+    e4        cusp77           -4329   cusp78           -4235
+    e4        cusp79           -4125   cusp80           -3999
+    e4        cusp81           -3857   cusp82           -3699
+    e4        cusp83           -3525   cusp84           -3335
+    e4        cusp85           -3129   cusp86           -2907
+    e4        cusp87           -2669   cusp88           -2415
+    e4        cusp89           -2145   cusp90           -1859
+    e4        cusp91           -1557   cusp92           -1239
+    e4        cusp93            -905   cusp94            -555
+    e4        cusp95            -189
+    e5        sum_e                1   R0000003            25
+    e5        R0000161             1   R0000162            -1
+    e5        R0000163             1   R0000164            -1
+    e5        R0000165             1   R0000166             1
+    e5        R0000167            -1   R0000168            -1
+    e5        R0000537             1   R0000538            -1
+    e5        R0000539             1   R0000540            -1
+    e5        R0000545             1   R0000546             1
+    e5        R0000547            -1   R0000548            -1
+    e5        cusp1             -465   cusp2             -905
+    e5        cusp3            -1320   cusp4            -1710
+    e5        cusp5            -2075   cusp6            -2415
+    e5        cusp7            -2730   cusp8            -3020
+    e5        cusp9            -3285   cusp10           -3525
+    e5        cusp11           -3740   cusp12           -3930
+    e5        cusp13           -4095   cusp14           -4235
+    e5        cusp15           -4350   cusp16           -4440
+    e5        cusp17           -4505   cusp18           -4545
+    e5        cusp19           -4560   cusp20           -4550
+    e5        cusp21           -4515   cusp22           -4455
+    e5        cusp23           -4370   cusp24           -4260
+    e5        cusp25           -4125   cusp26           -3965
+    e5        cusp27           -3780   cusp28           -3570
+    e5        cusp29           -3335   cusp30           -3075
+    e5        cusp31           -2790   cusp32           -2480
+    e5        cusp33           -2145   cusp34           -1785
+    e5        cusp35           -1400   cusp36            -990
+    e5        cusp37            -555   cusp38             -95
+    e5        cusp39            -374   cusp40            -819
+    e5        cusp41           -1239   cusp42           -1634
+    e5        cusp43           -2004   cusp44           -2349
+    e5        cusp45           -2669   cusp46           -2964
+    e5        cusp47           -3234   cusp48           -3479
+    e5        cusp49           -3699   cusp50           -3894
+    e5        cusp51           -4064   cusp52           -4209
+    e5        cusp53           -4329   cusp54           -4424
+    e5        cusp55           -4494   cusp56           -4539
+    e5        cusp57           -4559   cusp58           -4554
+    e5        cusp59           -4524   cusp60           -4469
+    e5        cusp61           -4389   cusp62           -4284
+    e5        cusp63           -4154   cusp64           -3999
+    e5        cusp65           -3819   cusp66           -3614
+    e5        cusp67           -3384   cusp68           -3129
+    e5        cusp69           -2849   cusp70           -2544
+    e5        cusp71           -2214   cusp72           -1859
+    e5        cusp73           -1479   cusp74           -1074
+    e5        cusp75            -644   cusp76            -189
+    e5        cusp77            -282   cusp78            -732
+    e5        cusp79           -1157   cusp80           -1557
+    e5        cusp81           -1932   cusp82           -2282
+    e5        cusp83           -2607   cusp84           -2907
+    e5        cusp85           -3182   cusp86           -3432
+    e5        cusp87           -3657   cusp88           -3857
+    e5        cusp89           -4032   cusp90           -4182
+    e5        cusp91           -4307   cusp92           -4407
+    e5        cusp93           -4482   cusp94           -4532
+    e5        cusp95           -4557
+    e6        sum_e                1   R0000003            36
+    e6        R0000361             1   R0000362            -1
+    e6        R0000363             1   R0000364            -1
+    e6        R0000365             1   R0000366             1
+    e6        R0000367            -1   R0000368            -1
+    e6        R0000737             1   R0000738            -1
+    e6        R0000739             1   R0000740            -1
+    e6        R0000745             1   R0000746             1
+    e6        R0000747            -1   R0000748            -1
+    e6        cusp1             -555   cusp2            -1074
+    e6        cusp3            -1557   cusp4            -2004
+    e6        cusp5            -2415   cusp6            -2790
+    e6        cusp7            -3129   cusp8            -3432
+    e6        cusp9            -3699   cusp10           -3930
+    e6        cusp11           -4125   cusp12           -4284
+    e6        cusp13           -4407   cusp14           -4494
+    e6        cusp15           -4545   cusp16           -4560
+    e6        cusp17           -4539   cusp18           -4482
+    e6        cusp19           -4389   cusp20           -4260
+    e6        cusp21           -4095   cusp22           -3894
+    e6        cusp23           -3657   cusp24           -3384
+    e6        cusp25           -3075   cusp26           -2730
+    e6        cusp27           -2349   cusp28           -1932
+    e6        cusp29           -1479   cusp30            -990
+    e6        cusp31            -465   cusp32             -95
+    e6        cusp33            -644   cusp34           -1157
+    e6        cusp35           -1634   cusp36           -2075
+    e6        cusp37           -2480   cusp38           -2849
+    e6        cusp39           -3182   cusp40           -3479
+    e6        cusp41           -3740   cusp42           -3965
+    e6        cusp43           -4154   cusp44           -4307
+    e6        cusp45           -4424   cusp46           -4505
+    e6        cusp47           -4550   cusp48           -4559
+    e6        cusp49           -4532   cusp50           -4469
+    e6        cusp51           -4370   cusp52           -4235
+    e6        cusp53           -4064   cusp54           -3857
+    e6        cusp55           -3614   cusp56           -3335
+    e6        cusp57           -3020   cusp58           -2669
+    e6        cusp59           -2282   cusp60           -1859
+    e6        cusp61           -1400   cusp62            -905
+    e6        cusp63            -374   cusp64            -189
+    e6        cusp65            -732   cusp66           -1239
+    e6        cusp67           -1710   cusp68           -2145
+    e6        cusp69           -2544   cusp70           -2907
+    e6        cusp71           -3234   cusp72           -3525
+    e6        cusp73           -3780   cusp74           -3999
+    e6        cusp75           -4182   cusp76           -4329
+    e6        cusp77           -4440   cusp78           -4515
+    e6        cusp79           -4554   cusp80           -4557
+    e6        cusp81           -4524   cusp82           -4455
+    e6        cusp83           -4350   cusp84           -4209
+    e6        cusp85           -4032   cusp86           -3819
+    e6        cusp87           -3570   cusp88           -3285
+    e6        cusp89           -2964   cusp90           -2607
+    e6        cusp91           -2214   cusp92           -1785
+    e6        cusp93           -1320   cusp94            -819
+    e6        cusp95            -282
+    e7        sum_e                1   R0000003            49
+    e7        R0000077             1   R0000078            -1
+    e7        R0000079             1   R0000080            -1
+    e7        R0000081             1   R0000082             1
+    e7        R0000083            -1   R0000084            -1
+    e7        R0000453             1   R0000454            -1
+    e7        R0000455             1   R0000456            -1
+    e7        R0000461             1   R0000462             1
+    e7        R0000463            -1   R0000464            -1
+    e7        cusp1             -644   cusp2            -1239
+    e7        cusp3            -1785   cusp4            -2282
+    e7        cusp5            -2730   cusp6            -3129
+    e7        cusp7            -3479   cusp8            -3780
+    e7        cusp9            -4032   cusp10           -4235
+    e7        cusp11           -4389   cusp12           -4494
+    e7        cusp13           -4550   cusp14           -4557
+    e7        cusp15           -4515   cusp16           -4424
+    e7        cusp17           -4284   cusp18           -4095
+    e7        cusp19           -3857   cusp20           -3570
+    e7        cusp21           -3234   cusp22           -2849
+    e7        cusp23           -2415   cusp24           -1932
+    e7        cusp25           -1400   cusp26            -819
+    e7        cusp27            -189   cusp28            -465
+    e7        cusp29           -1074   cusp30           -1634
+    e7        cusp31           -2145   cusp32           -2607
+    e7        cusp33           -3020   cusp34           -3384
+    e7        cusp35           -3699   cusp36           -3965
+    e7        cusp37           -4182   cusp38           -4350
+    e7        cusp39           -4469   cusp40           -4539
+    e7        cusp41           -4560   cusp42           -4532
+    e7        cusp43           -4455   cusp44           -4329
+    e7        cusp45           -4154   cusp46           -3930
+    e7        cusp47           -3657   cusp48           -3335
+    e7        cusp49           -2964   cusp50           -2544
+    e7        cusp51           -2075   cusp52           -1557
+    e7        cusp53            -990   cusp54            -374
+    e7        cusp55            -282   cusp56            -905
+    e7        cusp57           -1479   cusp58           -2004
+    e7        cusp59           -2480   cusp60           -2907
+    e7        cusp61           -3285   cusp62           -3614
+    e7        cusp63           -3894   cusp64           -4125
+    e7        cusp65           -4307   cusp66           -4440
+    e7        cusp67           -4524   cusp68           -4559
+    e7        cusp69           -4545   cusp70           -4482
+    e7        cusp71           -4370   cusp72           -4209
+    e7        cusp73           -3999   cusp74           -3740
+    e7        cusp75           -3432   cusp76           -3075
+    e7        cusp77           -2669   cusp78           -2214
+    e7        cusp79           -1710   cusp80           -1157
+    e7        cusp81            -555   cusp82             -95
+    e7        cusp83            -732   cusp84           -1320
+    e7        cusp85           -1859   cusp86           -2349
+    e7        cusp87           -2790   cusp88           -3182
+    e7        cusp89           -3525   cusp90           -3819
+    e7        cusp91           -4064   cusp92           -4260
+    e7        cusp93           -4407   cusp94           -4505
+    e7        cusp95           -4554
+    e8        sum_e                1   R0000003            64
+    e8        endpoint             1   gap1_2_0             1
+    e8        gap1_2_1            -1   gap1_2_2             1
+    e8        gap1_2_3            -1   gap1_3_0             1
+    e8        gap1_3_1             1   gap1_3_2            -1
+    e8        gap1_3_3            -1   gap2_1_0             1
+    e8        gap2_1_1            -1   gap2_1_2             1
+    e8        gap2_1_3            -1   gap2_3_0             1
+    e8        gap2_3_1             1   gap2_3_2            -1
+    e8        gap2_3_3            -1   cusp1             -732
+    e8        cusp2            -1400   cusp3            -2004
+    e8        cusp4            -2544   cusp5            -3020
+    e8        cusp6            -3432   cusp7            -3780
+    e8        cusp8            -4064   cusp9            -4284
+    e8        cusp10           -4440   cusp11           -4532
+    e8        cusp12           -4560   cusp13           -4524
+    e8        cusp14           -4424   cusp15           -4260
+    e8        cusp16           -4032   cusp17           -3740
+    e8        cusp18           -3384   cusp19           -2964
+    e8        cusp20           -2480   cusp21           -1932
+    e8        cusp22           -1320   cusp23            -644
+    e8        cusp24             -95   cusp25            -819
+    e8        cusp26           -1479   cusp27           -2075
+    e8        cusp28           -2607   cusp29           -3075
+    e8        cusp30           -3479   cusp31           -3819
+    e8        cusp32           -4095   cusp33           -4307
+    e8        cusp34           -4455   cusp35           -4539
+    e8        cusp36           -4559   cusp37           -4515
+    e8        cusp38           -4407   cusp39           -4235
+    e8        cusp40           -3999   cusp41           -3699
+    e8        cusp42           -3335   cusp43           -2907
+    e8        cusp44           -2415   cusp45           -1859
+    e8        cusp46           -1239   cusp47            -555
+    e8        cusp48            -189   cusp49            -905
+    e8        cusp50           -1557   cusp51           -2145
+    e8        cusp52           -2669   cusp53           -3129
+    e8        cusp54           -3525   cusp55           -3857
+    e8        cusp56           -4125   cusp57           -4329
+    e8        cusp58           -4469   cusp59           -4545
+    e8        cusp60           -4557   cusp61           -4505
+    e8        cusp62           -4389   cusp63           -4209
+    e8        cusp64           -3965   cusp65           -3657
+    e8        cusp66           -3285   cusp67           -2849
+    e8        cusp68           -2349   cusp69           -1785
+    e8        cusp70           -1157   cusp71            -465
+    e8        cusp72            -282   cusp73            -990
+    e8        cusp74           -1634   cusp75           -2214
+    e8        cusp76           -2730   cusp77           -3182
+    e8        cusp78           -3570   cusp79           -3894
+    e8        cusp80           -4154   cusp81           -4350
+    e8        cusp82           -4482   cusp83           -4550
+    e8        cusp84           -4554   cusp85           -4494
+    e8        cusp86           -4370   cusp87           -4182
+    e8        cusp88           -3930   cusp89           -3614
+    e8        cusp90           -3234   cusp91           -2790
+    e8        cusp92           -2282   cusp93           -1710
+    e8        cusp94           -1074   cusp95            -374
+    e9        sum_e                1   R0000003            81
+    e9        R0000333             1   R0000334            -1
+    e9        R0000335             1   R0000336            -1
+    e9        R0000337             1   R0000338             1
+    e9        R0000339            -1   R0000340            -1
+    e9        R0000709             1   R0000710            -1
+    e9        R0000711             1   R0000712            -1
+    e9        R0000717             1   R0000718             1
+    e9        R0000719            -1   R0000720            -1
+    e9        cusp1             -819   cusp2            -1557
+    e9        cusp3            -2214   cusp4            -2790
+    e9        cusp5            -3285   cusp6            -3699
+    e9        cusp7            -4032   cusp8            -4284
+    e9        cusp9            -4455   cusp10           -4545
+    e9        cusp11           -4554   cusp12           -4482
+    e9        cusp13           -4329   cusp14           -4095
+    e9        cusp15           -3780   cusp16           -3384
+    e9        cusp17           -2907   cusp18           -2349
+    e9        cusp19           -1710   cusp20            -990
+    e9        cusp21            -189   cusp22            -644
+    e9        cusp23           -1400   cusp24           -2075
+    e9        cusp25           -2669   cusp26           -3182
+    e9        cusp27           -3614   cusp28           -3965
+    e9        cusp29           -4235   cusp30           -4424
+    e9        cusp31           -4532   cusp32           -4559
+    e9        cusp33           -4505   cusp34           -4370
+    e9        cusp35           -4154   cusp36           -3857
+    e9        cusp37           -3479   cusp38           -3020
+    e9        cusp39           -2480   cusp40           -1859
+    e9        cusp41           -1157   cusp42            -374
+    e9        cusp43            -465   cusp44           -1239
+    e9        cusp45           -1932   cusp46           -2544
+    e9        cusp47           -3075   cusp48           -3525
+    e9        cusp49           -3894   cusp50           -4182
+    e9        cusp51           -4389   cusp52           -4515
+    e9        cusp53           -4560   cusp54           -4524
+    e9        cusp55           -4407   cusp56           -4209
+    e9        cusp57           -3930   cusp58           -3570
+    e9        cusp59           -3129   cusp60           -2607
+    e9        cusp61           -2004   cusp62           -1320
+    e9        cusp63            -555   cusp64            -282
+    e9        cusp65           -1074   cusp66           -1785
+    e9        cusp67           -2415   cusp68           -2964
+    e9        cusp69           -3432   cusp70           -3819
+    e9        cusp71           -4125   cusp72           -4350
+    e9        cusp73           -4494   cusp74           -4557
+    e9        cusp75           -4539   cusp76           -4440
+    e9        cusp77           -4260   cusp78           -3999
+    e9        cusp79           -3657   cusp80           -3234
+    e9        cusp81           -2730   cusp82           -2145
+    e9        cusp83           -1479   cusp84            -732
+    e9        cusp85             -95   cusp86            -905
+    e9        cusp87           -1634   cusp88           -2282
+    e9        cusp89           -2849   cusp90           -3335
+    e9        cusp91           -3740   cusp92           -4064
+    e9        cusp93           -4307   cusp94           -4469
+    e9        cusp95           -4550
+    e10       sum_e                1   R0000003           100
+    e10       R0000165             1   R0000166            -1
+    e10       R0000167             1   R0000168            -1
+    e10       R0000169             1   R0000170             1
+    e10       R0000171            -1   R0000172            -1
+    e10       R0000541             1   R0000542            -1
+    e10       R0000543             1   R0000544            -1
+    e10       R0000549             1   R0000550             1
+    e10       R0000551            -1   R0000552            -1
+    e10       cusp1             -905   cusp2            -1710
+    e10       cusp3            -2415   cusp4            -3020
+    e10       cusp5            -3525   cusp6            -3930
+    e10       cusp7            -4235   cusp8            -4440
+    e10       cusp9            -4545   cusp10           -4550
+    e10       cusp11           -4455   cusp12           -4260
+    e10       cusp13           -3965   cusp14           -3570
+    e10       cusp15           -3075   cusp16           -2480
+    e10       cusp17           -1785   cusp18            -990
+    e10       cusp19             -95   cusp20            -819
+    e10       cusp21           -1634   cusp22           -2349
+    e10       cusp23           -2964   cusp24           -3479
+    e10       cusp25           -3894   cusp26           -4209
+    e10       cusp27           -4424   cusp28           -4539
+    e10       cusp29           -4554   cusp30           -4469
+    e10       cusp31           -4284   cusp32           -3999
+    e10       cusp33           -3614   cusp34           -3129
+    e10       cusp35           -2544   cusp36           -1859
+    e10       cusp37           -1074   cusp38            -189
+    e10       cusp39            -732   cusp40           -1557
+    e10       cusp41           -2282   cusp42           -2907
+    e10       cusp43           -3432   cusp44           -3857
+    e10       cusp45           -4182   cusp46           -4407
+    e10       cusp47           -4532   cusp48           -4557
+    e10       cusp49           -4482   cusp50           -4307
+    e10       cusp51           -4032   cusp52           -3657
+    e10       cusp53           -3182   cusp54           -2607
+    e10       cusp55           -1932   cusp56           -1157
+    e10       cusp57            -282   cusp58            -644
+    e10       cusp59           -1479   cusp60           -2214
+    e10       cusp61           -2849   cusp62           -3384
+    e10       cusp63           -3819   cusp64           -4154
+    e10       cusp65           -4389   cusp66           -4524
+    e10       cusp67           -4559   cusp68           -4494
+    e10       cusp69           -4329   cusp70           -4064
+    e10       cusp71           -3699   cusp72           -3234
+    e10       cusp73           -2669   cusp74           -2004
+    e10       cusp75           -1239   cusp76            -374
+    e10       cusp77            -555   cusp78           -1400
+    e10       cusp79           -2145   cusp80           -2790
+    e10       cusp81           -3335   cusp82           -3780
+    e10       cusp83           -4125   cusp84           -4370
+    e10       cusp85           -4515   cusp86           -4560
+    e10       cusp87           -4505   cusp88           -4350
+    e10       cusp89           -4095   cusp90           -3740
+    e10       cusp91           -3285   cusp92           -2730
+    e10       cusp93           -2075   cusp94           -1320
+    e10       cusp95            -465
+    e11       sum_e                1   R0000003           121
+    e11       R0000121             1   R0000122            -1
+    e11       R0000123             1   R0000124            -1
+    e11       R0000125             1   R0000126             1
+    e11       R0000127            -1   R0000128            -1
+    e11       R0000497             1   R0000498            -1
+    e11       R0000499             1   R0000500            -1
+    e11       R0000505             1   R0000506             1
+    e11       R0000507            -1   R0000508            -1
+    e11       cusp1             -990   cusp2            -1859
+    e11       cusp3            -2607   cusp4            -3234
+    e11       cusp5            -3740   cusp6            -4125
+    e11       cusp7            -4389   cusp8            -4532
+    e11       cusp9            -4554   cusp10           -4455
+    e11       cusp11           -4235   cusp12           -3894
+    e11       cusp13           -3432   cusp14           -2849
+    e11       cusp15           -2145   cusp16           -1320
+    e11       cusp17            -374   cusp18            -644
+    e11       cusp19           -1557   cusp20           -2349
+    e11       cusp21           -3020   cusp22           -3570
+    e11       cusp23           -3999   cusp24           -4307
+    e11       cusp25           -4494   cusp26           -4560
+    e11       cusp27           -4505   cusp28           -4329
+    e11       cusp29           -4032   cusp30           -3614
+    e11       cusp31           -3075   cusp32           -2415
+    e11       cusp33           -1634   cusp34            -732
+    e11       cusp35            -282   cusp36           -1239
+    e11       cusp37           -2075   cusp38           -2790
+    e11       cusp39           -3384   cusp40           -3857
+    e11       cusp41           -4209   cusp42           -4440
+    e11       cusp43           -4550   cusp44           -4539
+    e11       cusp45           -4407   cusp46           -4154
+    e11       cusp47           -3780   cusp48           -3285
+    e11       cusp49           -2669   cusp50           -1932
+    e11       cusp51           -1074   cusp52             -95
+    e11       cusp53            -905   cusp54           -1785
+    e11       cusp55           -2544   cusp56           -3182
+    e11       cusp57           -3699   cusp58           -4095
+    e11       cusp59           -4370   cusp60           -4524
+    e11       cusp61           -4557   cusp62           -4469
+    e11       cusp63           -4260   cusp64           -3930
+    e11       cusp65           -3479   cusp66           -2907
+    e11       cusp67           -2214   cusp68           -1400
+    e11       cusp69            -465   cusp70            -555
+    e11       cusp71           -1479   cusp72           -2282
+    e11       cusp73           -2964   cusp74           -3525
+    e11       cusp75           -3965   cusp76           -4284
+    e11       cusp77           -4482   cusp78           -4559
+    e11       cusp79           -4515   cusp80           -4350
+    e11       cusp81           -4064   cusp82           -3657
+    e11       cusp83           -3129   cusp84           -2480
+    e11       cusp85           -1710   cusp86            -819
+    e11       cusp87            -189   cusp88           -1157
+    e11       cusp89           -2004   cusp90           -2730
+    e11       cusp91           -3335   cusp92           -3819
+    e11       cusp93           -4182   cusp94           -4424
+    e11       cusp95           -4545
+    e12       sum_e                1   R0000003           144
+    e12       R0000365             1   R0000366            -1
+    e12       R0000367             1   R0000368            -1
+    e12       R0000369             1   R0000370             1
+    e12       R0000371            -1   R0000372            -1
+    e12       R0000741             1   R0000742            -1
+    e12       R0000743             1   R0000744            -1
+    e12       R0000749             1   R0000750             1
+    e12       R0000751            -1   R0000752            -1
+    e12       cusp1            -1074   cusp2            -2004
+    e12       cusp3            -2790   cusp4            -3432
+    e12       cusp5            -3930   cusp6            -4284
+    e12       cusp7            -4494   cusp8            -4560
+    e12       cusp9            -4482   cusp10           -4260
+    e12       cusp11           -3894   cusp12           -3384
+    e12       cusp13           -2730   cusp14           -1932
+    e12       cusp15            -990   cusp16             -95
+    e12       cusp17           -1157   cusp18           -2075
+    e12       cusp19           -2849   cusp20           -3479
+    e12       cusp21           -3965   cusp22           -4307
+    e12       cusp23           -4505   cusp24           -4559
+    e12       cusp25           -4469   cusp26           -4235
+    e12       cusp27           -3857   cusp28           -3335
+    e12       cusp29           -2669   cusp30           -1859
+    e12       cusp31            -905   cusp32            -189
+    e12       cusp33           -1239   cusp34           -2145
+    e12       cusp35           -2907   cusp36           -3525
+    e12       cusp37           -3999   cusp38           -4329
+    e12       cusp39           -4515   cusp40           -4557
+    e12       cusp41           -4455   cusp42           -4209
+    e12       cusp43           -3819   cusp44           -3285
+    e12       cusp45           -2607   cusp46           -1785
+    e12       cusp47            -819   cusp48            -282
+    e12       cusp49           -1320   cusp50           -2214
+    e12       cusp51           -2964   cusp52           -3570
+    e12       cusp53           -4032   cusp54           -4350
+    e12       cusp55           -4524   cusp56           -4554
+    e12       cusp57           -4440   cusp58           -4182
+    e12       cusp59           -3780   cusp60           -3234
+    e12       cusp61           -2544   cusp62           -1710
+    e12       cusp63            -732   cusp64            -374
+    e12       cusp65           -1400   cusp66           -2282
+    e12       cusp67           -3020   cusp68           -3614
+    e12       cusp69           -4064   cusp70           -4370
+    e12       cusp71           -4532   cusp72           -4550
+    e12       cusp73           -4424   cusp74           -4154
+    e12       cusp75           -3740   cusp76           -3182
+    e12       cusp77           -2480   cusp78           -1634
+    e12       cusp79            -644   cusp80            -465
+    e12       cusp81           -1479   cusp82           -2349
+    e12       cusp83           -3075   cusp84           -3657
+    e12       cusp85           -4095   cusp86           -4389
+    e12       cusp87           -4539   cusp88           -4545
+    e12       cusp89           -4407   cusp90           -4125
+    e12       cusp91           -3699   cusp92           -3129
+    e12       cusp93           -2415   cusp94           -1557
+    e12       cusp95            -555
+    e13       sum_e                1   R0000003           169
+    e13       R0000253             1   R0000254            -1
+    e13       R0000255             1   R0000256            -1
+    e13       R0000257             1   R0000258             1
+    e13       R0000259            -1   R0000260            -1
+    e13       R0000629             1   R0000630            -1
+    e13       R0000631             1   R0000632            -1
+    e13       R0000637             1   R0000638             1
+    e13       R0000639            -1   R0000640            -1
+    e13       cusp1            -1157   cusp2            -2145
+    e13       cusp3            -2964   cusp4            -3614
+    e13       cusp5            -4095   cusp6            -4407
+    e13       cusp7            -4550   cusp8            -4524
+    e13       cusp9            -4329   cusp10           -3965
+    e13       cusp11           -3432   cusp12           -2730
+    e13       cusp13           -1859   cusp14            -819
+    e13       cusp15            -374   cusp16           -1479
+    e13       cusp17           -2415   cusp18           -3182
+    e13       cusp19           -3780   cusp20           -4209
+    e13       cusp21           -4469   cusp22           -4560
+    e13       cusp23           -4482   cusp24           -4235
+    e13       cusp25           -3819   cusp26           -3234
+    e13       cusp27           -2480   cusp28           -1557
+    e13       cusp29            -465   cusp30            -732
+    e13       cusp31           -1785   cusp32           -2669
+    e13       cusp33           -3384   cusp34           -3930
+    e13       cusp35           -4307   cusp36           -4515
+    e13       cusp37           -4554   cusp38           -4424
+    e13       cusp39           -4125   cusp40           -3657
+    e13       cusp41           -3020   cusp42           -2214
+    e13       cusp43           -1239   cusp44             -95
+    e13       cusp45           -1074   cusp46           -2075
+    e13       cusp47           -2907   cusp48           -3570
+    e13       cusp49           -4064   cusp50           -4389
+    e13       cusp51           -4545   cusp52           -4532
+    e13       cusp53           -4350   cusp54           -3999
+    e13       cusp55           -3479   cusp56           -2790
+    e13       cusp57           -1932   cusp58            -905
+    e13       cusp59            -282   cusp60           -1400
+    e13       cusp61           -2349   cusp62           -3129
+    e13       cusp63           -3740   cusp64           -4182
+    e13       cusp65           -4455   cusp66           -4559
+    e13       cusp67           -4494   cusp68           -4260
+    e13       cusp69           -3857   cusp70           -3285
+    e13       cusp71           -2544   cusp72           -1634
+    e13       cusp73            -555   cusp74            -644
+    e13       cusp75           -1710   cusp76           -2607
+    e13       cusp77           -3335   cusp78           -3894
+    e13       cusp79           -4284   cusp80           -4505
+    e13       cusp81           -4557   cusp82           -4440
+    e13       cusp83           -4154   cusp84           -3699
+    e13       cusp85           -3075   cusp86           -2282
+    e13       cusp87           -1320   cusp88            -189
+    e13       cusp89            -990   cusp90           -2004
+    e13       cusp91           -2849   cusp92           -3525
+    e13       cusp93           -4032   cusp94           -4370
+    e13       cusp95           -4539
+    e14       sum_e                1   R0000003             5
+    e14       R0000081             1   R0000082            -1
+    e14       R0000083             1   R0000084            -1
+    e14       R0000085             1   R0000086             1
+    e14       R0000087            -1   R0000088            -1
+    e14       R0000457             1   R0000458            -1
+    e14       R0000459             1   R0000460            -1
+    e14       R0000465             1   R0000466             1
+    e14       R0000467            -1   R0000468            -1
+    e14       cusp1            -1239   cusp2            -2282
+    e14       cusp3            -3129   cusp4            -3780
+    e14       cusp5            -4235   cusp6            -4494
+    e14       cusp7            -4557   cusp8            -4424
+    e14       cusp9            -4095   cusp10           -3570
+    e14       cusp11           -2849   cusp12           -1932
+    e14       cusp13            -819   cusp14            -465
+    e14       cusp15           -1634   cusp16           -2607
+    e14       cusp17           -3384   cusp18           -3965
+    e14       cusp19           -4350   cusp20           -4539
+    e14       cusp21           -4532   cusp22           -4329
+    e14       cusp23           -3930   cusp24           -3335
+    e14       cusp25           -2544   cusp26           -1557
+    e14       cusp27            -374   cusp28            -905
+    e14       cusp29           -2004   cusp30           -2907
+    e14       cusp31           -3614   cusp32           -4125
+    e14       cusp33           -4440   cusp34           -4559
+    e14       cusp35           -4482   cusp36           -4209
+    e14       cusp37           -3740   cusp38           -3075
+    e14       cusp39           -2214   cusp40           -1157
+    e14       cusp41             -95   cusp42           -1320
+    e14       cusp43           -2349   cusp44           -3182
+    e14       cusp45           -3819   cusp46           -4260
+    e14       cusp47           -4505   cusp48           -4554
+    e14       cusp49           -4407   cusp50           -4064
+    e14       cusp51           -3525   cusp52           -2790
+    e14       cusp53           -1859   cusp54            -732
+    e14       cusp55            -555   cusp56           -1710
+    e14       cusp57           -2669   cusp58           -3432
+    e14       cusp59           -3999   cusp60           -4370
+    e14       cusp61           -4545   cusp62           -4524
+    e14       cusp63           -4307   cusp64           -3894
+    e14       cusp65           -3285   cusp66           -2480
+    e14       cusp67           -1479   cusp68            -282
+    e14       cusp69            -990   cusp70           -2075
+    e14       cusp71           -2964   cusp72           -3657
+    e14       cusp73           -4154   cusp74           -4455
+    e14       cusp75           -4560   cusp76           -4469
+    e14       cusp77           -4182   cusp78           -3699
+    e14       cusp79           -3020   cusp80           -2145
+    e14       cusp81           -1074   cusp82            -189
+    e14       cusp83           -1400   cusp84           -2415
+    e14       cusp85           -3234   cusp86           -3857
+    e14       cusp87           -4284   cusp88           -4515
+    e14       cusp89           -4550   cusp90           -4389
+    e14       cusp91           -4032   cusp92           -3479
+    e14       cusp93           -2730   cusp94           -1785
+    e14       cusp95            -644
+    e15       sum_e                1   R0000003            34
+    e15       R0000137             1   R0000138            -1
+    e15       R0000139             1   R0000140            -1
+    e15       R0000141             1   R0000142             1
+    e15       R0000143            -1   R0000144            -1
+    e15       R0000513             1   R0000514            -1
+    e15       R0000515             1   R0000516            -1
+    e15       R0000521             1   R0000522             1
+    e15       R0000523            -1   R0000524            -1
+    e15       cusp1            -1320   cusp2            -2415
+    e15       cusp3            -3285   cusp4            -3930
+    e15       cusp5            -4350   cusp6            -4545
+    e15       cusp7            -4515   cusp8            -4260
+    e15       cusp9            -3780   cusp10           -3075
+    e15       cusp11           -2145   cusp12            -990
+    e15       cusp13            -374   cusp14           -1634
+    e15       cusp15           -2669   cusp16           -3479
+    e15       cusp17           -4064   cusp18           -4424
+    e15       cusp19           -4559   cusp20           -4469
+    e15       cusp21           -4154   cusp22           -3614
+    e15       cusp23           -2849   cusp24           -1859
+    e15       cusp25            -644   cusp26            -732
+    e15       cusp27           -1932   cusp28           -2907
+    e15       cusp29           -3657   cusp30           -4182
+    e15       cusp31           -4482   cusp32           -4557
+    e15       cusp33           -4407   cusp34           -4032
+    e15       cusp35           -3432   cusp36           -2607
+    e15       cusp37           -1557   cusp38            -282
+    e15       cusp39           -1074   cusp40           -2214
+    e15       cusp41           -3129   cusp42           -3819
+    e15       cusp43           -4284   cusp44           -4524
+    e15       cusp45           -4539   cusp46           -4329
+    e15       cusp47           -3894   cusp48           -3234
+    e15       cusp49           -2349   cusp50           -1239
+    e15       cusp51             -95   cusp52           -1400
+    e15       cusp53           -2480   cusp54           -3335
+    e15       cusp55           -3965   cusp56           -4370
+    e15       cusp57           -4550   cusp58           -4505
+    e15       cusp59           -4235   cusp60           -3740
+    e15       cusp61           -3020   cusp62           -2075
+    e15       cusp63            -905   cusp64            -465
+    e15       cusp65           -1710   cusp66           -2730
+    e15       cusp67           -3525   cusp68           -4095
+    e15       cusp69           -4440   cusp70           -4560
+    e15       cusp71           -4455   cusp72           -4125
+    e15       cusp73           -3570   cusp74           -2790
+    e15       cusp75           -1785   cusp76            -555
+    e15       cusp77            -819   cusp78           -2004
+    e15       cusp79           -2964   cusp80           -3699
+    e15       cusp81           -4209   cusp82           -4494
+    e15       cusp83           -4554   cusp84           -4389
+    e15       cusp85           -3999   cusp86           -3384
+    e15       cusp87           -2544   cusp88           -1479
+    e15       cusp89            -189   cusp90           -1157
+    e15       cusp91           -2282   cusp92           -3182
+    e15       cusp93           -3857   cusp94           -4307
+    e15       cusp95           -4532
+    e16       sum_e                1   R0000003            65
+    e16       gap1_3_0             1   gap1_3_1            -1
+    e16       gap1_3_2             1   gap1_3_3            -1
+    e16       gap1_4_0             1   gap1_4_1             1
+    e16       gap1_4_2            -1   gap1_4_3            -1
+    e16       gap2_2_0             1   gap2_2_1            -1
+    e16       gap2_2_2             1   gap2_2_3            -1
+    e16       gap2_4_0             1   gap2_4_1             1
+    e16       gap2_4_2            -1   gap2_4_3            -1
+    e16       cusp1            -1400   cusp2            -2544
+    e16       cusp3            -3432   cusp4            -4064
+    e16       cusp5            -4440   cusp6            -4560
+    e16       cusp7            -4424   cusp8            -4032
+    e16       cusp9            -3384   cusp10           -2480
+    e16       cusp11           -1320   cusp12             -95
+    e16       cusp13           -1479   cusp14           -2607
+    e16       cusp15           -3479   cusp16           -4095
+    e16       cusp17           -4455   cusp18           -4559
+    e16       cusp19           -4407   cusp20           -3999
+    e16       cusp21           -3335   cusp22           -2415
+    e16       cusp23           -1239   cusp24            -189
+    e16       cusp25           -1557   cusp26           -2669
+    e16       cusp27           -3525   cusp28           -4125
+    e16       cusp29           -4469   cusp30           -4557
+    e16       cusp31           -4389   cusp32           -3965
+    e16       cusp33           -3285   cusp34           -2349
+    e16       cusp35           -1157   cusp36            -282
+    e16       cusp37           -1634   cusp38           -2730
+    e16       cusp39           -3570   cusp40           -4154
+    e16       cusp41           -4482   cusp42           -4554
+    e16       cusp43           -4370   cusp44           -3930
+    e16       cusp45           -3234   cusp46           -2282
+    e16       cusp47           -1074   cusp48            -374
+    e16       cusp49           -1710   cusp50           -2790
+    e16       cusp51           -3614   cusp52           -4182
+    e16       cusp53           -4494   cusp54           -4550
+    e16       cusp55           -4350   cusp56           -3894
+    e16       cusp57           -3182   cusp58           -2214
+    e16       cusp59            -990   cusp60            -465
+    e16       cusp61           -1785   cusp62           -2849
+    e16       cusp63           -3657   cusp64           -4209
+    e16       cusp65           -4505   cusp66           -4545
+    e16       cusp67           -4329   cusp68           -3857
+    e16       cusp69           -3129   cusp70           -2145
+    e16       cusp71            -905   cusp72            -555
+    e16       cusp73           -1859   cusp74           -2907
+    e16       cusp75           -3699   cusp76           -4235
+    e16       cusp77           -4515   cusp78           -4539
+    e16       cusp79           -4307   cusp80           -3819
+    e16       cusp81           -3075   cusp82           -2075
+    e16       cusp83            -819   cusp84            -644
+    e16       cusp85           -1932   cusp86           -2964
+    e16       cusp87           -3740   cusp88           -4260
+    e16       cusp89           -4524   cusp90           -4532
+    e16       cusp91           -4284   cusp92           -3780
+    e16       cusp93           -3020   cusp94           -2004
+    e16       cusp95            -732
+    e17       sum_e                1   R0000003            98
+    e17       R0000269             1   R0000270            -1
+    e17       R0000271             1   R0000272            -1
+    e17       R0000273             1   R0000274             1
+    e17       R0000275            -1   R0000276            -1
+    e17       R0000645             1   R0000646            -1
+    e17       R0000647             1   R0000648            -1
+    e17       R0000653             1   R0000654             1
+    e17       R0000655            -1   R0000656            -1
+    e17       cusp1            -1479   cusp2            -2669
+    e17       cusp3            -3570   cusp4            -4182
+    e17       cusp5            -4505   cusp6            -4539
+    e17       cusp7            -4284   cusp8            -3740
+    e17       cusp9            -2907   cusp10           -1785
+    e17       cusp11            -374   cusp12           -1157
+    e17       cusp13           -2415   cusp14           -3384
+    e17       cusp15           -4064   cusp16           -4455
+    e17       cusp17           -4557   cusp18           -4370
+    e17       cusp19           -3894   cusp20           -3129
+    e17       cusp21           -2075   cusp22            -732
+    e17       cusp23            -819   cusp24           -2145
+    e17       cusp25           -3182   cusp26           -3930
+    e17       cusp27           -4389   cusp28           -4559
+    e17       cusp29           -4440   cusp30           -4032
+    e17       cusp31           -3335   cusp32           -2349
+    e17       cusp33           -1074   cusp34            -465
+    e17       cusp35           -1859   cusp36           -2964
+    e17       cusp37           -3780   cusp38           -4307
+    e17       cusp39           -4545   cusp40           -4494
+    e17       cusp41           -4154   cusp42           -3525
+    e17       cusp43           -2607   cusp44           -1400
+    e17       cusp45             -95   cusp46           -1557
+    e17       cusp47           -2730   cusp48           -3614
+    e17       cusp49           -4209   cusp50           -4515
+    e17       cusp51           -4532   cusp52           -4260
+    e17       cusp53           -3699   cusp54           -2849
+    e17       cusp55           -1710   cusp56            -282
+    e17       cusp57           -1239   cusp58           -2480
+    e17       cusp59           -3432   cusp60           -4095
+    e17       cusp61           -4469   cusp62           -4554
+    e17       cusp63           -4350   cusp64           -3857
+    e17       cusp65           -3075   cusp66           -2004
+    e17       cusp67            -644   cusp68            -905
+    e17       cusp69           -2214   cusp70           -3234
+    e17       cusp71           -3965   cusp72           -4407
+    e17       cusp73           -4560   cusp74           -4424
+    e17       cusp75           -3999   cusp76           -3285
+    e17       cusp77           -2282   cusp78            -990
+    e17       cusp79            -555   cusp80           -1932
+    e17       cusp81           -3020   cusp82           -3819
+    e17       cusp83           -4329   cusp84           -4550
+    e17       cusp85           -4482   cusp86           -4125
+    e17       cusp87           -3479   cusp88           -2544
+    e17       cusp89           -1320   cusp90            -189
+    e17       cusp91           -1634   cusp92           -2790
+    e17       cusp93           -3657   cusp94           -4235
+    e17       cusp95           -4524
+    e18       sum_e                1   R0000003           133
+    e18       R0000337             1   R0000338            -1
+    e18       R0000339             1   R0000340            -1
+    e18       R0000341             1   R0000342             1
+    e18       R0000343            -1   R0000344            -1
+    e18       R0000713             1   R0000714            -1
+    e18       R0000715             1   R0000716            -1
+    e18       R0000721             1   R0000722             1
+    e18       R0000723            -1   R0000724            -1
+    e18       cusp1            -1557   cusp2            -2790
+    e18       cusp3            -3699   cusp4            -4284
+    e18       cusp5            -4545   cusp6            -4482
+    e18       cusp7            -4095   cusp8            -3384
+    e18       cusp9            -2349   cusp10            -990
+    e18       cusp11            -644   cusp12           -2075
+    e18       cusp13           -3182   cusp14           -3965
+    e18       cusp15           -4424   cusp16           -4559
+    e18       cusp17           -4370   cusp18           -3857
+    e18       cusp19           -3020   cusp20           -1859
+    e18       cusp21            -374   cusp22           -1239
+    e18       cusp23           -2544   cusp24           -3525
+    e18       cusp25           -4182   cusp26           -4515
+    e18       cusp27           -4524   cusp28           -4209
+    e18       cusp29           -3570   cusp30           -2607
+    e18       cusp31           -1320   cusp32            -282
+    e18       cusp33           -1785   cusp34           -2964
+    e18       cusp35           -3819   cusp36           -4350
+    e18       cusp37           -4557   cusp38           -4440
+    e18       cusp39           -3999   cusp40           -3234
+    e18       cusp41           -2145   cusp42            -732
+    e18       cusp43            -905   cusp44           -2282
+    e18       cusp45           -3335   cusp46           -4064
+    e18       cusp47           -4469   cusp48           -4550
+    e18       cusp49           -4307   cusp50           -3740
+    e18       cusp51           -2849   cusp52           -1634
+    e18       cusp53             -95   cusp54           -1479
+    e18       cusp55           -2730   cusp56           -3657
+    e18       cusp57           -4260   cusp58           -4539
+    e18       cusp59           -4494   cusp60           -4125
+    e18       cusp61           -3432   cusp62           -2415
+    e18       cusp63           -1074   cusp64            -555
+    e18       cusp65           -2004   cusp66           -3129
+    e18       cusp67           -3930   cusp68           -4407
+    e18       cusp69           -4560   cusp70           -4389
+    e18       cusp71           -3894   cusp72           -3075
+    e18       cusp73           -1932   cusp74            -465
+    e18       cusp75           -1157   cusp76           -2480
+    e18       cusp77           -3479   cusp78           -4154
+    e18       cusp79           -4505   cusp80           -4532
+    e18       cusp81           -4235   cusp82           -3614
+    e18       cusp83           -2669   cusp84           -1400
+    e18       cusp85            -189   cusp86           -1710
+    e18       cusp87           -2907   cusp88           -3780
+    e18       cusp89           -4329   cusp90           -4554
+    e18       cusp91           -4455   cusp92           -4032
+    e18       cusp93           -3285   cusp94           -2214
+    e18       cusp95            -819
+    e19       sum_e                1   R0000003           170
+    e19       R0000217             1   R0000218            -1
+    e19       R0000219             1   R0000220            -1
+    e19       R0000221             1   R0000222             1
+    e19       R0000223            -1   R0000224            -1
+    e19       R0000593             1   R0000594            -1
+    e19       R0000595             1   R0000596            -1
+    e19       R0000601             1   R0000602             1
+    e19       R0000603            -1   R0000604            -1
+    e19       cusp1            -1634   cusp2            -2907
+    e19       cusp3            -3819   cusp4            -4370
+    e19       cusp5            -4560   cusp6            -4389
+    e19       cusp7            -3857   cusp8            -2964
+    e19       cusp9            -1710   cusp10             -95
+    e19       cusp11           -1557   cusp12           -2849
+    e19       cusp13           -3780   cusp14           -4350
+    e19       cusp15           -4559   cusp16           -4407
+    e19       cusp17           -3894   cusp18           -3020
+    e19       cusp19           -1785   cusp20            -189
+    e19       cusp21           -1479   cusp22           -2790
+    e19       cusp23           -3740   cusp24           -4329
+    e19       cusp25           -4557   cusp26           -4424
+    e19       cusp27           -3930   cusp28           -3075
+    e19       cusp29           -1859   cusp30            -282
+    e19       cusp31           -1400   cusp32           -2730
+    e19       cusp33           -3699   cusp34           -4307
+    e19       cusp35           -4554   cusp36           -4440
+    e19       cusp37           -3965   cusp38           -3129
+    e19       cusp39           -1932   cusp40            -374
+    e19       cusp41           -1320   cusp42           -2669
+    e19       cusp43           -3657   cusp44           -4284
+    e19       cusp45           -4550   cusp46           -4455
+    e19       cusp47           -3999   cusp48           -3182
+    e19       cusp49           -2004   cusp50            -465
+    e19       cusp51           -1239   cusp52           -2607
+    e19       cusp53           -3614   cusp54           -4260
+    e19       cusp55           -4545   cusp56           -4469
+    e19       cusp57           -4032   cusp58           -3234
+    e19       cusp59           -2075   cusp60            -555
+    e19       cusp61           -1157   cusp62           -2544
+    e19       cusp63           -3570   cusp64           -4235
+    e19       cusp65           -4539   cusp66           -4482
+    e19       cusp67           -4064   cusp68           -3285
+    e19       cusp69           -2145   cusp70            -644
+    e19       cusp71           -1074   cusp72           -2480
+    e19       cusp73           -3525   cusp74           -4209
+    e19       cusp75           -4532   cusp76           -4494
+    e19       cusp77           -4095   cusp78           -3335
+    e19       cusp79           -2214   cusp80            -732
+    e19       cusp81            -990   cusp82           -2415
+    e19       cusp83           -3479   cusp84           -4182
+    e19       cusp85           -4524   cusp86           -4505
+    e19       cusp87           -4125   cusp88           -3384
+    e19       cusp89           -2282   cusp90            -819
+    e19       cusp91            -905   cusp92           -2349
+    e19       cusp93           -3432   cusp94           -4154
+    e19       cusp95           -4515
+    e20       sum_e                1   R0000003            18
+    e20       R0000169             1   R0000170            -1
+    e20       R0000171             1   R0000172            -1
+    e20       R0000173             1   R0000174             1
+    e20       R0000175            -1   R0000176            -1
+    e20       R0000545             1   R0000546            -1
+    e20       R0000547             1   R0000548            -1
+    e20       R0000553             1   R0000554             1
+    e20       R0000555            -1   R0000556            -1
+    e20       cusp1            -1710   cusp2            -3020
+    e20       cusp3            -3930   cusp4            -4440
+    e20       cusp5            -4550   cusp6            -4260
+    e20       cusp7            -3570   cusp8            -2480
+    e20       cusp9             -990   cusp10            -819
+    e20       cusp11           -2349   cusp12           -3479
+    e20       cusp13           -4209   cusp14           -4539
+    e20       cusp15           -4469   cusp16           -3999
+    e20       cusp17           -3129   cusp18           -1859
+    e20       cusp19            -189   cusp20           -1557
+    e20       cusp21           -2907   cusp22           -3857
+    e20       cusp23           -4407   cusp24           -4557
+    e20       cusp25           -4307   cusp26           -3657
+    e20       cusp27           -2607   cusp28           -1157
+    e20       cusp29            -644   cusp30           -2214
+    e20       cusp31           -3384   cusp32           -4154
+    e20       cusp33           -4524   cusp34           -4494
+    e20       cusp35           -4064   cusp36           -3234
+    e20       cusp37           -2004   cusp38            -374
+    e20       cusp39           -1400   cusp40           -2790
+    e20       cusp41           -3780   cusp42           -4370
+    e20       cusp43           -4560   cusp44           -4350
+    e20       cusp45           -3740   cusp46           -2730
+    e20       cusp47           -1320   cusp48            -465
+    e20       cusp49           -2075   cusp50           -3285
+    e20       cusp51           -4095   cusp52           -4505
+    e20       cusp53           -4515   cusp54           -4125
+    e20       cusp55           -3335   cusp56           -2145
+    e20       cusp57            -555   cusp58           -1239
+    e20       cusp59           -2669   cusp60           -3699
+    e20       cusp61           -4329   cusp62           -4559
+    e20       cusp63           -4389   cusp64           -3819
+    e20       cusp65           -2849   cusp66           -1479
+    e20       cusp67            -282   cusp68           -1932
+    e20       cusp69           -3182   cusp70           -4032
+    e20       cusp71           -4482   cusp72           -4532
+    e20       cusp73           -4182   cusp74           -3432
+    e20       cusp75           -2282   cusp76            -732
+    e20       cusp77           -1074   cusp78           -2544
+    e20       cusp79           -3614   cusp80           -4284
+    e20       cusp81           -4554   cusp82           -4424
+    e20       cusp83           -3894   cusp84           -2964
+    e20       cusp85           -1634   cusp86             -95
+    e20       cusp87           -1785   cusp88           -3075
+    e20       cusp89           -3965   cusp90           -4455
+    e20       cusp91           -4545   cusp92           -4235
+    e20       cusp93           -3525   cusp94           -2415
+    e20       cusp95            -905
+    e21       sum_e                1   R0000003            59
+    e21       R0000053             1   R0000054            -1
+    e21       R0000055             1   R0000056            -1
+    e21       R0000057             1   R0000058             1
+    e21       R0000059            -1   R0000060            -1
+    e21       R0000429             1   R0000430            -1
+    e21       R0000431             1   R0000432            -1
+    e21       R0000437             1   R0000438             1
+    e21       R0000439            -1   R0000440            -1
+    e21       cusp1            -1785   cusp2            -3129
+    e21       cusp3            -4032   cusp4            -4494
+    e21       cusp5            -4515   cusp6            -4095
+    e21       cusp7            -3234   cusp8            -1932
+    e21       cusp9             -189   cusp10           -1634
+    e21       cusp11           -3020   cusp12           -3965
+    e21       cusp13           -4469   cusp14           -4532
+    e21       cusp15           -4154   cusp16           -3335
+    e21       cusp17           -2075   cusp18            -374
+    e21       cusp19           -1479   cusp20           -2907
+    e21       cusp21           -3894   cusp22           -4440
+    e21       cusp23           -4545   cusp24           -4209
+    e21       cusp25           -3432   cusp26           -2214
+    e21       cusp27            -555   cusp28           -1320
+    e21       cusp29           -2790   cusp30           -3819
+    e21       cusp31           -4407   cusp32           -4554
+    e21       cusp33           -4260   cusp34           -3525
+    e21       cusp35           -2349   cusp36            -732
+    e21       cusp37           -1157   cusp38           -2669
+    e21       cusp39           -3740   cusp40           -4370
+    e21       cusp41           -4559   cusp42           -4307
+    e21       cusp43           -3614   cusp44           -2480
+    e21       cusp45            -905   cusp46            -990
+    e21       cusp47           -2544   cusp48           -3657
+    e21       cusp49           -4329   cusp50           -4560
+    e21       cusp51           -4350   cusp52           -3699
+    e21       cusp53           -2607   cusp54           -1074
+    e21       cusp55            -819   cusp56           -2415
+    e21       cusp57           -3570   cusp58           -4284
+    e21       cusp59           -4557   cusp60           -4389
+    e21       cusp61           -3780   cusp62           -2730
+    e21       cusp63           -1239   cusp64            -644
+    e21       cusp65           -2282   cusp66           -3479
+    e21       cusp67           -4235   cusp68           -4550
+    e21       cusp69           -4424   cusp70           -3857
+    e21       cusp71           -2849   cusp72           -1400
+    e21       cusp73            -465   cusp74           -2145
+    e21       cusp75           -3384   cusp76           -4182
+    e21       cusp77           -4539   cusp78           -4455
+    e21       cusp79           -3930   cusp80           -2964
+    e21       cusp81           -1557   cusp82            -282
+    e21       cusp83           -2004   cusp84           -3285
+    e21       cusp85           -4125   cusp86           -4524
+    e21       cusp87           -4482   cusp88           -3999
+    e21       cusp89           -3075   cusp90           -1710
+    e21       cusp91             -95   cusp92           -1859
+    e21       cusp93           -3182   cusp94           -4064
+    e21       cusp95           -4505
+    e22       sum_e                1   R0000003           102
+    e22       R0000125             1   R0000126            -1
+    e22       R0000127             1   R0000128            -1
+    e22       R0000129             1   R0000130             1
+    e22       R0000131            -1   R0000132            -1
+    e22       R0000501             1   R0000502            -1
+    e22       R0000503             1   R0000504            -1
+    e22       R0000509             1   R0000510             1
+    e22       R0000511            -1   R0000512            -1
+    e22       cusp1            -1859   cusp2            -3234
+    e22       cusp3            -4125   cusp4            -4532
+    e22       cusp5            -4455   cusp6            -3894
+    e22       cusp7            -2849   cusp8            -1320
+    e22       cusp9             -644   cusp10           -2349
+    e22       cusp11           -3570   cusp12           -4307
+    e22       cusp13           -4560   cusp14           -4329
+    e22       cusp15           -3614   cusp16           -2415
+    e22       cusp17            -732   cusp18           -1239
+    e22       cusp19           -2790   cusp20           -3857
+    e22       cusp21           -4440   cusp22           -4539
+    e22       cusp23           -4154   cusp24           -3285
+    e22       cusp25           -1932   cusp26             -95
+    e22       cusp27           -1785   cusp28           -3182
+    e22       cusp29           -4095   cusp30           -4524
+    e22       cusp31           -4469   cusp32           -3930
+    e22       cusp33           -2907   cusp34           -1400
+    e22       cusp35            -555   cusp36           -2282
+    e22       cusp37           -3525   cusp38           -4284
+    e22       cusp39           -4559   cusp40           -4350
+    e22       cusp41           -3657   cusp42           -2480
+    e22       cusp43            -819   cusp44           -1157
+    e22       cusp45           -2730   cusp46           -3819
+    e22       cusp47           -4424   cusp48           -4545
+    e22       cusp49           -4182   cusp50           -3335
+    e22       cusp51           -2004   cusp52            -189
+    e22       cusp53           -1710   cusp54           -3129
+    e22       cusp55           -4064   cusp56           -4515
+    e22       cusp57           -4482   cusp58           -3965
+    e22       cusp59           -2964   cusp60           -1479
+    e22       cusp61            -465   cusp62           -2214
+    e22       cusp63           -3479   cusp64           -4260
+    e22       cusp65           -4557   cusp66           -4370
+    e22       cusp67           -3699   cusp68           -2544
+    e22       cusp69            -905   cusp70           -1074
+    e22       cusp71           -2669   cusp72           -3780
+    e22       cusp73           -4407   cusp74           -4550
+    e22       cusp75           -4209   cusp76           -3384
+    e22       cusp77           -2075   cusp78            -282
+    e22       cusp79           -1634   cusp80           -3075
+    e22       cusp81           -4032   cusp82           -4505
+    e22       cusp83           -4494   cusp84           -3999
+    e22       cusp85           -3020   cusp86           -1557
+    e22       cusp87            -374   cusp88           -2145
+    e22       cusp89           -3432   cusp90           -4235
+    e22       cusp91           -4554   cusp92           -4389
+    e22       cusp93           -3740   cusp94           -2607
+    e22       cusp95            -990
+    e23       sum_e                1   R0000003           147
+    e23       R0000065             1   R0000066            -1
+    e23       R0000067             1   R0000068            -1
+    e23       R0000069             1   R0000070             1
+    e23       R0000071            -1   R0000072            -1
+    e23       R0000441             1   R0000442            -1
+    e23       R0000443             1   R0000444            -1
+    e23       R0000449             1   R0000450             1
+    e23       R0000451            -1   R0000452            -1
+    e23       cusp1            -1932   cusp2            -3335
+    e23       cusp3            -4209   cusp4            -4554
+    e23       cusp5            -4370   cusp6            -3657
+    e23       cusp7            -2415   cusp8             -644
+    e23       cusp9            -1400   cusp10           -2964
+    e23       cusp11           -3999   cusp12           -4505
+    e23       cusp13           -4482   cusp14           -3930
+    e23       cusp15           -2849   cusp16           -1239
+    e23       cusp17            -819   cusp18           -2544
+    e23       cusp19           -3740   cusp20           -4407
+    e23       cusp21           -4545   cusp22           -4154
+    e23       cusp23           -3234   cusp24           -1785
+    e23       cusp25            -189   cusp26           -2075
+    e23       cusp27           -3432   cusp28           -4260
+    e23       cusp29           -4559   cusp30           -4329
+    e23       cusp31           -3570   cusp32           -2282
+    e23       cusp33            -465   cusp34           -1557
+    e23       cusp35           -3075   cusp36           -4064
+    e23       cusp37           -4524   cusp38           -4455
+    e23       cusp39           -3857   cusp40           -2730
+    e23       cusp41           -1074   cusp42            -990
+    e23       cusp43           -2669   cusp44           -3819
+    e23       cusp45           -4440   cusp46           -4532
+    e23       cusp47           -4095   cusp48           -3129
+    e23       cusp49           -1634   cusp50            -374
+    e23       cusp51           -2214   cusp52           -3525
+    e23       cusp53           -4307   cusp54           -4560
+    e23       cusp55           -4284   cusp56           -3479
+    e23       cusp57           -2145   cusp58            -282
+    e23       cusp59           -1710   cusp60           -3182
+    e23       cusp61           -4125   cusp62           -4539
+    e23       cusp63           -4424   cusp64           -3780
+    e23       cusp65           -2607   cusp66            -905
+    e23       cusp67           -1157   cusp68           -2790
+    e23       cusp69           -3894   cusp70           -4469
+    e23       cusp71           -4515   cusp72           -4032
+    e23       cusp73           -3020   cusp74           -1479
+    e23       cusp75            -555   cusp76           -2349
+    e23       cusp77           -3614   cusp78           -4350
+    e23       cusp79           -4557   cusp80           -4235
+    e23       cusp81           -3384   cusp82           -2004
+    e23       cusp83             -95   cusp84           -1859
+    e23       cusp85           -3285   cusp86           -4182
+    e23       cusp87           -4550   cusp88           -4389
+    e23       cusp89           -3699   cusp90           -2480
+    e23       cusp91            -732   cusp92           -1320
+    e23       cusp93           -2907   cusp94           -3965
+    e23       cusp95           -4494
+    e24       sum_e                1   R0000003             3
+    e24       R0000369             1   R0000370            -1
+    e24       R0000371             1   R0000372            -1
+    e24       R0000373             1   R0000374             1
+    e24       R0000375            -1   R0000376            -1
+    e24       R0000745             1   R0000746            -1
+    e24       R0000747             1   R0000748            -1
+    e24       R0000753             1   R0000754             1
+    e24       R0000755            -1   R0000756            -1
+    e24       cusp1            -2004   cusp2            -3432
+    e24       cusp3            -4284   cusp4            -4560
+    e24       cusp5            -4260   cusp6            -3384
+    e24       cusp7            -1932   cusp8              -95
+    e24       cusp9            -2075   cusp10           -3479
+    e24       cusp11           -4307   cusp12           -4559
+    e24       cusp13           -4235   cusp14           -3335
+    e24       cusp15           -1859   cusp16            -189
+    e24       cusp17           -2145   cusp18           -3525
+    e24       cusp19           -4329   cusp20           -4557
+    e24       cusp21           -4209   cusp22           -3285
+    e24       cusp23           -1785   cusp24            -282
+    e24       cusp25           -2214   cusp26           -3570
+    e24       cusp27           -4350   cusp28           -4554
+    e24       cusp29           -4182   cusp30           -3234
+    e24       cusp31           -1710   cusp32            -374
+    e24       cusp33           -2282   cusp34           -3614
+    e24       cusp35           -4370   cusp36           -4550
+    e24       cusp37           -4154   cusp38           -3182
+    e24       cusp39           -1634   cusp40            -465
+    e24       cusp41           -2349   cusp42           -3657
+    e24       cusp43           -4389   cusp44           -4545
+    e24       cusp45           -4125   cusp46           -3129
+    e24       cusp47           -1557   cusp48            -555
+    e24       cusp49           -2415   cusp50           -3699
+    e24       cusp51           -4407   cusp52           -4539
+    e24       cusp53           -4095   cusp54           -3075
+    e24       cusp55           -1479   cusp56            -644
+    e24       cusp57           -2480   cusp58           -3740
+    e24       cusp59           -4424   cusp60           -4532
+    e24       cusp61           -4064   cusp62           -3020
+    e24       cusp63           -1400   cusp64            -732
+    e24       cusp65           -2544   cusp66           -3780
+    e24       cusp67           -4440   cusp68           -4524
+    e24       cusp69           -4032   cusp70           -2964
+    e24       cusp71           -1320   cusp72            -819
+    e24       cusp73           -2607   cusp74           -3819
+    e24       cusp75           -4455   cusp76           -4515
+    e24       cusp77           -3999   cusp78           -2907
+    e24       cusp79           -1239   cusp80            -905
+    e24       cusp81           -2669   cusp82           -3857
+    e24       cusp83           -4469   cusp84           -4505
+    e24       cusp85           -3965   cusp86           -2849
+    e24       cusp87           -1157   cusp88            -990
+    e24       cusp89           -2730   cusp90           -3894
+    e24       cusp91           -4482   cusp92           -4494
+    e24       cusp93           -3930   cusp94           -2790
+    e24       cusp95           -1074
+    e25       sum_e                1   R0000003            52
+    e25       R0000321             1   R0000322            -1
+    e25       R0000323             1   R0000324            -1
+    e25       R0000325             1   R0000326             1
+    e25       R0000327            -1   R0000328            -1
+    e25       R0000697             1   R0000698            -1
+    e25       R0000699             1   R0000700            -1
+    e25       R0000705             1   R0000706             1
+    e25       R0000707            -1   R0000708            -1
+    e25       cusp1            -2075   cusp2            -3525
+    e25       cusp3            -4350   cusp4            -4550
+    e25       cusp5            -4125   cusp6            -3075
+    e25       cusp7            -1400   cusp8             -819
+    e25       cusp9            -2669   cusp10           -3894
+    e25       cusp11           -4494   cusp12           -4469
+    e25       cusp13           -3819   cusp14           -2544
+    e25       cusp15            -644   cusp16           -1557
+    e25       cusp17           -3182   cusp18           -4182
+    e25       cusp19           -4557   cusp20           -4307
+    e25       cusp21           -3432   cusp22           -1932
+    e25       cusp23            -189   cusp24           -2214
+    e25       cusp25           -3614   cusp26           -4389
+    e25       cusp27           -4539   cusp28           -4064
+    e25       cusp29           -2964   cusp30           -1239
+    e25       cusp31            -990   cusp32           -2790
+    e25       cusp33           -3965   cusp34           -4515
+    e25       cusp35           -4440   cusp36           -3740
+    e25       cusp37           -2415   cusp38            -465
+    e25       cusp39           -1710   cusp40           -3285
+    e25       cusp41           -4235   cusp42           -4560
+    e25       cusp43           -4260   cusp44           -3335
+    e25       cusp45           -1785   cusp46            -374
+    e25       cusp47           -2349   cusp48           -3699
+    e25       cusp49           -4424   cusp50           -4524
+    e25       cusp51           -3999   cusp52           -2849
+    e25       cusp53           -1074   cusp54           -1157
+    e25       cusp55           -2907   cusp56           -4032
+    e25       cusp57           -4532   cusp58           -4407
+    e25       cusp59           -3657   cusp60           -2282
+    e25       cusp61            -282   cusp62           -1859
+    e25       cusp63           -3384   cusp64           -4284
+    e25       cusp65           -4559   cusp66           -4209
+    e25       cusp67           -3234   cusp68           -1634
+    e25       cusp69            -555   cusp70           -2480
+    e25       cusp71           -3780   cusp72           -4455
+    e25       cusp73           -4505   cusp74           -3930
+    e25       cusp75           -2730   cusp76            -905
+    e25       cusp77           -1320   cusp78           -3020
+    e25       cusp79           -4095   cusp80           -4545
+    e25       cusp81           -4370   cusp82           -3570
+    e25       cusp83           -2145   cusp84             -95
+    e25       cusp85           -2004   cusp86           -3479
+    e25       cusp87           -4329   cusp88           -4554
+    e25       cusp89           -4154   cusp90           -3129
+    e25       cusp91           -1479   cusp92            -732
+    e25       cusp93           -2607   cusp94           -3857
+    e25       cusp95           -4482
+    e26       sum_e                1   R0000003           103
+    e26       R0000257             1   R0000258            -1
+    e26       R0000259             1   R0000260            -1
+    e26       R0000261             1   R0000262             1
+    e26       R0000263            -1   R0000264            -1
+    e26       R0000633             1   R0000634            -1
+    e26       R0000635             1   R0000636            -1
+    e26       R0000641             1   R0000642             1
+    e26       R0000643            -1   R0000644            -1
+    e26       cusp1            -2145   cusp2            -3614
+    e26       cusp3            -4407   cusp4            -4524
+    e26       cusp5            -3965   cusp6            -2730
+    e26       cusp7             -819   cusp8            -1479
+    e26       cusp9            -3182   cusp10           -4209
+    e26       cusp11           -4560   cusp12           -4235
+    e26       cusp13           -3234   cusp14           -1557
+    e26       cusp15            -732   cusp16           -2669
+    e26       cusp17           -3930   cusp18           -4515
+    e26       cusp19           -4424   cusp20           -3657
+    e26       cusp21           -2214   cusp22             -95
+    e26       cusp23           -2075   cusp24           -3570
+    e26       cusp25           -4389   cusp26           -4532
+    e26       cusp27           -3999   cusp28           -2790
+    e26       cusp29            -905   cusp30           -1400
+    e26       cusp31           -3129   cusp32           -4182
+    e26       cusp33           -4559   cusp34           -4260
+    e26       cusp35           -3285   cusp36           -1634
+    e26       cusp37            -644   cusp38           -2607
+    e26       cusp39           -3894   cusp40           -4505
+    e26       cusp41           -4440   cusp42           -3699
+    e26       cusp43           -2282   cusp44            -189
+    e26       cusp45           -2004   cusp46           -3525
+    e26       cusp47           -4370   cusp48           -4539
+    e26       cusp49           -4032   cusp50           -2849
+    e26       cusp51            -990   cusp52           -1320
+    e26       cusp53           -3075   cusp54           -4154
+    e26       cusp55           -4557   cusp56           -4284
+    e26       cusp57           -3335   cusp58           -1710
+    e26       cusp59            -555   cusp60           -2544
+    e26       cusp61           -3857   cusp62           -4494
+    e26       cusp63           -4455   cusp64           -3740
+    e26       cusp65           -2349   cusp66            -282
+    e26       cusp67           -1932   cusp68           -3479
+    e26       cusp69           -4350   cusp70           -4545
+    e26       cusp71           -4064   cusp72           -2907
+    e26       cusp73           -1074   cusp74           -1239
+    e26       cusp75           -3020   cusp76           -4125
+    e26       cusp77           -4554   cusp78           -4307
+    e26       cusp79           -3384   cusp80           -1785
+    e26       cusp81            -465   cusp82           -2480
+    e26       cusp83           -3819   cusp84           -4482
+    e26       cusp85           -4469   cusp86           -3780
+    e26       cusp87           -2415   cusp88            -374
+    e26       cusp89           -1859   cusp90           -3432
+    e26       cusp91           -4329   cusp92           -4550
+    e26       cusp93           -4095   cusp94           -2964
+    e26       cusp95           -1157
+    e27       sum_e                1   R0000003           156
+    e27       R0000309             1   R0000310            -1
+    e27       R0000311             1   R0000312            -1
+    e27       R0000313             1   R0000314             1
+    e27       R0000315            -1   R0000316            -1
+    e27       R0000685             1   R0000686            -1
+    e27       R0000687             1   R0000688            -1
+    e27       R0000693             1   R0000694             1
+    e27       R0000695            -1   R0000696            -1
+    e27       cusp1            -2214   cusp2            -3699
+    e27       cusp3            -4455   cusp4            -4482
+    e27       cusp5            -3780   cusp6            -2349
+    e27       cusp7             -189   cusp8            -2075
+    e27       cusp9            -3614   cusp10           -4424
+    e27       cusp11           -4505   cusp12           -3857
+    e27       cusp13           -2480   cusp14            -374
+    e27       cusp15           -1932   cusp16           -3525
+    e27       cusp17           -4389   cusp18           -4524
+    e27       cusp19           -3930   cusp20           -2607
+    e27       cusp21            -555   cusp22           -1785
+    e27       cusp23           -3432   cusp24           -4350
+    e27       cusp25           -4539   cusp26           -3999
+    e27       cusp27           -2730   cusp28            -732
+    e27       cusp29           -1634   cusp30           -3335
+    e27       cusp31           -4307   cusp32           -4550
+    e27       cusp33           -4064   cusp34           -2849
+    e27       cusp35            -905   cusp36           -1479
+    e27       cusp37           -3234   cusp38           -4260
+    e27       cusp39           -4557   cusp40           -4125
+    e27       cusp41           -2964   cusp42           -1074
+    e27       cusp43           -1320   cusp44           -3129
+    e27       cusp45           -4209   cusp46           -4560
+    e27       cusp47           -4182   cusp48           -3075
+    e27       cusp49           -1239   cusp50           -1157
+    e27       cusp51           -3020   cusp52           -4154
+    e27       cusp53           -4559   cusp54           -4235
+    e27       cusp55           -3182   cusp56           -1400
+    e27       cusp57            -990   cusp58           -2907
+    e27       cusp59           -4095   cusp60           -4554
+    e27       cusp61           -4284   cusp62           -3285
+    e27       cusp63           -1557   cusp64            -819
+    e27       cusp65           -2790   cusp66           -4032
+    e27       cusp67           -4545   cusp68           -4329
+    e27       cusp69           -3384   cusp70           -1710
+    e27       cusp71            -644   cusp72           -2669
+    e27       cusp73           -3965   cusp74           -4532
+    e27       cusp75           -4370   cusp76           -3479
+    e27       cusp77           -1859   cusp78            -465
+    e27       cusp79           -2544   cusp80           -3894
+    e27       cusp81           -4515   cusp82           -4407
+    e27       cusp83           -3570   cusp84           -2004
+    e27       cusp85            -282   cusp86           -2415
+    e27       cusp87           -3819   cusp88           -4494
+    e27       cusp89           -4440   cusp90           -3657
+    e27       cusp91           -2145   cusp92             -95
+    e27       cusp93           -2282   cusp94           -3740
+    e27       cusp95           -4469
+    e28       sum_e                1   R0000003            20
+    e28       R0000085             1   R0000086            -1
+    e28       R0000087             1   R0000088            -1
+    e28       R0000089             1   R0000090             1
+    e28       R0000091            -1   R0000092            -1
+    e28       R0000461             1   R0000462            -1
+    e28       R0000463             1   R0000464            -1
+    e28       R0000469             1   R0000470             1
+    e28       R0000471            -1   R0000472            -1
+    e28       cusp1            -2282   cusp2            -3780
+    e28       cusp3            -4494   cusp4            -4424
+    e28       cusp5            -3570   cusp6            -1932
+    e28       cusp7             -465   cusp8            -2607
+    e28       cusp9            -3965   cusp10           -4539
+    e28       cusp11           -4329   cusp12           -3335
+    e28       cusp13           -1557   cusp14            -905
+    e28       cusp15           -2907   cusp16           -4125
+    e28       cusp17           -4559   cusp18           -4209
+    e28       cusp19           -3075   cusp20           -1157
+    e28       cusp21           -1320   cusp22           -3182
+    e28       cusp23           -4260   cusp24           -4554
+    e28       cusp25           -4064   cusp26           -2790
+    e28       cusp27            -732   cusp28           -1710
+    e28       cusp29           -3432   cusp30           -4370
+    e28       cusp31           -4524   cusp32           -3894
+    e28       cusp33           -2480   cusp34            -282
+    e28       cusp35           -2075   cusp36           -3657
+    e28       cusp37           -4455   cusp38           -4469
+    e28       cusp39           -3699   cusp40           -2145
+    e28       cusp41            -189   cusp42           -2415
+    e28       cusp43           -3857   cusp44           -4515
+    e28       cusp45           -4389   cusp46           -3479
+    e28       cusp47           -1785   cusp48            -644
+    e28       cusp49           -2730   cusp50           -4032
+    e28       cusp51           -4550   cusp52           -4284
+    e28       cusp53           -3234   cusp54           -1400
+    e28       cusp55           -1074   cusp56           -3020
+    e28       cusp57           -4182   cusp58           -4560
+    e28       cusp59           -4154   cusp60           -2964
+    e28       cusp61            -990   cusp62           -1479
+    e28       cusp63           -3285   cusp64           -4307
+    e28       cusp65           -4545   cusp66           -3999
+    e28       cusp67           -2669   cusp68            -555
+    e28       cusp69           -1859   cusp70           -3525
+    e28       cusp71           -4407   cusp72           -4505
+    e28       cusp73           -3819   cusp74           -2349
+    e28       cusp75             -95   cusp76           -2214
+    e28       cusp77           -3740   cusp78           -4482
+    e28       cusp79           -4440   cusp80           -3614
+    e28       cusp81           -2004   cusp82            -374
+    e28       cusp83           -2544   cusp84           -3930
+    e28       cusp85           -4532   cusp86           -4350
+    e28       cusp87           -3384   cusp88           -1634
+    e28       cusp89            -819   cusp90           -2849
+    e28       cusp91           -4095   cusp92           -4557
+    e28       cusp93           -4235   cusp94           -3129
+    e28       cusp95           -1239
+    e29       sum_e                1   R0000003            77
+    e29       R0000289             1   R0000290            -1
+    e29       R0000291             1   R0000292            -1
+    e29       R0000293             1   R0000294             1
+    e29       R0000295            -1   R0000296            -1
+    e29       R0000665             1   R0000666            -1
+    e29       R0000667             1   R0000668            -1
+    e29       R0000673             1   R0000674             1
+    e29       R0000675            -1   R0000676            -1
+    e29       cusp1            -2349   cusp2            -3857
+    e29       cusp3            -4524   cusp4            -4350
+    e29       cusp5            -3335   cusp6            -1479
+    e29       cusp7            -1074   cusp8            -3075
+    e29       cusp9            -4235   cusp10           -4554
+    e29       cusp11           -4032   cusp12           -2669
+    e29       cusp13            -465   cusp14           -2004
+    e29       cusp15           -3657   cusp16           -4469
+    e29       cusp17           -4440   cusp18           -3570
+    e29       cusp19           -1859   cusp20            -644
+    e29       cusp21           -2790   cusp22           -4095
+    e29       cusp23           -4559   cusp24           -4182
+    e29       cusp25           -2964   cusp26            -905
+    e29       cusp27           -1634   cusp28           -3432
+    e29       cusp29           -4389   cusp30           -4505
+    e29       cusp31           -3780   cusp32           -2214
+    e29       cusp33            -189   cusp34           -2480
+    e29       cusp35           -3930   cusp36           -4539
+    e29       cusp37           -4307   cusp38           -3234
+    e29       cusp39           -1320   cusp40           -1239
+    e29       cusp41           -3182   cusp42           -4284
+    e29       cusp43           -4545   cusp44           -3965
+    e29       cusp45           -2544   cusp46            -282
+    e29       cusp47           -2145   cusp48           -3740
+    e29       cusp49           -4494   cusp50           -4407
+    e29       cusp51           -3479   cusp52           -1710
+    e29       cusp53            -819   cusp54           -2907
+    e29       cusp55           -4154   cusp56           -4560
+    e29       cusp57           -4125   cusp58           -2849
+    e29       cusp59            -732   cusp60           -1785
+    e29       cusp61           -3525   cusp62           -4424
+    e29       cusp63           -4482   cusp64           -3699
+    e29       cusp65           -2075   cusp66            -374
+    e29       cusp67           -2607   cusp68           -3999
+    e29       cusp69           -4550   cusp70           -4260
+    e29       cusp71           -3129   cusp72           -1157
+    e29       cusp73           -1400   cusp74           -3285
+    e29       cusp75           -4329   cusp76           -4532
+    e29       cusp77           -3894   cusp78           -2415
+    e29       cusp79             -95   cusp80           -2282
+    e29       cusp81           -3819   cusp82           -4515
+    e29       cusp83           -4370   cusp84           -3384
+    e29       cusp85           -1557   cusp86            -990
+    e29       cusp87           -3020   cusp88           -4209
+    e29       cusp89           -4557   cusp90           -4064
+    e29       cusp91           -2730   cusp92            -555
+    e29       cusp93           -1932   cusp94           -3614
+    e29       cusp95           -4455
+    e30       sum_e                1   R0000003           136
+    e30       R0000141             1   R0000142            -1
+    e30       R0000143             1   R0000144            -1
+    e30       R0000145             1   R0000146             1
+    e30       R0000147            -1   R0000148            -1
+    e30       R0000517             1   R0000518            -1
+    e30       R0000519             1   R0000520            -1
+    e30       R0000525             1   R0000526             1
+    e30       R0000527            -1   R0000528            -1
+    e30       cusp1            -2415   cusp2            -3930
+    e30       cusp3            -4545   cusp4            -4260
+    e30       cusp5            -3075   cusp6             -990
+    e30       cusp7            -1634   cusp8            -3479
+    e30       cusp9            -4424   cusp10           -4469
+    e30       cusp11           -3614   cusp12           -1859
+    e30       cusp13            -732   cusp14           -2907
+    e30       cusp15           -4182   cusp16           -4557
+    e30       cusp17           -4032   cusp18           -2607
+    e30       cusp19            -282   cusp20           -2214
+    e30       cusp21           -3819   cusp22           -4524
+    e30       cusp23           -4329   cusp24           -3234
+    e30       cusp25           -1239   cusp26           -1400
+    e30       cusp27           -3335   cusp28           -4370
+    e30       cusp29           -4505   cusp30           -3740
+    e30       cusp31           -2075   cusp32            -465
+    e30       cusp33           -2730   cusp34           -4095
+    e30       cusp35           -4560   cusp36           -4125
+    e30       cusp37           -2790   cusp38            -555
+    e30       cusp39           -2004   cusp40           -3699
+    e30       cusp41           -4494   cusp42           -4389
+    e30       cusp43           -3384   cusp44           -1479
+    e30       cusp45           -1157   cusp46           -3182
+    e30       cusp47           -4307   cusp48           -4532
+    e30       cusp49           -3857   cusp50           -2282
+    e30       cusp51            -189   cusp52           -2544
+    e30       cusp53           -3999   cusp54           -4554
+    e30       cusp55           -4209   cusp56           -2964
+    e30       cusp57            -819   cusp58           -1785
+    e30       cusp59           -3570   cusp60           -4455
+    e30       cusp61           -4440   cusp62           -3525
+    e30       cusp63           -1710   cusp64            -905
+    e30       cusp65           -3020   cusp66           -4235
+    e30       cusp67           -4550   cusp68           -3965
+    e30       cusp69           -2480   cusp70             -95
+    e30       cusp71           -2349   cusp72           -3894
+    e30       cusp73           -4539   cusp74           -4284
+    e30       cusp75           -3129   cusp76           -1074
+    e30       cusp77           -1557   cusp78           -3432
+    e30       cusp79           -4407   cusp80           -4482
+    e30       cusp81           -3657   cusp82           -1932
+    e30       cusp83            -644   cusp84           -2849
+    e30       cusp85           -4154   cusp86           -4559
+    e30       cusp87           -4064   cusp88           -2669
+    e30       cusp89            -374   cusp90           -2145
+    e30       cusp91           -3780   cusp92           -4515
+    e30       cusp93           -4350   cusp94           -3285
+    e30       cusp95           -1320
+    e31       sum_e                1   R0000003             6
+    e31       R0000181             1   R0000182            -1
+    e31       R0000183             1   R0000184            -1
+    e31       R0000185             1   R0000186             1
+    e31       R0000187            -1   R0000188            -1
+    e31       R0000557             1   R0000558            -1
+    e31       R0000559             1   R0000560            -1
+    e31       R0000565             1   R0000566             1
+    e31       R0000567            -1   R0000568            -1
+    e31       cusp1            -2480   cusp2            -3999
+    e31       cusp3            -4557   cusp4            -4154
+    e31       cusp5            -2790   cusp6             -465
+    e31       cusp7            -2145   cusp8            -3819
+    e31       cusp9            -4532   cusp10           -4284
+    e31       cusp11           -3075   cusp12            -905
+    e31       cusp13           -1785   cusp14           -3614
+    e31       cusp15           -4482   cusp16           -4389
+    e31       cusp17           -3335   cusp18           -1320
+    e31       cusp19           -1400   cusp20           -3384
+    e31       cusp21           -4407   cusp22           -4469
+    e31       cusp23           -3570   cusp24           -1710
+    e31       cusp25            -990   cusp26           -3129
+    e31       cusp27           -4307   cusp28           -4524
+    e31       cusp29           -3780   cusp30           -2075
+    e31       cusp31            -555   cusp32           -2849
+    e31       cusp33           -4182   cusp34           -4554
+    e31       cusp35           -3965   cusp36           -2415
+    e31       cusp37             -95   cusp38           -2544
+    e31       cusp39           -4032   cusp40           -4559
+    e31       cusp41           -4125   cusp42           -2730
+    e31       cusp43            -374   cusp44           -2214
+    e31       cusp45           -3857   cusp46           -4539
+    e31       cusp47           -4260   cusp48           -3020
+    e31       cusp49            -819   cusp50           -1859
+    e31       cusp51           -3657   cusp52           -4494
+    e31       cusp53           -4370   cusp54           -3285
+    e31       cusp55           -1239   cusp56           -1479
+    e31       cusp57           -3432   cusp58           -4424
+    e31       cusp59           -4455   cusp60           -3525
+    e31       cusp61           -1634   cusp62           -1074
+    e31       cusp63           -3182   cusp64           -4329
+    e31       cusp65           -4515   cusp66           -3740
+    e31       cusp67           -2004   cusp68            -644
+    e31       cusp69           -2907   cusp70           -4209
+    e31       cusp71           -4550   cusp72           -3930
+    e31       cusp73           -2349   cusp74            -189
+    e31       cusp75           -2607   cusp76           -4064
+    e31       cusp77           -4560   cusp78           -4095
+    e31       cusp79           -2669   cusp80            -282
+    e31       cusp81           -2282   cusp82           -3894
+    e31       cusp83           -4545   cusp84           -4235
+    e31       cusp85           -2964   cusp86            -732
+    e31       cusp87           -1932   cusp88           -3699
+    e31       cusp89           -4505   cusp90           -4350
+    e31       cusp91           -3234   cusp92           -1157
+    e31       cusp93           -1557   cusp94           -3479
+    e31       cusp95           -4440
+    e32       sum_e                1   R0000003            69
+    e32       gap1_4_0             1   gap1_4_1            -1
+    e32       gap1_4_2             1   gap1_4_3            -1
+    e32       gap1_5_0             1   gap1_5_1             1
+    e32       gap1_5_2            -1   gap1_5_3            -1
+    e32       gap2_3_0             1   gap2_3_1            -1
+    e32       gap2_3_2             1   gap2_3_3            -1
+    e32       gap2_5_0             1   gap2_5_1             1
+    e32       gap2_5_2            -1   gap2_5_3            -1
+    e32       cusp1            -2544   cusp2            -4064
+    e32       cusp3            -4560   cusp4            -4032
+    e32       cusp5            -2480   cusp6              -95
+    e32       cusp7            -2607   cusp8            -4095
+    e32       cusp9            -4559   cusp10           -3999
+    e32       cusp11           -2415   cusp12            -189
+    e32       cusp13           -2669   cusp14           -4125
+    e32       cusp15           -4557   cusp16           -3965
+    e32       cusp17           -2349   cusp18            -282
+    e32       cusp19           -2730   cusp20           -4154
+    e32       cusp21           -4554   cusp22           -3930
+    e32       cusp23           -2282   cusp24            -374
+    e32       cusp25           -2790   cusp26           -4182
+    e32       cusp27           -4550   cusp28           -3894
+    e32       cusp29           -2214   cusp30            -465
+    e32       cusp31           -2849   cusp32           -4209
+    e32       cusp33           -4545   cusp34           -3857
+    e32       cusp35           -2145   cusp36            -555
+    e32       cusp37           -2907   cusp38           -4235
+    e32       cusp39           -4539   cusp40           -3819
+    e32       cusp41           -2075   cusp42            -644
+    e32       cusp43           -2964   cusp44           -4260
+    e32       cusp45           -4532   cusp46           -3780
+    e32       cusp47           -2004   cusp48            -732
+    e32       cusp49           -3020   cusp50           -4284
+    e32       cusp51           -4524   cusp52           -3740
+    e32       cusp53           -1932   cusp54            -819
+    e32       cusp55           -3075   cusp56           -4307
+    e32       cusp57           -4515   cusp58           -3699
+    e32       cusp59           -1859   cusp60            -905
+    e32       cusp61           -3129   cusp62           -4329
+    e32       cusp63           -4505   cusp64           -3657
+    e32       cusp65           -1785   cusp66            -990
+    e32       cusp67           -3182   cusp68           -4350
+    e32       cusp69           -4494   cusp70           -3614
+    e32       cusp71           -1710   cusp72           -1074
+    e32       cusp73           -3234   cusp74           -4370
+    e32       cusp75           -4482   cusp76           -3570
+    e32       cusp77           -1634   cusp78           -1157
+    e32       cusp79           -3285   cusp80           -4389
+    e32       cusp81           -4469   cusp82           -3525
+    e32       cusp83           -1557   cusp84           -1239
+    e32       cusp85           -3335   cusp86           -4407
+    e32       cusp87           -4455   cusp88           -3479
+    e32       cusp89           -1479   cusp90           -1320
+    e32       cusp91           -3384   cusp92           -4424
+    e32       cusp93           -4440   cusp94           -3432
+    e32       cusp95           -1400
+    e33       sum_e                1   R0000003           134
+    e33       R0000097             1   R0000098            -1
+    e33       R0000099             1   R0000100            -1
+    e33       R0000101             1   R0000102             1
+    e33       R0000103            -1   R0000104            -1
+    e33       R0000473             1   R0000474            -1
+    e33       R0000475             1   R0000476            -1
+    e33       R0000481             1   R0000482             1
+    e33       R0000483            -1   R0000484            -1
+    e33       cusp1            -2607   cusp2            -4125
+    e33       cusp3            -4554   cusp4            -3894
+    e33       cusp5            -2145   cusp6             -644
+    e33       cusp7            -3020   cusp8            -4307
+    e33       cusp9            -4505   cusp10           -3614
+    e33       cusp11           -1634   cusp12           -1239
+    e33       cusp13           -3384   cusp14           -4440
+    e33       cusp15           -4407   cusp16           -3285
+    e33       cusp17           -1074   cusp18           -1785
+    e33       cusp19           -3699   cusp20           -4524
+    e33       cusp21           -4260   cusp22           -2907
+    e33       cusp23            -465   cusp24           -2282
+    e33       cusp25           -3965   cusp26           -4559
+    e33       cusp27           -4064   cusp28           -2480
+    e33       cusp29            -189   cusp30           -2730
+    e33       cusp31           -4182   cusp32           -4545
+    e33       cusp33           -3819   cusp34           -2004
+    e33       cusp35            -819   cusp36           -3129
+    e33       cusp37           -4350   cusp38           -4482
+    e33       cusp39           -3525   cusp40           -1479
+    e33       cusp41           -1400   cusp42           -3479
+    e33       cusp43           -4469   cusp44           -4370
+    e33       cusp45           -3182   cusp46            -905
+    e33       cusp47           -1932   cusp48           -3780
+    e33       cusp49           -4539   cusp50           -4209
+    e33       cusp51           -2790   cusp52            -282
+    e33       cusp53           -2415   cusp54           -4032
+    e33       cusp55           -4560   cusp56           -3999
+    e33       cusp57           -2349   cusp58            -374
+    e33       cusp59           -2849   cusp60           -4235
+    e33       cusp61           -4532   cusp62           -3740
+    e33       cusp63           -1859   cusp64            -990
+    e33       cusp65           -3234   cusp66           -4389
+    e33       cusp67           -4455   cusp68           -3432
+    e33       cusp69           -1320   cusp70           -1557
+    e33       cusp71           -3570   cusp72           -4494
+    e33       cusp73           -4329   cusp74           -3075
+    e33       cusp75            -732   cusp76           -2075
+    e33       cusp77           -3857   cusp78           -4550
+    e33       cusp79           -4154   cusp80           -2669
+    e33       cusp81             -95   cusp82           -2544
+    e33       cusp83           -4095   cusp84           -4557
+    e33       cusp85           -3930   cusp86           -2214
+    e33       cusp87            -555   cusp88           -2964
+    e33       cusp89           -4284   cusp90           -4515
+    e33       cusp91           -3657   cusp92           -1710
+    e33       cusp93           -1157   cusp94           -3335
+    e33       cusp95           -4424
+    e34       sum_e                1   R0000003            10
+    e34       R0000273             1   R0000274            -1
+    e34       R0000275             1   R0000276            -1
+    e34       R0000277             1   R0000278             1
+    e34       R0000279            -1   R0000280            -1
+    e34       R0000649             1   R0000650            -1
+    e34       R0000651             1   R0000652            -1
+    e34       R0000657             1   R0000658             1
+    e34       R0000659            -1   R0000660            -1
+    e34       cusp1            -2669   cusp2            -4182
+    e34       cusp3            -4539   cusp4            -3740
+    e34       cusp5            -1785   cusp6            -1157
+    e34       cusp7            -3384   cusp8            -4455
+    e34       cusp9            -4370   cusp10           -3129
+    e34       cusp11            -732   cusp12           -2145
+    e34       cusp13           -3930   cusp14           -4559
+    e34       cusp15           -4032   cusp16           -2349
+    e34       cusp17            -465   cusp18           -2964
+    e34       cusp19           -4307   cusp20           -4494
+    e34       cusp21           -3525   cusp22           -1400
+    e34       cusp23           -1557   cusp24           -3614
+    e34       cusp25           -4515   cusp26           -4260
+    e34       cusp27           -2849   cusp28            -282
+    e34       cusp29           -2480   cusp30           -4095
+    e34       cusp31           -4554   cusp32           -3857
+    e34       cusp33           -2004   cusp34            -905
+    e34       cusp35           -3234   cusp36           -4407
+    e34       cusp37           -4424   cusp38           -3285
+    e34       cusp39            -990   cusp40           -1932
+    e34       cusp41           -3819   cusp42           -4550
+    e34       cusp43           -4125   cusp44           -2544
+    e34       cusp45            -189   cusp46           -2790
+    e34       cusp47           -4235   cusp48           -4524
+    e34       cusp49           -3657   cusp50           -1634
+    e34       cusp51           -1320   cusp52           -3479
+    e34       cusp53           -4482   cusp54           -4329
+    e34       cusp55           -3020   cusp56            -555
+    e34       cusp57           -2282   cusp58           -3999
+    e34       cusp59           -4560   cusp60           -3965
+    e34       cusp61           -2214   cusp62            -644
+    e34       cusp63           -3075   cusp64           -4350
+    e34       cusp65           -4469   cusp66           -3432
+    e34       cusp67           -1239   cusp68           -1710
+    e34       cusp69           -3699   cusp70           -4532
+    e34       cusp71           -4209   cusp72           -2730
+    e34       cusp73             -95   cusp74           -2607
+    e34       cusp75           -4154   cusp76           -4545
+    e34       cusp77           -3780   cusp78           -1859
+    e34       cusp79           -1074   cusp80           -3335
+    e34       cusp81           -4440   cusp82           -4389
+    e34       cusp83           -3182   cusp84            -819
+    e34       cusp85           -2075   cusp86           -3894
+    e34       cusp87           -4557   cusp88           -4064
+    e34       cusp89           -2415   cusp90            -374
+    e34       cusp91           -2907   cusp92           -4284
+    e34       cusp93           -4505   cusp94           -3570
+    e34       cusp95           -1479
+    e35       sum_e                1   R0000003            79
+    e35       R0000237             1   R0000238            -1
+    e35       R0000239             1   R0000240            -1
+    e35       R0000241             1   R0000242             1
+    e35       R0000243            -1   R0000244            -1
+    e35       R0000613             1   R0000614            -1
+    e35       R0000615             1   R0000616            -1
+    e35       R0000621             1   R0000622             1
+    e35       R0000623            -1   R0000624            -1
+    e35       cusp1            -2730   cusp2            -4235
+    e35       cusp3            -4515   cusp4            -3570
+    e35       cusp5            -1400   cusp6            -1634
+    e35       cusp7            -3699   cusp8            -4539
+    e35       cusp9            -4154   cusp10           -2544
+    e35       cusp11            -282   cusp12           -2907
+    e35       cusp13           -4307   cusp14           -4482
+    e35       cusp15           -3432   cusp16           -1157
+    e35       cusp17           -1859   cusp18           -3819
+    e35       cusp19           -4554   cusp20           -4064
+    e35       cusp21           -2349   cusp22            -555
+    e35       cusp23           -3075   cusp24           -4370
+    e35       cusp25           -4440   cusp26           -3285
+    e35       cusp27            -905   cusp28           -2075
+    e35       cusp29           -3930   cusp30           -4560
+    e35       cusp31           -3965   cusp32           -2145
+    e35       cusp33            -819   cusp34           -3234
+    e35       cusp35           -4424   cusp36           -4389
+    e35       cusp37           -3129   cusp38            -644
+    e35       cusp39           -2282   cusp40           -4032
+    e35       cusp41           -4557   cusp42           -3857
+    e35       cusp43           -1932   cusp44           -1074
+    e35       cusp45           -3384   cusp46           -4469
+    e35       cusp47           -4329   cusp48           -2964
+    e35       cusp49            -374   cusp50           -2480
+    e35       cusp51           -4125   cusp52           -4545
+    e35       cusp53           -3740   cusp54           -1710
+    e35       cusp55           -1320   cusp56           -3525
+    e35       cusp57           -4505   cusp58           -4260
+    e35       cusp59           -2790   cusp60             -95
+    e35       cusp61           -2669   cusp62           -4209
+    e35       cusp63           -4524   cusp64           -3614
+    e35       cusp65           -1479   cusp66           -1557
+    e35       cusp67           -3657   cusp68           -4532
+    e35       cusp69           -4182   cusp70           -2607
+    e35       cusp71            -189   cusp72           -2849
+    e35       cusp73           -4284   cusp74           -4494
+    e35       cusp75           -3479   cusp76           -1239
+    e35       cusp77           -1785   cusp78           -3780
+    e35       cusp79           -4550   cusp80           -4095
+    e35       cusp81           -2415   cusp82            -465
+    e35       cusp83           -3020   cusp84           -4350
+    e35       cusp85           -4455   cusp86           -3335
+    e35       cusp87            -990   cusp88           -2004
+    e35       cusp89           -3894   cusp90           -4559
+    e35       cusp91           -3999   cusp92           -2214
+    e35       cusp93            -732   cusp94           -3182
+    e35       cusp95           -4407
+    e36       sum_e                1   R0000003           150
+    e36       R0000341             1   R0000342            -1
+    e36       R0000343             1   R0000344            -1
+    e36       R0000345             1   R0000346             1
+    e36       R0000347            -1   R0000348            -1
+    e36       R0000717             1   R0000718            -1
+    e36       R0000719             1   R0000720            -1
+    e36       R0000725             1   R0000726             1
+    e36       R0000727            -1   R0000728            -1
+    e36       cusp1            -2790   cusp2            -4284
+    e36       cusp3            -4482   cusp4            -3384
+    e36       cusp5             -990   cusp6            -2075
+    e36       cusp7            -3965   cusp8            -4559
+    e36       cusp9            -3857   cusp10           -1859
+    e36       cusp11           -1239   cusp12           -3525
+    e36       cusp13           -4515   cusp14           -4209
+    e36       cusp15           -2607   cusp16            -282
+    e36       cusp17           -2964   cusp18           -4350
+    e36       cusp19           -4440   cusp20           -3234
+    e36       cusp21            -732   cusp22           -2282
+    e36       cusp23           -4064   cusp24           -4550
+    e36       cusp25           -3740   cusp26           -1634
+    e36       cusp27           -1479   cusp28           -3657
+    e36       cusp29           -4539   cusp30           -4125
+    e36       cusp31           -2415   cusp32            -555
+    e36       cusp33           -3129   cusp34           -4407
+    e36       cusp35           -4389   cusp36           -3075
+    e36       cusp37            -465   cusp38           -2480
+    e36       cusp39           -4154   cusp40           -4532
+    e36       cusp41           -3614   cusp42           -1400
+    e36       cusp43           -1710   cusp44           -3780
+    e36       cusp45           -4554   cusp46           -4032
+    e36       cusp47           -2214   cusp48            -819
+    e36       cusp49           -3285   cusp50           -4455
+    e36       cusp51           -4329   cusp52           -2907
+    e36       cusp53            -189   cusp54           -2669
+    e36       cusp55           -4235   cusp56           -4505
+    e36       cusp57           -3479   cusp58           -1157
+    e36       cusp59           -1932   cusp60           -3894
+    e36       cusp61           -4560   cusp62           -3930
+    e36       cusp63           -2004   cusp64           -1074
+    e36       cusp65           -3432   cusp66           -4494
+    e36       cusp67           -4260   cusp68           -2730
+    e36       cusp69             -95   cusp70           -2849
+    e36       cusp71           -4307   cusp72           -4469
+    e36       cusp73           -3335   cusp74            -905
+    e36       cusp75           -2145   cusp76           -3999
+    e36       cusp77           -4557   cusp78           -3819
+    e36       cusp79           -1785   cusp80           -1320
+    e36       cusp81           -3570   cusp82           -4524
+    e36       cusp83           -4182   cusp84           -2544
+    e36       cusp85            -374   cusp86           -3020
+    e36       cusp87           -4370   cusp88           -4424
+    e36       cusp89           -3182   cusp90            -644
+    e36       cusp91           -2349   cusp92           -4095
+    e36       cusp93           -4545   cusp94           -3699
+    e36       cusp95           -1557
+    e37       sum_e                1   R0000003            32
+    e37       R0000201             1   R0000202            -1
+    e37       R0000203             1   R0000204            -1
+    e37       R0000205             1   R0000206             1
+    e37       R0000207            -1   R0000208            -1
+    e37       R0000577             1   R0000578            -1
+    e37       R0000579             1   R0000580            -1
+    e37       R0000585             1   R0000586             1
+    e37       R0000587            -1   R0000588            -1
+    e37       cusp1            -2849   cusp2            -4329
+    e37       cusp3            -4440   cusp4            -3182
+    e37       cusp5             -555   cusp6            -2480
+    e37       cusp7            -4182   cusp8            -4515
+    e37       cusp9            -3479   cusp10           -1074
+    e37       cusp11           -2075   cusp12           -3999
+    e37       cusp13           -4554   cusp14           -3740
+    e37       cusp15           -1557   cusp16           -1634
+    e37       cusp17           -3780   cusp18           -4557
+    e37       cusp19           -3965   cusp20           -2004
+    e37       cusp21           -1157   cusp22           -3525
+    e37       cusp23           -4524   cusp24           -4154
+    e37       cusp25           -2415   cusp26            -644
+    e37       cusp27           -3234   cusp28           -4455
+    e37       cusp29           -4307   cusp30           -2790
+    e37       cusp31             -95   cusp32           -2907
+    e37       cusp33           -4350   cusp34           -4424
+    e37       cusp35           -3129   cusp36            -465
+    e37       cusp37           -2544   cusp38           -4209
+    e37       cusp39           -4505   cusp40           -3432
+    e37       cusp41            -990   cusp42           -2145
+    e37       cusp43           -4032   cusp44           -4550
+    e37       cusp45           -3699   cusp46           -1479
+    e37       cusp47           -1710   cusp48           -3819
+    e37       cusp49           -4559   cusp50           -3930
+    e37       cusp51           -1932   cusp52           -1239
+    e37       cusp53           -3570   cusp54           -4532
+    e37       cusp55           -4125   cusp56           -2349
+    e37       cusp57            -732   cusp58           -3285
+    e37       cusp59           -4469   cusp60           -4284
+    e37       cusp61           -2730   cusp62            -189
+    e37       cusp63           -2964   cusp64           -4370
+    e37       cusp65           -4407   cusp66           -3075
+    e37       cusp67            -374   cusp68           -2607
+    e37       cusp69           -4235   cusp70           -4494
+    e37       cusp71           -3384   cusp72            -905
+    e37       cusp73           -2214   cusp74           -4064
+    e37       cusp75           -4545   cusp76           -3657
+    e37       cusp77           -1400   cusp78           -1785
+    e37       cusp79           -3857   cusp80           -4560
+    e37       cusp81           -3894   cusp82           -1859
+    e37       cusp83           -1320   cusp84           -3614
+    e37       cusp85           -4539   cusp86           -4095
+    e37       cusp87           -2282   cusp88            -819
+    e37       cusp89           -3335   cusp90           -4482
+    e37       cusp91           -4260   cusp92           -2669
+    e37       cusp93            -282   cusp94           -3020
+    e37       cusp95           -4389
+    e38       sum_e                1   R0000003           107
+    e38       R0000221             1   R0000222            -1
+    e38       R0000223             1   R0000224            -1
+    e38       R0000225             1   R0000226             1
+    e38       R0000227            -1   R0000228            -1
+    e38       R0000597             1   R0000598            -1
+    e38       R0000599             1   R0000600            -1
+    e38       R0000605             1   R0000606             1
+    e38       R0000607            -1   R0000608            -1
+    e38       cusp1            -2907   cusp2            -4370
+    e38       cusp3            -4389   cusp4            -2964
+    e38       cusp5              -95   cusp6            -2849
+    e38       cusp7            -4350   cusp8            -4407
+    e38       cusp9            -3020   cusp10            -189
+    e38       cusp11           -2790   cusp12           -4329
+    e38       cusp13           -4424   cusp14           -3075
+    e38       cusp15            -282   cusp16           -2730
+    e38       cusp17           -4307   cusp18           -4440
+    e38       cusp19           -3129   cusp20            -374
+    e38       cusp21           -2669   cusp22           -4284
+    e38       cusp23           -4455   cusp24           -3182
+    e38       cusp25            -465   cusp26           -2607
+    e38       cusp27           -4260   cusp28           -4469
+    e38       cusp29           -3234   cusp30            -555
+    e38       cusp31           -2544   cusp32           -4235
+    e38       cusp33           -4482   cusp34           -3285
+    e38       cusp35            -644   cusp36           -2480
+    e38       cusp37           -4209   cusp38           -4494
+    e38       cusp39           -3335   cusp40            -732
+    e38       cusp41           -2415   cusp42           -4182
+    e38       cusp43           -4505   cusp44           -3384
+    e38       cusp45            -819   cusp46           -2349
+    e38       cusp47           -4154   cusp48           -4515
+    e38       cusp49           -3432   cusp50            -905
+    e38       cusp51           -2282   cusp52           -4125
+    e38       cusp53           -4524   cusp54           -3479
+    e38       cusp55            -990   cusp56           -2214
+    e38       cusp57           -4095   cusp58           -4532
+    e38       cusp59           -3525   cusp60           -1074
+    e38       cusp61           -2145   cusp62           -4064
+    e38       cusp63           -4539   cusp64           -3570
+    e38       cusp65           -1157   cusp66           -2075
+    e38       cusp67           -4032   cusp68           -4545
+    e38       cusp69           -3614   cusp70           -1239
+    e38       cusp71           -2004   cusp72           -3999
+    e38       cusp73           -4550   cusp74           -3657
+    e38       cusp75           -1320   cusp76           -1932
+    e38       cusp77           -3965   cusp78           -4554
+    e38       cusp79           -3699   cusp80           -1400
+    e38       cusp81           -1859   cusp82           -3930
+    e38       cusp83           -4557   cusp84           -3740
+    e38       cusp85           -1479   cusp86           -1785
+    e38       cusp87           -3894   cusp88           -4559
+    e38       cusp89           -3780   cusp90           -1557
+    e38       cusp91           -1710   cusp92           -3857
+    e38       cusp93           -4560   cusp94           -3819
+    e38       cusp95           -1634
+    e39       sum_e                1   R0000003           184
+    e39       R0000229             1   R0000230            -1
+    e39       R0000231             1   R0000232            -1
+    e39       R0000233             1   R0000234             1
+    e39       R0000235            -1   R0000236            -1
+    e39       R0000605             1   R0000606            -1
+    e39       R0000607             1   R0000608            -1
+    e39       R0000613             1   R0000614             1
+    e39       R0000615            -1   R0000616            -1
+    e39       cusp1            -2964   cusp2            -4407
+    e39       cusp3            -4329   cusp4            -2730
+    e39       cusp5             -374   cusp6            -3182
+    e39       cusp7            -4469   cusp8            -4235
+    e39       cusp9            -2480   cusp10            -732
+    e39       cusp11           -3384   cusp12           -4515
+    e39       cusp13           -4125   cusp14           -2214
+    e39       cusp15           -1074   cusp16           -3570
+    e39       cusp17           -4545   cusp18           -3999
+    e39       cusp19           -1932   cusp20           -1400
+    e39       cusp21           -3740   cusp22           -4559
+    e39       cusp23           -3857   cusp24           -1634
+    e39       cusp25           -1710   cusp26           -3894
+    e39       cusp27           -4557   cusp28           -3699
+    e39       cusp29           -1320   cusp30           -2004
+    e39       cusp31           -4032   cusp32           -4539
+    e39       cusp33           -3525   cusp34            -990
+    e39       cusp35           -2282   cusp36           -4154
+    e39       cusp37           -4505   cusp38           -3335
+    e39       cusp39            -644   cusp40           -2544
+    e39       cusp41           -4260   cusp42           -4455
+    e39       cusp43           -3129   cusp44            -282
+    e39       cusp45           -2790   cusp46           -4350
+    e39       cusp47           -4389   cusp48           -2907
+    e39       cusp49             -95   cusp50           -3020
+    e39       cusp51           -4424   cusp52           -4307
+    e39       cusp53           -2669   cusp54            -465
+    e39       cusp55           -3234   cusp56           -4482
+    e39       cusp57           -4209   cusp58           -2415
+    e39       cusp59            -819   cusp60           -3432
+    e39       cusp61           -4524   cusp62           -4095
+    e39       cusp63           -2145   cusp64           -1157
+    e39       cusp65           -3614   cusp66           -4550
+    e39       cusp67           -3965   cusp68           -1859
+    e39       cusp69           -1479   cusp70           -3780
+    e39       cusp71           -4560   cusp72           -3819
+    e39       cusp73           -1557   cusp74           -1785
+    e39       cusp75           -3930   cusp76           -4554
+    e39       cusp77           -3657   cusp78           -1239
+    e39       cusp79           -2075   cusp80           -4064
+    e39       cusp81           -4532   cusp82           -3479
+    e39       cusp83            -905   cusp84           -2349
+    e39       cusp85           -4182   cusp86           -4494
+    e39       cusp87           -3285   cusp88            -555
+    e39       cusp89           -2607   cusp90           -4284
+    e39       cusp91           -4440   cusp92           -3075
+    e39       cusp93            -189   cusp94           -2849
+    e39       cusp95           -4370
+    e40       sum_e                1   R0000003            72
+    e40       R0000173             1   R0000174            -1
+    e40       R0000175             1   R0000176            -1
+    e40       R0000177             1   R0000178             1
+    e40       R0000179            -1   R0000180            -1
+    e40       R0000549             1   R0000550            -1
+    e40       R0000551             1   R0000552            -1
+    e40       R0000557             1   R0000558             1
+    e40       R0000559            -1   R0000560            -1
+    e40       cusp1            -3020   cusp2            -4440
+    e40       cusp3            -4260   cusp4            -2480
+    e40       cusp5             -819   cusp6            -3479
+    e40       cusp7            -4539   cusp8            -3999
+    e40       cusp9            -1859   cusp10           -1557
+    e40       cusp11           -3857   cusp12           -4557
+    e40       cusp13           -3657   cusp14           -1157
+    e40       cusp15           -2214   cusp16           -4154
+    e40       cusp17           -4494   cusp18           -3234
+    e40       cusp19            -374   cusp20           -2790
+    e40       cusp21           -4370   cusp22           -4350
+    e40       cusp23           -2730   cusp24            -465
+    e40       cusp25           -3285   cusp26           -4505
+    e40       cusp27           -4125   cusp28           -2145
+    e40       cusp29           -1239   cusp30           -3699
+    e40       cusp31           -4559   cusp32           -3819
+    e40       cusp33           -1479   cusp34           -1932
+    e40       cusp35           -4032   cusp36           -4532
+    e40       cusp37           -3432   cusp38            -732
+    e40       cusp39           -2544   cusp40           -4284
+    e40       cusp41           -4424   cusp42           -2964
+    e40       cusp43             -95   cusp44           -3075
+    e40       cusp45           -4455   cusp46           -4235
+    e40       cusp47           -2415   cusp48            -905
+    e40       cusp49           -3525   cusp50           -4545
+    e40       cusp51           -3965   cusp52           -1785
+    e40       cusp53           -1634   cusp54           -3894
+    e40       cusp55           -4554   cusp56           -3614
+    e40       cusp57           -1074   cusp58           -2282
+    e40       cusp59           -4182   cusp60           -4482
+    e40       cusp61           -3182   cusp62            -282
+    e40       cusp63           -2849   cusp64           -4389
+    e40       cusp65           -4329   cusp66           -2669
+    e40       cusp67            -555   cusp68           -3335
+    e40       cusp69           -4515   cusp70           -4095
+    e40       cusp71           -2075   cusp72           -1320
+    e40       cusp73           -3740   cusp74           -4560
+    e40       cusp75           -3780   cusp76           -1400
+    e40       cusp77           -2004   cusp78           -4064
+    e40       cusp79           -4524   cusp80           -3384
+    e40       cusp81            -644   cusp82           -2607
+    e40       cusp83           -4307   cusp84           -4407
+    e40       cusp85           -2907   cusp86            -189
+    e40       cusp87           -3129   cusp88           -4469
+    e40       cusp89           -4209   cusp90           -2349
+    e40       cusp91            -990   cusp92           -3570
+    e40       cusp93           -4550   cusp94           -3930
+    e40       cusp95           -1710
+    e41       sum_e                1   R0000003           153
+    e41       R0000301             1   R0000302            -1
+    e41       R0000303             1   R0000304            -1
+    e41       R0000305             1   R0000306             1
+    e41       R0000307            -1   R0000308            -1
+    e41       R0000677             1   R0000678            -1
+    e41       R0000679             1   R0000680            -1
+    e41       R0000685             1   R0000686             1
+    e41       R0000687            -1   R0000688            -1
+    e41       cusp1            -3075   cusp2            -4469
+    e41       cusp3            -4182   cusp4            -2214
+    e41       cusp5            -1239   cusp6            -3740
+    e41       cusp7            -4560   cusp8            -3699
+    e41       cusp9            -1157   cusp10           -2282
+    e41       cusp11           -4209   cusp12           -4455
+    e41       cusp13           -3020   cusp14             -95
+    e41       cusp15           -3129   cusp16           -4482
+    e41       cusp17           -4154   cusp18           -2145
+    e41       cusp19           -1320   cusp20           -3780
+    e41       cusp21           -4559   cusp22           -3657
+    e41       cusp23           -1074   cusp24           -2349
+    e41       cusp25           -4235   cusp26           -4440
+    e41       cusp27           -2964   cusp28            -189
+    e41       cusp29           -3182   cusp30           -4494
+    e41       cusp31           -4125   cusp32           -2075
+    e41       cusp33           -1400   cusp34           -3819
+    e41       cusp35           -4557   cusp36           -3614
+    e41       cusp37            -990   cusp38           -2415
+    e41       cusp39           -4260   cusp40           -4424
+    e41       cusp41           -2907   cusp42            -282
+    e41       cusp43           -3234   cusp44           -4505
+    e41       cusp45           -4095   cusp46           -2004
+    e41       cusp47           -1479   cusp48           -3857
+    e41       cusp49           -4554   cusp50           -3570
+    e41       cusp51            -905   cusp52           -2480
+    e41       cusp53           -4284   cusp54           -4407
+    e41       cusp55           -2849   cusp56            -374
+    e41       cusp57           -3285   cusp58           -4515
+    e41       cusp59           -4064   cusp60           -1932
+    e41       cusp61           -1557   cusp62           -3894
+    e41       cusp63           -4550   cusp64           -3525
+    e41       cusp65            -819   cusp66           -2544
+    e41       cusp67           -4307   cusp68           -4389
+    e41       cusp69           -2790   cusp70            -465
+    e41       cusp71           -3335   cusp72           -4524
+    e41       cusp73           -4032   cusp74           -1859
+    e41       cusp75           -1634   cusp76           -3930
+    e41       cusp77           -4545   cusp78           -3479
+    e41       cusp79            -732   cusp80           -2607
+    e41       cusp81           -4329   cusp82           -4370
+    e41       cusp83           -2730   cusp84            -555
+    e41       cusp85           -3384   cusp86           -4532
+    e41       cusp87           -3999   cusp88           -1785
+    e41       cusp89           -1710   cusp90           -3965
+    e41       cusp91           -4539   cusp92           -3432
+    e41       cusp93            -644   cusp94           -2669
+    e41       cusp95           -4350
+    e42       sum_e                1   R0000003            45
+    e42       R0000057             1   R0000058            -1
+    e42       R0000059             1   R0000060            -1
+    e42       R0000061             1   R0000062             1
+    e42       R0000063            -1   R0000064            -1
+    e42       R0000433             1   R0000434            -1
+    e42       R0000435             1   R0000436            -1
+    e42       R0000441             1   R0000442             1
+    e42       R0000443            -1   R0000444            -1
+    e42       cusp1            -3129   cusp2            -4494
+    e42       cusp3            -4095   cusp4            -1932
+    e42       cusp5            -1634   cusp6            -3965
+    e42       cusp7            -4532   cusp8            -3335
+    e42       cusp9             -374   cusp10           -2907
+    e42       cusp11           -4440   cusp12           -4209
+    e42       cusp13           -2214   cusp14           -1320
+    e42       cusp15           -3819   cusp16           -4554
+    e42       cusp17           -3525   cusp18            -732
+    e42       cusp19           -2669   cusp20           -4370
+    e42       cusp21           -4307   cusp22           -2480
+    e42       cusp23            -990   cusp24           -3657
+    e42       cusp25           -4560   cusp26           -3699
+    e42       cusp27           -1074   cusp28           -2415
+    e42       cusp29           -4284   cusp30           -4389
+    e42       cusp31           -2730   cusp32            -644
+    e42       cusp33           -3479   cusp34           -4550
+    e42       cusp35           -3857   cusp36           -1400
+    e42       cusp37           -2145   cusp38           -4182
+    e42       cusp39           -4455   cusp40           -2964
+    e42       cusp41            -282   cusp42           -3285
+    e42       cusp43           -4524   cusp44           -3999
+    e42       cusp45           -1710   cusp46           -1859
+    e42       cusp47           -4064   cusp48           -4505
+    e42       cusp49           -3182   cusp50             -95
+    e42       cusp51           -3075   cusp52           -4482
+    e42       cusp53           -4125   cusp54           -2004
+    e42       cusp55           -1557   cusp56           -3930
+    e42       cusp57           -4539   cusp58           -3384
+    e42       cusp59            -465   cusp60           -2849
+    e42       cusp61           -4424   cusp62           -4235
+    e42       cusp63           -2282   cusp64           -1239
+    e42       cusp65           -3780   cusp66           -4557
+    e42       cusp67           -3570   cusp68            -819
+    e42       cusp69           -2607   cusp70           -4350
+    e42       cusp71           -4329   cusp72           -2544
+    e42       cusp73            -905   cusp74           -3614
+    e42       cusp75           -4559   cusp76           -3740
+    e42       cusp77           -1157   cusp78           -2349
+    e42       cusp79           -4260   cusp80           -4407
+    e42       cusp81           -2790   cusp82            -555
+    e42       cusp83           -3432   cusp84           -4545
+    e42       cusp85           -3894   cusp86           -1479
+    e42       cusp87           -2075   cusp88           -4154
+    e42       cusp89           -4469   cusp90           -3020
+    e42       cusp91            -189   cusp92           -3234
+    e42       cusp93           -4515   cusp94           -4032
+    e42       cusp95           -1785
+    e43       sum_e                1   R0000003           130
+    e43       R0000209             1   R0000210            -1
+    e43       R0000211             1   R0000212            -1
+    e43       R0000213             1   R0000214             1
+    e43       R0000215            -1   R0000216            -1
+    e43       R0000585             1   R0000586            -1
+    e43       R0000587             1   R0000588            -1
+    e43       R0000593             1   R0000594             1
+    e43       R0000595            -1   R0000596            -1
+    e43       cusp1            -3182   cusp2            -4515
+    e43       cusp3            -3999   cusp4            -1634
+    e43       cusp5            -2004   cusp6            -4154
+    e43       cusp7            -4455   cusp8            -2907
+    e43       cusp9             -465   cusp10           -3432
+    e43       cusp11           -4550   cusp12           -3819
+    e43       cusp13           -1239   cusp14           -2349
+    e43       cusp15           -4284   cusp16           -4370
+    e43       cusp17           -2607   cusp18            -905
+    e43       cusp19           -3657   cusp20           -4560
+    e43       cusp21           -3614   cusp22            -819
+    e43       cusp23           -2669   cusp24           -4389
+    e43       cusp25           -4260   cusp26           -2282
+    e43       cusp27           -1320   cusp28           -3857
+    e43       cusp29           -4545   cusp30           -3384
+    e43       cusp31            -374   cusp32           -2964
+    e43       cusp33           -4469   cusp34           -4125
+    e43       cusp35           -1932   cusp36           -1710
+    e43       cusp37           -4032   cusp38           -4505
+    e43       cusp39           -3129   cusp40             -95
+    e43       cusp41           -3234   cusp42           -4524
+    e43       cusp43           -3965   cusp44           -1557
+    e43       cusp45           -2075   cusp46           -4182
+    e43       cusp47           -4440   cusp48           -2849
+    e43       cusp49            -555   cusp50           -3479
+    e43       cusp51           -4554   cusp52           -3780
+    e43       cusp53           -1157   cusp54           -2415
+    e43       cusp55           -4307   cusp56           -4350
+    e43       cusp57           -2544   cusp58            -990
+    e43       cusp59           -3699   cusp60           -4559
+    e43       cusp61           -3570   cusp62            -732
+    e43       cusp63           -2730   cusp64           -4407
+    e43       cusp65           -4235   cusp66           -2214
+    e43       cusp67           -1400   cusp68           -3894
+    e43       cusp69           -4539   cusp70           -3335
+    e43       cusp71            -282   cusp72           -3020
+    e43       cusp73           -4482   cusp74           -4095
+    e43       cusp75           -1859   cusp76           -1785
+    e43       cusp77           -4064   cusp78           -4494
+    e43       cusp79           -3075   cusp80            -189
+    e43       cusp81           -3285   cusp82           -4532
+    e43       cusp83           -3930   cusp84           -1479
+    e43       cusp85           -2145   cusp86           -4209
+    e43       cusp87           -4424   cusp88           -2790
+    e43       cusp89            -644   cusp90           -3525
+    e43       cusp91           -4557   cusp92           -3740
+    e43       cusp93           -1074   cusp94           -2480
+    e43       cusp95           -4329
+    e44       sum_e                1   R0000003            26
+    e44       R0000129             1   R0000130            -1
+    e44       R0000131             1   R0000132            -1
+    e44       R0000133             1   R0000134             1
+    e44       R0000135            -1   R0000136            -1
+    e44       R0000505             1   R0000506            -1
+    e44       R0000507             1   R0000508            -1
+    e44       R0000513             1   R0000514             1
+    e44       R0000515            -1   R0000516            -1
+    e44       cusp1            -3234   cusp2            -4532
+    e44       cusp3            -3894   cusp4            -1320
+    e44       cusp5            -2349   cusp6            -4307
+    e44       cusp7            -4329   cusp8            -2415
+    e44       cusp9            -1239   cusp10           -3857
+    e44       cusp11           -4539   cusp12           -3285
+    e44       cusp13             -95   cusp14           -3182
+    e44       cusp15           -4524   cusp16           -3930
+    e44       cusp17           -1400   cusp18           -2282
+    e44       cusp19           -4284   cusp20           -4350
+    e44       cusp21           -2480   cusp22           -1157
+    e44       cusp23           -3819   cusp24           -4545
+    e44       cusp25           -3335   cusp26            -189
+    e44       cusp27           -3129   cusp28           -4515
+    e44       cusp29           -3965   cusp30           -1479
+    e44       cusp31           -2214   cusp32           -4260
+    e44       cusp33           -4370   cusp34           -2544
+    e44       cusp35           -1074   cusp36           -3780
+    e44       cusp37           -4550   cusp38           -3384
+    e44       cusp39            -282   cusp40           -3075
+    e44       cusp41           -4505   cusp42           -3999
+    e44       cusp43           -1557   cusp44           -2145
+    e44       cusp45           -4235   cusp46           -4389
+    e44       cusp47           -2607   cusp48            -990
+    e44       cusp49           -3740   cusp50           -4554
+    e44       cusp51           -3432   cusp52            -374
+    e44       cusp53           -3020   cusp54           -4494
+    e44       cusp55           -4032   cusp56           -1634
+    e44       cusp57           -2075   cusp58           -4209
+    e44       cusp59           -4407   cusp60           -2669
+    e44       cusp61            -905   cusp62           -3699
+    e44       cusp63           -4557   cusp64           -3479
+    e44       cusp65            -465   cusp66           -2964
+    e44       cusp67           -4482   cusp68           -4064
+    e44       cusp69           -1710   cusp70           -2004
+    e44       cusp71           -4182   cusp72           -4424
+    e44       cusp73           -2730   cusp74            -819
+    e44       cusp75           -3657   cusp76           -4559
+    e44       cusp77           -3525   cusp78            -555
+    e44       cusp79           -2907   cusp80           -4469
+    e44       cusp81           -4095   cusp82           -1785
+    e44       cusp83           -1932   cusp84           -4154
+    e44       cusp85           -4440   cusp86           -2790
+    e44       cusp87            -732   cusp88           -3614
+    e44       cusp89           -4560   cusp90           -3570
+    e44       cusp91            -644   cusp92           -2849
+    e44       cusp93           -4455   cusp94           -4125
+    e44       cusp95           -1859
+    e45       sum_e                1   R0000003           115
+    e45       R0000113             1   R0000114            -1
+    e45       R0000115             1   R0000116            -1
+    e45       R0000117             1   R0000118             1
+    e45       R0000119            -1   R0000120            -1
+    e45       R0000489             1   R0000490            -1
+    e45       R0000491             1   R0000492            -1
+    e45       R0000497             1   R0000498             1
+    e45       R0000499            -1   R0000500            -1
+    e45       cusp1            -3285   cusp2            -4545
+    e45       cusp3            -3780   cusp4             -990
+    e45       cusp5            -2669   cusp6            -4424
+    e45       cusp7            -4154   cusp8            -1859
+    e45       cusp9            -1932   cusp10           -4182
+    e45       cusp11           -4407   cusp12           -2607
+    e45       cusp13           -1074   cusp14           -3819
+    e45       cusp15           -4539   cusp16           -3234
+    e45       cusp17             -95   cusp18           -3335
+    e45       cusp19           -4550   cusp20           -3740
+    e45       cusp21            -905   cusp22           -2730
+    e45       cusp23           -4440   cusp24           -4125
+    e45       cusp25           -1785   cusp26           -2004
+    e45       cusp27           -4209   cusp28           -4389
+    e45       cusp29           -2544   cusp30           -1157
+    e45       cusp31           -3857   cusp32           -4532
+    e45       cusp33           -3182   cusp34            -189
+    e45       cusp35           -3384   cusp36           -4554
+    e45       cusp37           -3699   cusp38            -819
+    e45       cusp39           -2790   cusp40           -4455
+    e45       cusp41           -4095   cusp42           -1710
+    e45       cusp43           -2075   cusp44           -4235
+    e45       cusp45           -4370   cusp46           -2480
+    e45       cusp47           -1239   cusp48           -3894
+    e45       cusp49           -4524   cusp50           -3129
+    e45       cusp51            -282   cusp52           -3432
+    e45       cusp53           -4557   cusp54           -3657
+    e45       cusp55            -732   cusp56           -2849
+    e45       cusp57           -4469   cusp58           -4064
+    e45       cusp59           -1634   cusp60           -2145
+    e45       cusp61           -4260   cusp62           -4350
+    e45       cusp63           -2415   cusp64           -1320
+    e45       cusp65           -3930   cusp66           -4515
+    e45       cusp67           -3075   cusp68            -374
+    e45       cusp69           -3479   cusp70           -4559
+    e45       cusp71           -3614   cusp72            -644
+    e45       cusp73           -2907   cusp74           -4482
+    e45       cusp75           -4032   cusp76           -1557
+    e45       cusp77           -2214   cusp78           -4284
+    e45       cusp79           -4329   cusp80           -2349
+    e45       cusp81           -1400   cusp82           -3965
+    e45       cusp83           -4505   cusp84           -3020
+    e45       cusp85            -465   cusp86           -3525
+    e45       cusp87           -4560   cusp88           -3570
+    e45       cusp89            -555   cusp90           -2964
+    e45       cusp91           -4494   cusp92           -3999
+    e45       cusp93           -1479   cusp94           -2282
+    e45       cusp95           -4307
+    e46       sum_e                1   R0000003            15
+    e46       R0000069             1   R0000070            -1
+    e46       R0000071             1   R0000072            -1
+    e46       R0000073             1   R0000074             1
+    e46       R0000075            -1   R0000076            -1
+    e46       R0000445             1   R0000446            -1
+    e46       R0000447             1   R0000448            -1
+    e46       R0000453             1   R0000454             1
+    e46       R0000455            -1   R0000456            -1
+    e46       cusp1            -3335   cusp2            -4554
+    e46       cusp3            -3657   cusp4             -644
+    e46       cusp5            -2964   cusp6            -4505
+    e46       cusp7            -3930   cusp8            -1239
+    e46       cusp9            -2544   cusp10           -4407
+    e46       cusp11           -4154   cusp12           -1785
+    e46       cusp13           -2075   cusp14           -4260
+    e46       cusp15           -4329   cusp16           -2282
+    e46       cusp17           -1557   cusp18           -4064
+    e46       cusp19           -4455   cusp20           -2730
+    e46       cusp21            -990   cusp22           -3819
+    e46       cusp23           -4532   cusp24           -3129
+    e46       cusp25            -374   cusp26           -3525
+    e46       cusp27           -4560   cusp28           -3479
+    e46       cusp29            -282   cusp30           -3182
+    e46       cusp31           -4539   cusp32           -3780
+    e46       cusp33            -905   cusp34           -2790
+    e46       cusp35           -4469   cusp36           -4032
+    e46       cusp37           -1479   cusp38           -2349
+    e46       cusp39           -4350   cusp40           -4235
+    e46       cusp41           -2004   cusp42           -1859
+    e46       cusp43           -4182   cusp44           -4389
+    e46       cusp45           -2480   cusp46           -1320
+    e46       cusp47           -3965   cusp48           -4494
+    e46       cusp49           -2907   cusp50            -732
+    e46       cusp51           -3699   cusp52           -4550
+    e46       cusp53           -3285   cusp54             -95
+    e46       cusp55           -3384   cusp56           -4557
+    e46       cusp57           -3614   cusp58            -555
+    e46       cusp59           -3020   cusp60           -4515
+    e46       cusp61           -3894   cusp62           -1157
+    e46       cusp63           -2607   cusp64           -4424
+    e46       cusp65           -4125   cusp66           -1710
+    e46       cusp67           -2145   cusp68           -4284
+    e46       cusp69           -4307   cusp70           -2214
+    e46       cusp71           -1634   cusp72           -4095
+    e46       cusp73           -4440   cusp74           -2669
+    e46       cusp75           -1074   cusp76           -3857
+    e46       cusp77           -4524   cusp78           -3075
+    e46       cusp79            -465   cusp80           -3570
+    e46       cusp81           -4559   cusp82           -3432
+    e46       cusp83            -189   cusp84           -3234
+    e46       cusp85           -4545   cusp86           -3740
+    e46       cusp87            -819   cusp88           -2849
+    e46       cusp89           -4482   cusp90           -3999
+    e46       cusp91           -1400   cusp92           -2415
+    e46       cusp93           -4370   cusp94           -4209
+    e46       cusp95           -1932
+    e47       sum_e                1   R0000003           108
+    e47       R0000349             1   R0000350            -1
+    e47       R0000351             1   R0000352            -1
+    e47       R0000353             1   R0000354             1
+    e47       R0000355            -1   R0000356            -1
+    e47       R0000725             1   R0000726            -1
+    e47       R0000727             1   R0000728            -1
+    e47       R0000733             1   R0000734             1
+    e47       R0000735            -1   R0000736            -1
+    e47       cusp1            -3384   cusp2            -4559
+    e47       cusp3            -3525   cusp4             -282
+    e47       cusp5            -3234   cusp6            -4550
+    e47       cusp7            -3657   cusp8             -555
+    e47       cusp9            -3075   cusp10           -4532
+    e47       cusp11           -3780   cusp12            -819
+    e47       cusp13           -2907   cusp14           -4505
+    e47       cusp15           -3894   cusp16           -1074
+    e47       cusp17           -2730   cusp18           -4469
+    e47       cusp19           -3999   cusp20           -1320
+    e47       cusp21           -2544   cusp22           -4424
+    e47       cusp23           -4095   cusp24           -1557
+    e47       cusp25           -2349   cusp26           -4370
+    e47       cusp27           -4182   cusp28           -1785
+    e47       cusp29           -2145   cusp30           -4307
+    e47       cusp31           -4260   cusp32           -2004
+    e47       cusp33           -1932   cusp34           -4235
+    e47       cusp35           -4329   cusp36           -2214
+    e47       cusp37           -1710   cusp38           -4154
+    e47       cusp39           -4389   cusp40           -2415
+    e47       cusp41           -1479   cusp42           -4064
+    e47       cusp43           -4440   cusp44           -2607
+    e47       cusp45           -1239   cusp46           -3965
+    e47       cusp47           -4482   cusp48           -2790
+    e47       cusp49            -990   cusp50           -3857
+    e47       cusp51           -4515   cusp52           -2964
+    e47       cusp53            -732   cusp54           -3740
+    e47       cusp55           -4539   cusp56           -3129
+    e47       cusp57            -465   cusp58           -3614
+    e47       cusp59           -4554   cusp60           -3285
+    e47       cusp61            -189   cusp62           -3479
+    e47       cusp63           -4560   cusp64           -3432
+    e47       cusp65             -95   cusp66           -3335
+    e47       cusp67           -4557   cusp68           -3570
+    e47       cusp69            -374   cusp70           -3182
+    e47       cusp71           -4545   cusp72           -3699
+    e47       cusp73            -644   cusp74           -3020
+    e47       cusp75           -4524   cusp76           -3819
+    e47       cusp77            -905   cusp78           -2849
+    e47       cusp79           -4494   cusp80           -3930
+    e47       cusp81           -1157   cusp82           -2669
+    e47       cusp83           -4455   cusp84           -4032
+    e47       cusp85           -1400   cusp86           -2480
+    e47       cusp87           -4407   cusp88           -4125
+    e47       cusp89           -1634   cusp90           -2282
+    e47       cusp91           -4350   cusp92           -4209
+    e47       cusp93           -1859   cusp94           -2075
+    e47       cusp95           -4284
+    e48       sum_e                1   R0000003            12
+    e48       R0000373             1   R0000374            -1
+    e48       R0000375             1   R0000376            -1
+    e48       R0000377             1   R0000378             1
+    e48       R0000379            -1   R0000380            -1
+    e48       R0000749             1   R0000750            -1
+    e48       R0000751             1   R0000752            -1
+    e48       R0000757             1   R0000758             1
+    e48       R0000759            -1   R0000760            -1
+    e48       cusp1            -3432   cusp2            -4560
+    e48       cusp3            -3384   cusp4              -95
+    e48       cusp5            -3479   cusp6            -4559
+    e48       cusp7            -3335   cusp8             -189
+    e48       cusp9            -3525   cusp10           -4557
+    e48       cusp11           -3285   cusp12            -282
+    e48       cusp13           -3570   cusp14           -4554
+    e48       cusp15           -3234   cusp16            -374
+    e48       cusp17           -3614   cusp18           -4550
+    e48       cusp19           -3182   cusp20            -465
+    e48       cusp21           -3657   cusp22           -4545
+    e48       cusp23           -3129   cusp24            -555
+    e48       cusp25           -3699   cusp26           -4539
+    e48       cusp27           -3075   cusp28            -644
+    e48       cusp29           -3740   cusp30           -4532
+    e48       cusp31           -3020   cusp32            -732
+    e48       cusp33           -3780   cusp34           -4524
+    e48       cusp35           -2964   cusp36            -819
+    e48       cusp37           -3819   cusp38           -4515
+    e48       cusp39           -2907   cusp40            -905
+    e48       cusp41           -3857   cusp42           -4505
+    e48       cusp43           -2849   cusp44            -990
+    e48       cusp45           -3894   cusp46           -4494
+    e48       cusp47           -2790   cusp48           -1074
+    e48       cusp49           -3930   cusp50           -4482
+    e48       cusp51           -2730   cusp52           -1157
+    e48       cusp53           -3965   cusp54           -4469
+    e48       cusp55           -2669   cusp56           -1239
+    e48       cusp57           -3999   cusp58           -4455
+    e48       cusp59           -2607   cusp60           -1320
+    e48       cusp61           -4032   cusp62           -4440
+    e48       cusp63           -2544   cusp64           -1400
+    e48       cusp65           -4064   cusp66           -4424
+    e48       cusp67           -2480   cusp68           -1479
+    e48       cusp69           -4095   cusp70           -4407
+    e48       cusp71           -2415   cusp72           -1557
+    e48       cusp73           -4125   cusp74           -4389
+    e48       cusp75           -2349   cusp76           -1634
+    e48       cusp77           -4154   cusp78           -4370
+    e48       cusp79           -2282   cusp80           -1710
+    e48       cusp81           -4182   cusp82           -4350
+    e48       cusp83           -2214   cusp84           -1785
+    e48       cusp85           -4209   cusp86           -4329
+    e48       cusp87           -2145   cusp88           -1859
+    e48       cusp89           -4235   cusp90           -4307
+    e48       cusp91           -2075   cusp92           -1932
+    e48       cusp93           -4260   cusp94           -4284
+    e48       cusp95           -2004
+    e49       sum_e                1   R0000003           109
+    e49       R0000153             1   R0000154            -1
+    e49       R0000155             1   R0000156            -1
+    e49       R0000157             1   R0000158             1
+    e49       R0000159            -1   R0000160            -1
+    e49       R0000529             1   R0000530            -1
+    e49       R0000531             1   R0000532            -1
+    e49       R0000537             1   R0000538             1
+    e49       R0000539            -1   R0000540            -1
+    e49       cusp1            -3479   cusp2            -4557
+    e49       cusp3            -3234   cusp4             -465
+    e49       cusp5            -3699   cusp6            -4532
+    e49       cusp7            -2964   cusp8             -905
+    e49       cusp9            -3894   cusp10           -4482
+    e49       cusp11           -2669   cusp12           -1320
+    e49       cusp13           -4064   cusp14           -4407
+    e49       cusp15           -2349   cusp16           -1710
+    e49       cusp17           -4209   cusp18           -4307
+    e49       cusp19           -2004   cusp20           -2075
+    e49       cusp21           -4329   cusp22           -4182
+    e49       cusp23           -1634   cusp24           -2415
+    e49       cusp25           -4424   cusp26           -4032
+    e49       cusp27           -1239   cusp28           -2730
+    e49       cusp29           -4494   cusp30           -3857
+    e49       cusp31            -819   cusp32           -3020
+    e49       cusp33           -4539   cusp34           -3657
+    e49       cusp35            -374   cusp36           -3285
+    e49       cusp37           -4559   cusp38           -3432
+    e49       cusp39             -95   cusp40           -3525
+    e49       cusp41           -4554   cusp42           -3182
+    e49       cusp43            -555   cusp44           -3740
+    e49       cusp45           -4524   cusp46           -2907
+    e49       cusp47            -990   cusp48           -3930
+    e49       cusp49           -4469   cusp50           -2607
+    e49       cusp51           -1400   cusp52           -4095
+    e49       cusp53           -4389   cusp54           -2282
+    e49       cusp55           -1785   cusp56           -4235
+    e49       cusp57           -4284   cusp58           -1932
+    e49       cusp59           -2145   cusp60           -4350
+    e49       cusp61           -4154   cusp62           -1557
+    e49       cusp63           -2480   cusp64           -4440
+    e49       cusp65           -3999   cusp66           -1157
+    e49       cusp67           -2790   cusp68           -4505
+    e49       cusp69           -3819   cusp70            -732
+    e49       cusp71           -3075   cusp72           -4545
+    e49       cusp73           -3614   cusp74            -282
+    e49       cusp75           -3335   cusp76           -4560
+    e49       cusp77           -3384   cusp78            -189
+    e49       cusp79           -3570   cusp80           -4550
+    e49       cusp81           -3129   cusp82            -644
+    e49       cusp83           -3780   cusp84           -4515
+    e49       cusp85           -2849   cusp86           -1074
+    e49       cusp87           -3965   cusp88           -4455
+    e49       cusp89           -2544   cusp90           -1479
+    e49       cusp91           -4125   cusp92           -4370
+    e49       cusp93           -2214   cusp94           -1859
+    e49       cusp95           -4260
+    e50       sum_e                1   R0000003            17
+    e50       R0000325             1   R0000326            -1
+    e50       R0000327             1   R0000328            -1
+    e50       R0000329             1   R0000330             1
+    e50       R0000331            -1   R0000332            -1
+    e50       R0000701             1   R0000702            -1
+    e50       R0000703             1   R0000704            -1
+    e50       R0000709             1   R0000710             1
+    e50       R0000711            -1   R0000712            -1
+    e50       cusp1            -3525   cusp2            -4550
+    e50       cusp3            -3075   cusp4             -819
+    e50       cusp5            -3894   cusp6            -4469
+    e50       cusp7            -2544   cusp8            -1557
+    e50       cusp9            -4182   cusp10           -4307
+    e50       cusp11           -1932   cusp12           -2214
+    e50       cusp13           -4389   cusp14           -4064
+    e50       cusp15           -1239   cusp16           -2790
+    e50       cusp17           -4515   cusp18           -3740
+    e50       cusp19            -465   cusp20           -3285
+    e50       cusp21           -4560   cusp22           -3335
+    e50       cusp23            -374   cusp24           -3699
+    e50       cusp25           -4524   cusp26           -2849
+    e50       cusp27           -1157   cusp28           -4032
+    e50       cusp29           -4407   cusp30           -2282
+    e50       cusp31           -1859   cusp32           -4284
+    e50       cusp33           -4209   cusp34           -1634
+    e50       cusp35           -2480   cusp36           -4455
+    e50       cusp37           -3930   cusp38            -905
+    e50       cusp39           -3020   cusp40           -4545
+    e50       cusp41           -3570   cusp42             -95
+    e50       cusp43           -3479   cusp44           -4554
+    e50       cusp45           -3129   cusp46            -732
+    e50       cusp47           -3857   cusp48           -4482
+    e50       cusp49           -2607   cusp50           -1479
+    e50       cusp51           -4154   cusp52           -4329
+    e50       cusp53           -2004   cusp54           -2145
+    e50       cusp55           -4370   cusp56           -4095
+    e50       cusp57           -1320   cusp58           -2730
+    e50       cusp59           -4505   cusp60           -3780
+    e50       cusp61            -555   cusp62           -3234
+    e50       cusp63           -4559   cusp64           -3384
+    e50       cusp65            -282   cusp66           -3657
+    e50       cusp67           -4532   cusp68           -2907
+    e50       cusp69           -1074   cusp70           -3999
+    e50       cusp71           -4424   cusp72           -2349
+    e50       cusp73           -1785   cusp74           -4260
+    e50       cusp75           -4235   cusp76           -1710
+    e50       cusp77           -2415   cusp78           -4440
+    e50       cusp79           -3965   cusp80            -990
+    e50       cusp81           -2964   cusp82           -4539
+    e50       cusp83           -3614   cusp84            -189
+    e50       cusp85           -3432   cusp86           -4557
+    e50       cusp87           -3182   cusp88            -644
+    e50       cusp89           -3819   cusp90           -4494
+    e50       cusp91           -2669   cusp92           -1400
+    e50       cusp93           -4125   cusp94           -4350
+    e50       cusp95           -2075
+    e51       sum_e                1   R0000003           118
+    e51       R0000245             1   R0000246            -1
+    e51       R0000247             1   R0000248            -1
+    e51       R0000249             1   R0000250             1
+    e51       R0000251            -1   R0000252            -1
+    e51       R0000621             1   R0000622            -1
+    e51       R0000623             1   R0000624            -1
+    e51       R0000629             1   R0000630             1
+    e51       R0000631            -1   R0000632            -1
+    e51       cusp1            -3570   cusp2            -4539
+    e51       cusp3            -2907   cusp4            -1157
+    e51       cusp5            -4064   cusp6            -4370
+    e51       cusp7            -2075   cusp8            -2145
+    e51       cusp9            -4389   cusp10           -4032
+    e51       cusp11           -1074   cusp12           -2964
+    e51       cusp13           -4545   cusp14           -3525
+    e51       cusp15             -95   cusp16           -3614
+    e51       cusp17           -4532   cusp18           -2849
+    e51       cusp19           -1239   cusp20           -4095
+    e51       cusp21           -4350   cusp22           -2004
+    e51       cusp23           -2214   cusp24           -4407
+    e51       cusp25           -3999   cusp26            -990
+    e51       cusp27           -3020   cusp28           -4550
+    e51       cusp29           -3479   cusp30            -189
+    e51       cusp31           -3657   cusp32           -4524
+    e51       cusp33           -2790   cusp34           -1320
+    e51       cusp35           -4125   cusp36           -4329
+    e51       cusp37           -1932   cusp38           -2282
+    e51       cusp39           -4424   cusp40           -3965
+    e51       cusp41            -905   cusp42           -3075
+    e51       cusp43           -4554   cusp44           -3432
+    e51       cusp45            -282   cusp46           -3699
+    e51       cusp47           -4515   cusp48           -2730
+    e51       cusp49           -1400   cusp50           -4154
+    e51       cusp51           -4307   cusp52           -1859
+    e51       cusp53           -2349   cusp54           -4440
+    e51       cusp55           -3930   cusp56            -819
+    e51       cusp57           -3129   cusp58           -4557
+    e51       cusp59           -3384   cusp60            -374
+    e51       cusp61           -3740   cusp62           -4505
+    e51       cusp63           -2669   cusp64           -1479
+    e51       cusp65           -4182   cusp66           -4284
+    e51       cusp67           -1785   cusp68           -2415
+    e51       cusp69           -4455   cusp70           -3894
+    e51       cusp71            -732   cusp72           -3182
+    e51       cusp73           -4559   cusp74           -3335
+    e51       cusp75            -465   cusp76           -3780
+    e51       cusp77           -4494   cusp78           -2607
+    e51       cusp79           -1557   cusp80           -4209
+    e51       cusp81           -4260   cusp82           -1710
+    e51       cusp83           -2480   cusp84           -4469
+    e51       cusp85           -3857   cusp86            -644
+    e51       cusp87           -3234   cusp88           -4560
+    e51       cusp89           -3285   cusp90            -555
+    e51       cusp91           -3819   cusp92           -4482
+    e51       cusp93           -2544   cusp94           -1634
+    e51       cusp95           -4235
+    e52       sum_e                1   R0000003            30
+    e52       R0000261             1   R0000262            -1
+    e52       R0000263             1   R0000264            -1
+    e52       R0000265             1   R0000266             1
+    e52       R0000267            -1   R0000268            -1
+    e52       R0000637             1   R0000638            -1
+    e52       R0000639             1   R0000640            -1
+    e52       R0000645             1   R0000646             1
+    e52       R0000647            -1   R0000648            -1
+    e52       cusp1            -3614   cusp2            -4524
+    e52       cusp3            -2730   cusp4            -1479
+    e52       cusp5            -4209   cusp6            -4235
+    e52       cusp7            -1557   cusp8            -2669
+    e52       cusp9            -4515   cusp10           -3657
+    e52       cusp11             -95   cusp12           -3570
+    e52       cusp13           -4532   cusp14           -2790
+    e52       cusp15           -1400   cusp16           -4182
+    e52       cusp17           -4260   cusp18           -1634
+    e52       cusp19           -2607   cusp20           -4505
+    e52       cusp21           -3699   cusp22            -189
+    e52       cusp23           -3525   cusp24           -4539
+    e52       cusp25           -2849   cusp26           -1320
+    e52       cusp27           -4154   cusp28           -4284
+    e52       cusp29           -1710   cusp30           -2544
+    e52       cusp31           -4494   cusp32           -3740
+    e52       cusp33            -282   cusp34           -3479
+    e52       cusp35           -4545   cusp36           -2907
+    e52       cusp37           -1239   cusp38           -4125
+    e52       cusp39           -4307   cusp40           -1785
+    e52       cusp41           -2480   cusp42           -4482
+    e52       cusp43           -3780   cusp44            -374
+    e52       cusp45           -3432   cusp46           -4550
+    e52       cusp47           -2964   cusp48           -1157
+    e52       cusp49           -4095   cusp50           -4329
+    e52       cusp51           -1859   cusp52           -2415
+    e52       cusp53           -4469   cusp54           -3819
+    e52       cusp55            -465   cusp56           -3384
+    e52       cusp57           -4554   cusp58           -3020
+    e52       cusp59           -1074   cusp60           -4064
+    e52       cusp61           -4350   cusp62           -1932
+    e52       cusp63           -2349   cusp64           -4455
+    e52       cusp65           -3857   cusp66            -555
+    e52       cusp67           -3335   cusp68           -4557
+    e52       cusp69           -3075   cusp70            -990
+    e52       cusp71           -4032   cusp72           -4370
+    e52       cusp73           -2004   cusp74           -2282
+    e52       cusp75           -4440   cusp76           -3894
+    e52       cusp77            -644   cusp78           -3285
+    e52       cusp79           -4559   cusp80           -3129
+    e52       cusp81            -905   cusp82           -3999
+    e52       cusp83           -4389   cusp84           -2075
+    e52       cusp85           -2214   cusp86           -4424
+    e52       cusp87           -3930   cusp88            -732
+    e52       cusp89           -3234   cusp90           -4560
+    e52       cusp91           -3182   cusp92            -819
+    e52       cusp93           -3965   cusp94           -4407
+    e52       cusp95           -2145
+    e53       sum_e                1   R0000003           135
+    e53       R0000045             1   R0000046            -1
+    e53       R0000047             1   R0000048            -1
+    e53       R0000049             1   R0000050             1
+    e53       R0000051            -1   R0000052            -1
+    e53       gap2_9_0             1   gap2_9_1            -1
+    e53       gap2_9_2             1   gap2_9_3            -1
+    e53       R0000429             1   R0000430             1
+    e53       R0000431            -1   R0000432            -1
+    e53       cusp1            -3657   cusp2            -4505
+    e53       cusp3            -2544   cusp4            -1785
+    e53       cusp5            -4329   cusp6            -4064
+    e53       cusp7             -990   cusp8            -3129
+    e53       cusp9            -4560   cusp10           -3182
+    e53       cusp11            -905   cusp12           -4032
+    e53       cusp13           -4350   cusp14           -1859
+    e53       cusp15           -2480   cusp16           -4494
+    e53       cusp17           -3699   cusp18             -95
+    e53       cusp19           -3614   cusp20           -4515
+    e53       cusp21           -2607   cusp22           -1710
+    e53       cusp23           -4307   cusp24           -4095
+    e53       cusp25           -1074   cusp26           -3075
+    e53       cusp27           -4559   cusp28           -3234
+    e53       cusp29            -819   cusp30           -3999
+    e53       cusp31           -4370   cusp32           -1932
+    e53       cusp33           -2415   cusp34           -4482
+    e53       cusp35           -3740   cusp36            -189
+    e53       cusp37           -3570   cusp38           -4524
+    e53       cusp39           -2669   cusp40           -1634
+    e53       cusp41           -4284   cusp42           -4125
+    e53       cusp43           -1157   cusp44           -3020
+    e53       cusp45           -4557   cusp46           -3285
+    e53       cusp47            -732   cusp48           -3965
+    e53       cusp49           -4389   cusp50           -2004
+    e53       cusp51           -2349   cusp52           -4469
+    e53       cusp53           -3780   cusp54            -282
+    e53       cusp55           -3525   cusp56           -4532
+    e53       cusp57           -2730   cusp58           -1557
+    e53       cusp59           -4260   cusp60           -4154
+    e53       cusp61           -1239   cusp62           -2964
+    e53       cusp63           -4554   cusp64           -3335
+    e53       cusp65            -644   cusp66           -3930
+    e53       cusp67           -4407   cusp68           -2075
+    e53       cusp69           -2282   cusp70           -4455
+    e53       cusp71           -3819   cusp72            -374
+    e53       cusp73           -3479   cusp74           -4539
+    e53       cusp75           -2790   cusp76           -1479
+    e53       cusp77           -4235   cusp78           -4182
+    e53       cusp79           -1320   cusp80           -2907
+    e53       cusp81           -4550   cusp82           -3384
+    e53       cusp83            -555   cusp84           -3894
+    e53       cusp85           -4424   cusp86           -2145
+    e53       cusp87           -2214   cusp88           -4440
+    e53       cusp89           -3857   cusp90            -465
+    e53       cusp91           -3432   cusp92           -4545
+    e53       cusp93           -2849   cusp94           -1400
+    e53       cusp95           -4209
+    e54       sum_e                1   R0000003            51
+    e54       R0000313             1   R0000314            -1
+    e54       R0000315             1   R0000316            -1
+    e54       R0000317             1   R0000318             1
+    e54       R0000319            -1   R0000320            -1
+    e54       R0000689             1   R0000690            -1
+    e54       R0000691             1   R0000692            -1
+    e54       R0000697             1   R0000698             1
+    e54       R0000699            -1   R0000700            -1
+    e54       cusp1            -3699   cusp2            -4482
+    e54       cusp3            -2349   cusp4            -2075
+    e54       cusp5            -4424   cusp6            -3857
+    e54       cusp7             -374   cusp8            -3525
+    e54       cusp9            -4524   cusp10           -2607
+    e54       cusp11           -1785   cusp12           -4350
+    e54       cusp13           -3999   cusp14            -732
+    e54       cusp15           -3335   cusp16           -4550
+    e54       cusp17           -2849   cusp18           -1479
+    e54       cusp19           -4260   cusp20           -4125
+    e54       cusp21           -1074   cusp22           -3129
+    e54       cusp23           -4560   cusp24           -3075
+    e54       cusp25           -1157   cusp26           -4154
+    e54       cusp27           -4235   cusp28           -1400
+    e54       cusp29           -2907   cusp30           -4554
+    e54       cusp31           -3285   cusp32            -819
+    e54       cusp33           -4032   cusp34           -4329
+    e54       cusp35           -1710   cusp36           -2669
+    e54       cusp37           -4532   cusp38           -3479
+    e54       cusp39            -465   cusp40           -3894
+    e54       cusp41           -4407   cusp42           -2004
+    e54       cusp43           -2415   cusp44           -4494
+    e54       cusp45           -3657   cusp46             -95
+    e54       cusp47           -3740   cusp48           -4469
+    e54       cusp49           -2282   cusp50           -2145
+    e54       cusp51           -4440   cusp52           -3819
+    e54       cusp53            -282   cusp54           -3570
+    e54       cusp55           -4515   cusp56           -2544
+    e54       cusp57           -1859   cusp58           -4370
+    e54       cusp59           -3965   cusp60            -644
+    e54       cusp61           -3384   cusp62           -4545
+    e54       cusp63           -2790   cusp64           -1557
+    e54       cusp65           -4284   cusp66           -4095
+    e54       cusp67            -990   cusp68           -3182
+    e54       cusp69           -4559   cusp70           -3020
+    e54       cusp71           -1239   cusp72           -4182
+    e54       cusp73           -4209   cusp74           -1320
+    e54       cusp75           -2964   cusp76           -4557
+    e54       cusp77           -3234   cusp78            -905
+    e54       cusp79           -4064   cusp80           -4307
+    e54       cusp81           -1634   cusp82           -2730
+    e54       cusp83           -4539   cusp84           -3432
+    e54       cusp85            -555   cusp86           -3930
+    e54       cusp87           -4389   cusp88           -1932
+    e54       cusp89           -2480   cusp90           -4505
+    e54       cusp91           -3614   cusp92            -189
+    e54       cusp93           -3780   cusp94           -4455
+    e54       cusp95           -2214
+    e55       sum_e                1   R0000003           160
+    e55       R0000281             1   R0000282            -1
+    e55       R0000283             1   R0000284            -1
+    e55       R0000285             1   R0000286             1
+    e55       R0000287            -1   R0000288            -1
+    e55       R0000657             1   R0000658            -1
+    e55       R0000659             1   R0000660            -1
+    e55       R0000665             1   R0000666             1
+    e55       R0000667            -1   R0000668            -1
+    e55       cusp1            -3740   cusp2            -4455
+    e55       cusp3            -2145   cusp4            -2349
+    e55       cusp5            -4494   cusp6            -3614
+    e55       cusp7             -282   cusp8            -3857
+    e55       cusp9            -4407   cusp10           -1932
+    e55       cusp11           -2544   cusp12           -4524
+    e55       cusp13           -3479   cusp14            -555
+    e55       cusp15           -3965   cusp16           -4350
+    e55       cusp17           -1710   cusp18           -2730
+    e55       cusp19           -4545   cusp20           -3335
+    e55       cusp21            -819   cusp22           -4064
+    e55       cusp23           -4284   cusp24           -1479
+    e55       cusp25           -2907   cusp26           -4557
+    e55       cusp27           -3182   cusp28           -1074
+    e55       cusp29           -4154   cusp30           -4209
+    e55       cusp31           -1239   cusp32           -3075
+    e55       cusp33           -4560   cusp34           -3020
+    e55       cusp35           -1320   cusp36           -4235
+    e55       cusp37           -4125   cusp38            -990
+    e55       cusp39           -3234   cusp40           -4554
+    e55       cusp41           -2849   cusp42           -1557
+    e55       cusp43           -4307   cusp44           -4032
+    e55       cusp45            -732   cusp46           -3384
+    e55       cusp47           -4539   cusp48           -2669
+    e55       cusp49           -1785   cusp50           -4370
+    e55       cusp51           -3930   cusp52            -465
+    e55       cusp53           -3525   cusp54           -4515
+    e55       cusp55           -2480   cusp56           -2004
+    e55       cusp57           -4424   cusp58           -3819
+    e55       cusp59            -189   cusp60           -3657
+    e55       cusp61           -4482   cusp62           -2282
+    e55       cusp63           -2214   cusp64           -4469
+    e55       cusp65           -3699   cusp66             -95
+    e55       cusp67           -3780   cusp68           -4440
+    e55       cusp69           -2075   cusp70           -2415
+    e55       cusp71           -4505   cusp72           -3570
+    e55       cusp73            -374   cusp74           -3894
+    e55       cusp75           -4389   cusp76           -1859
+    e55       cusp77           -2607   cusp78           -4532
+    e55       cusp79           -3432   cusp80            -644
+    e55       cusp81           -3999   cusp82           -4329
+    e55       cusp83           -1634   cusp84           -2790
+    e55       cusp85           -4550   cusp86           -3285
+    e55       cusp87            -905   cusp88           -4095
+    e55       cusp89           -4260   cusp90           -1400
+    e55       cusp91           -2964   cusp92           -4559
+    e55       cusp93           -3129   cusp94           -1157
+    e55       cusp95           -4182
+    e56       sum_e                1   R0000003            80
+    e56       R0000089             1   R0000090            -1
+    e56       R0000091             1   R0000092            -1
+    e56       R0000093             1   R0000094             1
+    e56       R0000095            -1   R0000096            -1
+    e56       R0000465             1   R0000466            -1
+    e56       R0000467             1   R0000468            -1
+    e56       R0000473             1   R0000474             1
+    e56       R0000475            -1   R0000476            -1
+    e56       cusp1            -3780   cusp2            -4424
+    e56       cusp3            -1932   cusp4            -2607
+    e56       cusp5            -4539   cusp6            -3335
+    e56       cusp7             -905   cusp8            -4125
+    e56       cusp9            -4209   cusp10           -1157
+    e56       cusp11           -3182   cusp12           -4554
+    e56       cusp13           -2790   cusp14           -1710
+    e56       cusp15           -4370   cusp16           -3894
+    e56       cusp17            -282   cusp18           -3657
+    e56       cusp19           -4469   cusp20           -2145
+    e56       cusp21           -2415   cusp22           -4515
+    e56       cusp23           -3479   cusp24            -644
+    e56       cusp25           -4032   cusp26           -4284
+    e56       cusp27           -1400   cusp28           -3020
+    e56       cusp29           -4560   cusp30           -2964
+    e56       cusp31           -1479   cusp32           -4307
+    e56       cusp33           -3999   cusp34            -555
+    e56       cusp35           -3525   cusp36           -4505
+    e56       cusp37           -2349   cusp38           -2214
+    e56       cusp39           -4482   cusp40           -3614
+    e56       cusp41            -374   cusp42           -3930
+    e56       cusp43           -4350   cusp44           -1634
+    e56       cusp45           -2849   cusp46           -4557
+    e56       cusp47           -3129   cusp48           -1239
+    e56       cusp49           -4235   cusp50           -4095
+    e56       cusp51            -819   cusp52           -3384
+    e56       cusp53           -4532   cusp54           -2544
+    e56       cusp55           -2004   cusp56           -4440
+    e56       cusp57           -3740   cusp58             -95
+    e56       cusp59           -3819   cusp60           -4407
+    e56       cusp61           -1859   cusp62           -2669
+    e56       cusp63           -4545   cusp64           -3285
+    e56       cusp65            -990   cusp66           -4154
+    e56       cusp67           -4182   cusp68           -1074
+    e56       cusp69           -3234   cusp70           -4550
+    e56       cusp71           -2730   cusp72           -1785
+    e56       cusp73           -4389   cusp74           -3857
+    e56       cusp75            -189   cusp76           -3699
+    e56       cusp77           -4455   cusp78           -2075
+    e56       cusp79           -2480   cusp80           -4524
+    e56       cusp81           -3432   cusp82            -732
+    e56       cusp83           -4064   cusp84           -4260
+    e56       cusp85           -1320   cusp86           -3075
+    e56       cusp87           -4559   cusp88           -2907
+    e56       cusp89           -1557   cusp90           -4329
+    e56       cusp91           -3965   cusp92            -465
+    e56       cusp93           -3570   cusp94           -4494
+    e56       cusp95           -2282
+    e57       sum_e                1   R0000003             2
+    e57       R0000193             1   R0000194            -1
+    e57       R0000195             1   R0000196            -1
+    e57       R0000197             1   R0000198             1
+    e57       R0000199            -1   R0000200            -1
+    e57       R0000569             1   R0000570            -1
+    e57       R0000571             1   R0000572            -1
+    e57       R0000577             1   R0000578             1
+    e57       R0000579            -1   R0000580            -1
+    e57       cusp1            -3819   cusp2            -4389
+    e57       cusp3            -1710   cusp4            -2849
+    e57       cusp5            -4559   cusp6            -3020
+    e57       cusp7            -1479   cusp8            -4329
+    e57       cusp9            -3930   cusp10            -282
+    e57       cusp11           -3699   cusp12           -4440
+    e57       cusp13           -1932   cusp14           -2669
+    e57       cusp15           -4550   cusp16           -3182
+    e57       cusp17           -1239   cusp18           -4260
+    e57       cusp19           -4032   cusp20            -555
+    e57       cusp21           -3570   cusp22           -4482
+    e57       cusp23           -2145   cusp24           -2480
+    e57       cusp25           -4532   cusp26           -3335
+    e57       cusp27            -990   cusp28           -4182
+    e57       cusp29           -4125   cusp30            -819
+    e57       cusp31           -3432   cusp32           -4515
+    e57       cusp33           -2349   cusp34           -2282
+    e57       cusp35           -4505   cusp36           -3479
+    e57       cusp37            -732   cusp38           -4095
+    e57       cusp39           -4209   cusp40           -1074
+    e57       cusp41           -3285   cusp42           -4539
+    e57       cusp43           -2544   cusp44           -2075
+    e57       cusp45           -4469   cusp46           -3614
+    e57       cusp47            -465   cusp48           -3999
+    e57       cusp49           -4284   cusp50           -1320
+    e57       cusp51           -3129   cusp52           -4554
+    e57       cusp53           -2730   cusp54           -1859
+    e57       cusp55           -4424   cusp56           -3740
+    e57       cusp57            -189   cusp58           -3894
+    e57       cusp59           -4350   cusp60           -1557
+    e57       cusp61           -2964   cusp62           -4560
+    e57       cusp63           -2907   cusp64           -1634
+    e57       cusp65           -4370   cusp66           -3857
+    e57       cusp67             -95   cusp68           -3780
+    e57       cusp69           -4407   cusp70           -1785
+    e57       cusp71           -2790   cusp72           -4557
+    e57       cusp73           -3075   cusp74           -1400
+    e57       cusp75           -4307   cusp76           -3965
+    e57       cusp77            -374   cusp78           -3657
+    e57       cusp79           -4455   cusp80           -2004
+    e57       cusp81           -2607   cusp82           -4545
+    e57       cusp83           -3234   cusp84           -1157
+    e57       cusp85           -4235   cusp86           -4064
+    e57       cusp87            -644   cusp88           -3525
+    e57       cusp89           -4494   cusp90           -2214
+    e57       cusp91           -2415   cusp92           -4524
+    e57       cusp93           -3384   cusp94            -905
+    e57       cusp95           -4154
+    e58       sum_e                1   R0000003           117
+    e58       R0000293             1   R0000294            -1
+    e58       R0000295             1   R0000296            -1
+    e58       R0000297             1   R0000298             1
+    e58       R0000299            -1   R0000300            -1
+    e58       R0000669             1   R0000670            -1
+    e58       R0000671             1   R0000672            -1
+    e58       R0000677             1   R0000678             1
+    e58       R0000679            -1   R0000680            -1
+    e58       cusp1            -3857   cusp2            -4350
+    e58       cusp3            -1479   cusp4            -3075
+    e58       cusp5            -4554   cusp6            -2669
+    e58       cusp7            -2004   cusp8            -4469
+    e58       cusp9            -3570   cusp10            -644
+    e58       cusp11           -4095   cusp12           -4182
+    e58       cusp13            -905   cusp14           -3432
+    e58       cusp15           -4505   cusp16           -2214
+    e58       cusp17           -2480   cusp18           -4539
+    e58       cusp19           -3234   cusp20           -1239
+    e58       cusp21           -4284   cusp22           -3965
+    e58       cusp23            -282   cusp24           -3740
+    e58       cusp25           -4407   cusp26           -1710
+    e58       cusp27           -2907   cusp28           -4560
+    e58       cusp29           -2849   cusp30           -1785
+    e58       cusp31           -4424   cusp32           -3699
+    e58       cusp33            -374   cusp34           -3999
+    e58       cusp35           -4260   cusp36           -1157
+    e58       cusp37           -3285   cusp38           -4532
+    e58       cusp39           -2415   cusp40           -2282
+    e58       cusp41           -4515   cusp42           -3384
+    e58       cusp43            -990   cusp44           -4209
+    e58       cusp45           -4064   cusp46            -555
+    e58       cusp47           -3614   cusp48           -4455
+    e58       cusp49           -1932   cusp50           -2730
+    e58       cusp51           -4557   cusp52           -3020
+    e58       cusp53           -1557   cusp54           -4370
+    e58       cusp55           -3819   cusp56             -95
+    e58       cusp57           -3894   cusp58           -4329
+    e58       cusp59           -1400   cusp60           -3129
+    e58       cusp61           -4550   cusp62           -2607
+    e58       cusp63           -2075   cusp64           -4482
+    e58       cusp65           -3525   cusp66            -732
+    e58       cusp67           -4125   cusp68           -4154
+    e58       cusp69            -819   cusp70           -3479
+    e58       cusp71           -4494   cusp72           -2145
+    e58       cusp73           -2544   cusp74           -4545
+    e58       cusp75           -3182   cusp76           -1320
+    e58       cusp77           -4307   cusp78           -3930
+    e58       cusp79            -189   cusp80           -3780
+    e58       cusp81           -4389   cusp82           -1634
+    e58       cusp83           -2964   cusp84           -4559
+    e58       cusp85           -2790   cusp86           -1859
+    e58       cusp87           -4440   cusp88           -3657
+    e58       cusp89            -465   cusp90           -4032
+    e58       cusp91           -4235   cusp92           -1074
+    e58       cusp93           -3335   cusp94           -4524
+    e58       cusp95           -2349
+    e59       sum_e                1   R0000003            43
+    e59       R0000105             1   R0000106            -1
+    e59       R0000107             1   R0000108            -1
+    e59       R0000109             1   R0000110             1
+    e59       R0000111            -1   R0000112            -1
+    e59       R0000481             1   R0000482            -1
+    e59       R0000483             1   R0000484            -1
+    e59       R0000489             1   R0000490             1
+    e59       R0000491            -1   R0000492            -1
+    e59       cusp1            -3894   cusp2            -4307
+    e59       cusp3            -1239   cusp4            -3285
+    e59       cusp5            -4524   cusp6            -2282
+    e59       cusp7            -2480   cusp8            -4545
+    e59       cusp9            -3129   cusp10           -1479
+    e59       cusp11           -4370   cusp12           -3780
+    e59       cusp13            -282   cusp14           -3999
+    e59       cusp15           -4235   cusp16            -990
+    e59       cusp17           -3432   cusp18           -4494
+    e59       cusp19           -2075   cusp20           -2669
+    e59       cusp21           -4557   cusp22           -2964
+    e59       cusp23           -1710   cusp24           -4424
+    e59       cusp25           -3657   cusp26            -555
+    e59       cusp27           -4095   cusp28           -4154
+    e59       cusp29            -732   cusp30           -3570
+    e59       cusp31           -4455   cusp32           -1859
+    e59       cusp33           -2849   cusp34           -4560
+    e59       cusp35           -2790   cusp36           -1932
+    e59       cusp37           -4469   cusp38           -3525
+    e59       cusp39            -819   cusp40           -4182
+    e59       cusp41           -4064   cusp42            -465
+    e59       cusp43           -3699   cusp44           -4407
+    e59       cusp45           -1634   cusp46           -3020
+    e59       cusp47           -4554   cusp48           -2607
+    e59       cusp49           -2145   cusp50           -4505
+    e59       cusp51           -3384   cusp52           -1074
+    e59       cusp53           -4260   cusp54           -3965
+    e59       cusp55            -189   cusp56           -3819
+    e59       cusp57           -4350   cusp58           -1400
+    e59       cusp59           -3182   cusp60           -4539
+    e59       cusp61           -2415   cusp62           -2349
+    e59       cusp63           -4532   cusp64           -3234
+    e59       cusp65           -1320   cusp66           -4329
+    e59       cusp67           -3857   cusp68             -95
+    e59       cusp69           -3930   cusp70           -4284
+    e59       cusp71           -1157   cusp72           -3335
+    e59       cusp73           -4515   cusp74           -2214
+    e59       cusp75           -2544   cusp76           -4550
+    e59       cusp77           -3075   cusp78           -1557
+    e59       cusp79           -4389   cusp80           -3740
+    e59       cusp81            -374   cusp82           -4032
+    e59       cusp83           -4209   cusp84            -905
+    e59       cusp85           -3479   cusp86           -4482
+    e59       cusp87           -2004   cusp88           -2730
+    e59       cusp89           -4559   cusp90           -2907
+    e59       cusp91           -1785   cusp92           -4440
+    e59       cusp93           -3614   cusp94            -644
+    e59       cusp95           -4125
+    e60       sum_e                1   R0000003           162
+    e60       R0000145             1   R0000146            -1
+    e60       R0000147             1   R0000148            -1
+    e60       R0000149             1   R0000150             1
+    e60       R0000151            -1   R0000152            -1
+    e60       R0000521             1   R0000522            -1
+    e60       R0000523             1   R0000524            -1
+    e60       R0000529             1   R0000530             1
+    e60       R0000531            -1   R0000532            -1
+    e60       cusp1            -3930   cusp2            -4260
+    e60       cusp3             -990   cusp4            -3479
+    e60       cusp5            -4469   cusp6            -1859
+    e60       cusp7            -2907   cusp8            -4557
+    e60       cusp9            -2607   cusp10           -2214
+    e60       cusp11           -4524   cusp12           -3234
+    e60       cusp13           -1400   cusp14           -4370
+    e60       cusp15           -3740   cusp16            -465
+    e60       cusp17           -4095   cusp18           -4125
+    e60       cusp19            -555   cusp20           -3699
+    e60       cusp21           -4389   cusp22           -1479
+    e60       cusp23           -3182   cusp24           -4532
+    e60       cusp25           -2282   cusp26           -2544
+    e60       cusp27           -4554   cusp28           -2964
+    e60       cusp29           -1785   cusp30           -4455
+    e60       cusp31           -3525   cusp32            -905
+    e60       cusp33           -4235   cusp34           -3965
+    e60       cusp35             -95   cusp36           -3894
+    e60       cusp37           -4284   cusp38           -1074
+    e60       cusp39           -3432   cusp40           -4482
+    e60       cusp41           -1932   cusp42           -2849
+    e60       cusp43           -4559   cusp44           -2669
+    e60       cusp45           -2145   cusp46           -4515
+    e60       cusp47           -3285   cusp48           -1320
+    e60       cusp49           -4350   cusp50           -3780
+    e60       cusp51            -374   cusp52           -4064
+    e60       cusp53           -4154   cusp54            -644
+    e60       cusp55           -3657   cusp56           -4407
+    e60       cusp57           -1557   cusp58           -3129
+    e60       cusp59           -4539   cusp60           -2349
+    e60       cusp61           -2480   cusp62           -4550
+    e60       cusp63           -3020   cusp64           -1710
+    e60       cusp65           -4440   cusp66           -3570
+    e60       cusp67            -819   cusp68           -4209
+    e60       cusp69           -3999   cusp70            -189
+    e60       cusp71           -3857   cusp72           -4307
+    e60       cusp73           -1157   cusp74           -3384
+    e60       cusp75           -4494   cusp76           -2004
+    e60       cusp77           -2790   cusp78           -4560
+    e60       cusp79           -2730   cusp80           -2075
+    e60       cusp81           -4505   cusp82           -3335
+    e60       cusp83           -1239   cusp84           -4329
+    e60       cusp85           -3819   cusp86            -282
+    e60       cusp87           -4032   cusp88           -4182
+    e60       cusp89            -732   cusp90           -3614
+    e60       cusp91           -4424   cusp92           -1634
+    e60       cusp93           -3075   cusp94           -4545
+    e60       cusp95           -2415
+    e61       sum_e                1   R0000003            92
+    e61       gap1_8_0             1   gap1_8_1            -1
+    e61       gap1_8_2             1   gap1_8_3            -1
+    e61       gap1_9_0             1   gap1_9_1             1
+    e61       gap1_9_2            -1   gap1_9_3            -1
+    e61       gap2_7_0             1   gap2_7_1            -1
+    e61       gap2_7_2             1   gap2_7_3            -1
+    e61       gap2_9_0             1   gap2_9_1             1
+    e61       gap2_9_2            -1   gap2_9_3            -1
+    e61       cusp1            -3965   cusp2            -4209
+    e61       cusp3             -732   cusp4            -3657
+    e61       cusp5            -4389   cusp6            -1400
+    e61       cusp7            -3285   cusp8            -4505
+    e61       cusp9            -2004   cusp10           -2849
+    e61       cusp11           -4557   cusp12           -2544
+    e61       cusp13           -2349   cusp14           -4545
+    e61       cusp15           -3020   cusp16           -1785
+    e61       cusp17           -4469   cusp18           -3432
+    e61       cusp19           -1157   cusp20           -4329
+    e61       cusp21           -3780   cusp22            -465
+    e61       cusp23           -4125   cusp24           -4064
+    e61       cusp25            -282   cusp26           -3857
+    e61       cusp27           -4284   cusp28            -990
+    e61       cusp29           -3525   cusp30           -4440
+    e61       cusp31           -1634   cusp32           -3129
+    e61       cusp33           -4532   cusp34           -2214
+    e61       cusp35           -2669   cusp36           -4560
+    e61       cusp37           -2730   cusp38           -2145
+    e61       cusp39           -4524   cusp40           -3182
+    e61       cusp41           -1557   cusp42           -4424
+    e61       cusp43           -3570   cusp44            -905
+    e61       cusp45           -4260   cusp46           -3894
+    e61       cusp47            -189   cusp48           -4032
+    e61       cusp49           -4154   cusp50            -555
+    e61       cusp51           -3740   cusp52           -4350
+    e61       cusp53           -1239   cusp54           -3384
+    e61       cusp55           -4482   cusp56           -1859
+    e61       cusp57           -2964   cusp58           -4550
+    e61       cusp59           -2415   cusp60           -2480
+    e61       cusp61           -4554   cusp62           -2907
+    e61       cusp63           -1932   cusp64           -4494
+    e61       cusp65           -3335   cusp66           -1320
+    e61       cusp67           -4370   cusp68           -3699
+    e61       cusp69            -644   cusp70           -4182
+    e61       cusp71           -3999   cusp72             -95
+    e61       cusp73           -3930   cusp74           -4235
+    e61       cusp75            -819   cusp76           -3614
+    e61       cusp77           -4407   cusp78           -1479
+    e61       cusp79           -3234   cusp80           -4515
+    e61       cusp81           -2075   cusp82           -2790
+    e61       cusp83           -4559   cusp84           -2607
+    e61       cusp85           -2282   cusp86           -4539
+    e61       cusp87           -3075   cusp88           -1710
+    e61       cusp89           -4455   cusp90           -3479
+    e61       cusp91           -1074   cusp92           -4307
+    e61       cusp93           -3819   cusp94            -374
+    e61       cusp95           -4095
+    e62       sum_e                1   R0000003            24
+    e62       R0000185             1   R0000186            -1
+    e62       R0000187             1   R0000188            -1
+    e62       R0000189             1   R0000190             1
+    e62       R0000191            -1   R0000192            -1
+    e62       R0000561             1   R0000562            -1
+    e62       R0000563             1   R0000564            -1
+    e62       R0000569             1   R0000570             1
+    e62       R0000571            -1   R0000572            -1
+    e62       cusp1            -3999   cusp2            -4154
+    e62       cusp3             -465   cusp4            -3819
+    e62       cusp5            -4284   cusp6             -905
+    e62       cusp7            -3614   cusp8            -4389
+    e62       cusp9            -1320   cusp10           -3384
+    e62       cusp11           -4469   cusp12           -1710
+    e62       cusp13           -3129   cusp14           -4524
+    e62       cusp15           -2075   cusp16           -2849
+    e62       cusp17           -4554   cusp18           -2415
+    e62       cusp19           -2544   cusp20           -4559
+    e62       cusp21           -2730   cusp22           -2214
+    e62       cusp23           -4539   cusp24           -3020
+    e62       cusp25           -1859   cusp26           -4494
+    e62       cusp27           -3285   cusp28           -1479
+    e62       cusp29           -4424   cusp30           -3525
+    e62       cusp31           -1074   cusp32           -4329
+    e62       cusp33           -3740   cusp34            -644
+    e62       cusp35           -4209   cusp36           -3930
+    e62       cusp37            -189   cusp38           -4064
+    e62       cusp39           -4095   cusp40            -282
+    e62       cusp41           -3894   cusp42           -4235
+    e62       cusp43            -732   cusp44           -3699
+    e62       cusp45           -4350   cusp46           -1157
+    e62       cusp47           -3479   cusp48           -4440
+    e62       cusp49           -1557   cusp50           -3234
+    e62       cusp51           -4505   cusp52           -1932
+    e62       cusp53           -2964   cusp54           -4545
+    e62       cusp55           -2282   cusp56           -2669
+    e62       cusp57           -4560   cusp58           -2607
+    e62       cusp59           -2349   cusp60           -4550
+    e62       cusp61           -2907   cusp62           -2004
+    e62       cusp63           -4515   cusp64           -3182
+    e62       cusp65           -1634   cusp66           -4455
+    e62       cusp67           -3432   cusp68           -1239
+    e62       cusp69           -4370   cusp70           -3657
+    e62       cusp71            -819   cusp72           -4260
+    e62       cusp73           -3857   cusp74            -374
+    e62       cusp75           -4125   cusp76           -4032
+    e62       cusp77             -95   cusp78           -3965
+    e62       cusp79           -4182   cusp80            -555
+    e62       cusp81           -3780   cusp82           -4307
+    e62       cusp83            -990   cusp84           -3570
+    e62       cusp85           -4407   cusp86           -1400
+    e62       cusp87           -3335   cusp88           -4482
+    e62       cusp89           -1785   cusp90           -3075
+    e62       cusp91           -4532   cusp92           -2145
+    e62       cusp93           -2790   cusp94           -4557
+    e62       cusp95           -2480
+    e63       sum_e                1   R0000003           149
+    e63       gap1_6_0             1   gap1_6_1            -1
+    e63       gap1_6_2             1   gap1_6_3            -1
+    e63       gap1_7_0             1   gap1_7_1             1
+    e63       gap1_7_2            -1   gap1_7_3            -1
+    e63       gap2_5_0             1   gap2_5_1            -1
+    e63       gap2_5_2             1   gap2_5_3            -1
+    e63       gap2_7_0             1   gap2_7_1             1
+    e63       gap2_7_2            -1   gap2_7_3            -1
+    e63       cusp1            -4032   cusp2            -4095
+    e63       cusp3             -189   cusp4            -3965
+    e63       cusp5            -4154   cusp6             -374
+    e63       cusp7            -3894   cusp8            -4209
+    e63       cusp9             -555   cusp10           -3819
+    e63       cusp11           -4260   cusp12            -732
+    e63       cusp13           -3740   cusp14           -4307
+    e63       cusp15            -905   cusp16           -3657
+    e63       cusp17           -4350   cusp18           -1074
+    e63       cusp19           -3570   cusp20           -4389
+    e63       cusp21           -1239   cusp22           -3479
+    e63       cusp23           -4424   cusp24           -1400
+    e63       cusp25           -3384   cusp26           -4455
+    e63       cusp27           -1557   cusp28           -3285
+    e63       cusp29           -4482   cusp30           -1710
+    e63       cusp31           -3182   cusp32           -4505
+    e63       cusp33           -1859   cusp34           -3075
+    e63       cusp35           -4524   cusp36           -2004
+    e63       cusp37           -2964   cusp38           -4539
+    e63       cusp39           -2145   cusp40           -2849
+    e63       cusp41           -4550   cusp42           -2282
+    e63       cusp43           -2730   cusp44           -4557
+    e63       cusp45           -2415   cusp46           -2607
+    e63       cusp47           -4560   cusp48           -2544
+    e63       cusp49           -2480   cusp50           -4559
+    e63       cusp51           -2669   cusp52           -2349
+    e63       cusp53           -4554   cusp54           -2790
+    e63       cusp55           -2214   cusp56           -4545
+    e63       cusp57           -2907   cusp58           -2075
+    e63       cusp59           -4532   cusp60           -3020
+    e63       cusp61           -1932   cusp62           -4515
+    e63       cusp63           -3129   cusp64           -1785
+    e63       cusp65           -4494   cusp66           -3234
+    e63       cusp67           -1634   cusp68           -4469
+    e63       cusp69           -3335   cusp70           -1479
+    e63       cusp71           -4440   cusp72           -3432
+    e63       cusp73           -1320   cusp74           -4407
+    e63       cusp75           -3525   cusp76           -1157
+    e63       cusp77           -4370   cusp78           -3614
+    e63       cusp79            -990   cusp80           -4329
+    e63       cusp81           -3699   cusp82            -819
+    e63       cusp83           -4284   cusp84           -3780
+    e63       cusp85            -644   cusp86           -4235
+    e63       cusp87           -3857   cusp88            -465
+    e63       cusp89           -4182   cusp90           -3930
+    e63       cusp91            -282   cusp92           -4125
+    e63       cusp93           -3999   cusp94             -95
+    e63       cusp95           -4064
+    e64       sum_e                1   R0000003            85
+    e64       gap1_5_0             1   gap1_5_1            -1
+    e64       gap1_5_2             1   gap1_5_3            -1
+    e64       gap1_6_0             1   gap1_6_1             1
+    e64       gap1_6_2            -1   gap1_6_3            -1
+    e64       gap2_4_0             1   gap2_4_1            -1
+    e64       gap2_4_2             1   gap2_4_3            -1
+    e64       gap2_6_0             1   gap2_6_1             1
+    e64       gap2_6_2            -1   gap2_6_3            -1
+    e64       cusp1            -4064   cusp2            -4032
+    e64       cusp3              -95   cusp4            -4095
+    e64       cusp5            -3999   cusp6             -189
+    e64       cusp7            -4125   cusp8            -3965
+    e64       cusp9             -282   cusp10           -4154
+    e64       cusp11           -3930   cusp12            -374
+    e64       cusp13           -4182   cusp14           -3894
+    e64       cusp15            -465   cusp16           -4209
+    e64       cusp17           -3857   cusp18            -555
+    e64       cusp19           -4235   cusp20           -3819
+    e64       cusp21            -644   cusp22           -4260
+    e64       cusp23           -3780   cusp24            -732
+    e64       cusp25           -4284   cusp26           -3740
+    e64       cusp27            -819   cusp28           -4307
+    e64       cusp29           -3699   cusp30            -905
+    e64       cusp31           -4329   cusp32           -3657
+    e64       cusp33            -990   cusp34           -4350
+    e64       cusp35           -3614   cusp36           -1074
+    e64       cusp37           -4370   cusp38           -3570
+    e64       cusp39           -1157   cusp40           -4389
+    e64       cusp41           -3525   cusp42           -1239
+    e64       cusp43           -4407   cusp44           -3479
+    e64       cusp45           -1320   cusp46           -4424
+    e64       cusp47           -3432   cusp48           -1400
+    e64       cusp49           -4440   cusp50           -3384
+    e64       cusp51           -1479   cusp52           -4455
+    e64       cusp53           -3335   cusp54           -1557
+    e64       cusp55           -4469   cusp56           -3285
+    e64       cusp57           -1634   cusp58           -4482
+    e64       cusp59           -3234   cusp60           -1710
+    e64       cusp61           -4494   cusp62           -3182
+    e64       cusp63           -1785   cusp64           -4505
+    e64       cusp65           -3129   cusp66           -1859
+    e64       cusp67           -4515   cusp68           -3075
+    e64       cusp69           -1932   cusp70           -4524
+    e64       cusp71           -3020   cusp72           -2004
+    e64       cusp73           -4532   cusp74           -2964
+    e64       cusp75           -2075   cusp76           -4539
+    e64       cusp77           -2907   cusp78           -2145
+    e64       cusp79           -4545   cusp80           -2849
+    e64       cusp81           -2214   cusp82           -4550
+    e64       cusp83           -2790   cusp84           -2282
+    e64       cusp85           -4554   cusp86           -2730
+    e64       cusp87           -2349   cusp88           -4557
+    e64       cusp89           -2669   cusp90           -2415
+    e64       cusp91           -4559   cusp92           -2607
+    e64       cusp93           -2480   cusp94           -4560
+    e64       cusp95           -2544
+    e65       sum_e                1   R0000003            23
+    e65       gap1_7_0             1   gap1_7_1            -1
+    e65       gap1_7_2             1   gap1_7_3            -1
+    e65       gap1_8_0             1   gap1_8_1             1
+    e65       gap1_8_2            -1   gap1_8_3            -1
+    e65       gap2_6_0             1   gap2_6_1            -1
+    e65       gap2_6_2             1   gap2_6_3            -1
+    e65       gap2_8_0             1   gap2_8_1             1
+    e65       gap2_8_2            -1   gap2_8_3            -1
+    e65       cusp1            -4095   cusp2            -3965
+    e65       cusp3             -374   cusp4            -4209
+    e65       cusp5            -3819   cusp6             -732
+    e65       cusp7            -4307   cusp8            -3657
+    e65       cusp9            -1074   cusp10           -4389
+    e65       cusp11           -3479   cusp12           -1400
+    e65       cusp13           -4455   cusp14           -3285
+    e65       cusp15           -1710   cusp16           -4505
+    e65       cusp17           -3075   cusp18           -2004
+    e65       cusp19           -4539   cusp20           -2849
+    e65       cusp21           -2282   cusp22           -4557
+    e65       cusp23           -2607   cusp24           -2544
+    e65       cusp25           -4559   cusp26           -2349
+    e65       cusp27           -2790   cusp28           -4545
+    e65       cusp29           -2075   cusp30           -3020
+    e65       cusp31           -4515   cusp32           -1785
+    e65       cusp33           -3234   cusp34           -4469
+    e65       cusp35           -1479   cusp36           -3432
+    e65       cusp37           -4407   cusp38           -1157
+    e65       cusp39           -3614   cusp40           -4329
+    e65       cusp41            -819   cusp42           -3780
+    e65       cusp43           -4235   cusp44            -465
+    e65       cusp45           -3930   cusp46           -4125
+    e65       cusp47             -95   cusp48           -4064
+    e65       cusp49           -3999   cusp50            -282
+    e65       cusp51           -4182   cusp52           -3857
+    e65       cusp53            -644   cusp54           -4284
+    e65       cusp55           -3699   cusp56            -990
+    e65       cusp57           -4370   cusp58           -3525
+    e65       cusp59           -1320   cusp60           -4440
+    e65       cusp61           -3335   cusp62           -1634
+    e65       cusp63           -4494   cusp64           -3129
+    e65       cusp65           -1932   cusp66           -4532
+    e65       cusp67           -2907   cusp68           -2214
+    e65       cusp69           -4554   cusp70           -2669
+    e65       cusp71           -2480   cusp72           -4560
+    e65       cusp73           -2415   cusp74           -2730
+    e65       cusp75           -4550   cusp76           -2145
+    e65       cusp77           -2964   cusp78           -4524
+    e65       cusp79           -1859   cusp80           -3182
+    e65       cusp81           -4482   cusp82           -1557
+    e65       cusp83           -3384   cusp84           -4424
+    e65       cusp85           -1239   cusp86           -3570
+    e65       cusp87           -4350   cusp88            -905
+    e65       cusp89           -3740   cusp90           -4260
+    e65       cusp91            -555   cusp92           -3894
+    e65       cusp93           -4154   cusp94            -189
+    e65       cusp95           -4032
+    e66       sum_e                1   R0000003           154
+    e66       R0000101             1   R0000102            -1
+    e66       R0000103             1   R0000104            -1
+    e66       R0000105             1   R0000106             1
+    e66       R0000107            -1   R0000108            -1
+    e66       R0000477             1   R0000478            -1
+    e66       R0000479             1   R0000480            -1
+    e66       R0000485             1   R0000486             1
+    e66       R0000487            -1   R0000488            -1
+    e66       cusp1            -4125   cusp2            -3894
+    e66       cusp3             -644   cusp4            -4307
+    e66       cusp5            -3614   cusp6            -1239
+    e66       cusp7            -4440   cusp8            -3285
+    e66       cusp9            -1785   cusp10           -4524
+    e66       cusp11           -2907   cusp12           -2282
+    e66       cusp13           -4559   cusp14           -2480
+    e66       cusp15           -2730   cusp16           -4545
+    e66       cusp17           -2004   cusp18           -3129
+    e66       cusp19           -4482   cusp20           -1479
+    e66       cusp21           -3479   cusp22           -4370
+    e66       cusp23            -905   cusp24           -3780
+    e66       cusp25           -4209   cusp26            -282
+    e66       cusp27           -4032   cusp28           -3999
+    e66       cusp29            -374   cusp30           -4235
+    e66       cusp31           -3740   cusp32            -990
+    e66       cusp33           -4389   cusp34           -3432
+    e66       cusp35           -1557   cusp36           -4494
+    e66       cusp37           -3075   cusp38           -2075
+    e66       cusp39           -4550   cusp40           -2669
+    e66       cusp41           -2544   cusp42           -4557
+    e66       cusp43           -2214   cusp44           -2964
+    e66       cusp45           -4515   cusp46           -1710
+    e66       cusp47           -3335   cusp48           -4424
+    e66       cusp49           -1157   cusp50           -3657
+    e66       cusp51           -4284   cusp52            -555
+    e66       cusp53           -3930   cusp54           -4095
+    e66       cusp55             -95   cusp56           -4154
+    e66       cusp57           -3857   cusp58            -732
+    e66       cusp59           -4329   cusp60           -3570
+    e66       cusp61           -1320   cusp62           -4455
+    e66       cusp63           -3234   cusp64           -1859
+    e66       cusp65           -4532   cusp66           -2849
+    e66       cusp67           -2349   cusp68           -4560
+    e66       cusp69           -2415   cusp70           -2790
+    e66       cusp71           -4539   cusp72           -1932
+    e66       cusp73           -3182   cusp74           -4469
+    e66       cusp75           -1400   cusp76           -3525
+    e66       cusp77           -4350   cusp78            -819
+    e66       cusp79           -3819   cusp80           -4182
+    e66       cusp81            -189   cusp82           -4064
+    e66       cusp83           -3965   cusp84            -465
+    e66       cusp85           -4260   cusp86           -3699
+    e66       cusp87           -1074   cusp88           -4407
+    e66       cusp89           -3384   cusp90           -1634
+    e66       cusp91           -4505   cusp92           -3020
+    e66       cusp93           -2145   cusp94           -4554
+    e66       cusp95           -2607
+    e67       sum_e                1   R0000003            96
+    e67       R0000189             1   R0000190            -1
+    e67       R0000191             1   R0000192            -1
+    e67       R0000193             1   R0000194             1
+    e67       R0000195            -1   R0000196            -1
+    e67       R0000565             1   R0000566            -1
+    e67       R0000567             1   R0000568            -1
+    e67       R0000573             1   R0000574             1
+    e67       R0000575            -1   R0000576            -1
+    e67       cusp1            -4154   cusp2            -3819
+    e67       cusp3             -905   cusp4            -4389
+    e67       cusp5            -3384   cusp6            -1710
+    e67       cusp7            -4524   cusp8            -2849
+    e67       cusp9            -2415   cusp10           -4559
+    e67       cusp11           -2214   cusp12           -3020
+    e67       cusp13           -4494   cusp14           -1479
+    e67       cusp15           -3525   cusp16           -4329
+    e67       cusp17            -644   cusp18           -3930
+    e67       cusp19           -4064   cusp20            -282
+    e67       cusp21           -4235   cusp22           -3699
+    e67       cusp23           -1157   cusp24           -4440
+    e67       cusp25           -3234   cusp26           -1932
+    e67       cusp27           -4545   cusp28           -2669
+    e67       cusp29           -2607   cusp30           -4550
+    e67       cusp31           -2004   cusp32           -3182
+    e67       cusp33           -4455   cusp34           -1239
+    e67       cusp35           -3657   cusp36           -4260
+    e67       cusp37            -374   cusp38           -4032
+    e67       cusp39           -3965   cusp40            -555
+    e67       cusp41           -4307   cusp42           -3570
+    e67       cusp43           -1400   cusp44           -4482
+    e67       cusp45           -3075   cusp46           -2145
+    e67       cusp47           -4557   cusp48           -2480
+    e67       cusp49           -2790   cusp50           -4532
+    e67       cusp51           -1785   cusp52           -3335
+    e67       cusp53           -4407   cusp54            -990
+    e67       cusp55           -3780   cusp56           -4182
+    e67       cusp57             -95   cusp58           -4125
+    e67       cusp59           -3857   cusp60            -819
+    e67       cusp61           -4370   cusp62           -3432
+    e67       cusp63           -1634   cusp64           -4515
+    e67       cusp65           -2907   cusp66           -2349
+    e67       cusp67           -4560   cusp68           -2282
+    e67       cusp69           -2964   cusp70           -4505
+    e67       cusp71           -1557   cusp72           -3479
+    e67       cusp73           -4350   cusp74            -732
+    e67       cusp75           -3894   cusp76           -4095
+    e67       cusp77            -189   cusp78           -4209
+    e67       cusp79           -3740   cusp80           -1074
+    e67       cusp81           -4424   cusp82           -3285
+    e67       cusp83           -1859   cusp84           -4539
+    e67       cusp85           -2730   cusp86           -2544
+    e67       cusp87           -4554   cusp88           -2075
+    e67       cusp89           -3129   cusp90           -4469
+    e67       cusp91           -1320   cusp92           -3614
+    e67       cusp93           -4284   cusp94            -465
+    e67       cusp95           -3999
+    e68       sum_e                1   R0000003            40
+    e68       R0000277             1   R0000278            -1
+    e68       R0000279             1   R0000280            -1
+    e68       R0000281             1   R0000282             1
+    e68       R0000283            -1   R0000284            -1
+    e68       R0000653             1   R0000654            -1
+    e68       R0000655             1   R0000656            -1
+    e68       R0000661             1   R0000662             1
+    e68       R0000663            -1   R0000664            -1
+    e68       cusp1            -4182   cusp2            -3740
+    e68       cusp3            -1157   cusp4            -4455
+    e68       cusp5            -3129   cusp6            -2145
+    e68       cusp7            -4559   cusp8            -2349
+    e68       cusp9            -2964   cusp10           -4494
+    e68       cusp11           -1400   cusp12           -3614
+    e68       cusp13           -4260   cusp14            -282
+    e68       cusp15           -4095   cusp16           -3857
+    e68       cusp17            -905   cusp18           -4407
+    e68       cusp19           -3285   cusp20           -1932
+    e68       cusp21           -4550   cusp22           -2544
+    e68       cusp23           -2790   cusp24           -4524
+    e68       cusp25           -1634   cusp26           -3479
+    e68       cusp27           -4329   cusp28            -555
+    e68       cusp29           -3999   cusp30           -3965
+    e68       cusp31            -644   cusp32           -4350
+    e68       cusp33           -3432   cusp34           -1710
+    e68       cusp35           -4532   cusp36           -2730
+    e68       cusp37           -2607   cusp38           -4545
+    e68       cusp39           -1859   cusp40           -3335
+    e68       cusp41           -4389   cusp42            -819
+    e68       cusp43           -3894   cusp44           -4064
+    e68       cusp45            -374   cusp46           -4284
+    e68       cusp47           -3570   cusp48           -1479
+    e68       cusp49           -4505   cusp50           -2907
+    e68       cusp51           -2415   cusp52           -4557
+    e68       cusp53           -2075   cusp54           -3182
+    e68       cusp55           -4440   cusp56           -1074
+    e68       cusp57           -3780   cusp58           -4154
+    e68       cusp59             -95   cusp60           -4209
+    e68       cusp61           -3699   cusp62           -1239
+    e68       cusp63           -4469   cusp64           -3075
+    e68       cusp65           -2214   cusp66           -4560
+    e68       cusp67           -2282   cusp68           -3020
+    e68       cusp69           -4482   cusp70           -1320
+    e68       cusp71           -3657   cusp72           -4235
+    e68       cusp73            -189   cusp74           -4125
+    e68       cusp75           -3819   cusp76            -990
+    e68       cusp77           -4424   cusp78           -3234
+    e68       cusp79           -2004   cusp80           -4554
+    e68       cusp81           -2480   cusp82           -2849
+    e68       cusp83           -4515   cusp84           -1557
+    e68       cusp85           -3525   cusp86           -4307
+    e68       cusp87            -465   cusp88           -4032
+    e68       cusp89           -3930   cusp90            -732
+    e68       cusp91           -4370   cusp92           -3384
+    e68       cusp93           -1785   cusp94           -4539
+    e68       cusp95           -2669
+    e69       sum_e                1   R0000003           177
+    e69       gap1_9_0             1   gap1_9_1            -1
+    e69       gap1_9_2             1   gap1_9_3            -1
+    e69       R0000045             1   R0000046             1
+    e69       R0000047            -1   R0000048            -1
+    e69       gap2_8_0             1   gap2_8_1            -1
+    e69       gap2_8_2             1   gap2_8_3            -1
+    e69       R0000425             1   R0000426             1
+    e69       R0000427            -1   R0000428            -1
+    e69       cusp1            -4209   cusp2            -3657
+    e69       cusp3            -1400   cusp4            -4505
+    e69       cusp5            -2849   cusp6            -2544
+    e69       cusp7            -4545   cusp8            -1785
+    e69       cusp9            -3432   cusp10           -4329
+    e69       cusp11            -465   cusp12           -4064
+    e69       cusp13           -3857   cusp14            -990
+    e69       cusp15           -4440   cusp16           -3129
+    e69       cusp17           -2214   cusp18           -4560
+    e69       cusp19           -2145   cusp20           -3182
+    e69       cusp21           -4424   cusp22            -905
+    e69       cusp23           -3894   cusp24           -4032
+    e69       cusp25            -555   cusp26           -4350
+    e69       cusp27           -3384   cusp28           -1859
+    e69       cusp29           -4550   cusp30           -2480
+    e69       cusp31           -2907   cusp32           -4494
+    e69       cusp33           -1320   cusp34           -3699
+    e69       cusp35           -4182   cusp36             -95
+    e69       cusp37           -4235   cusp38           -3614
+    e69       cusp39           -1479   cusp40           -4515
+    e69       cusp41           -2790   cusp42           -2607
+    e69       cusp43           -4539   cusp44           -1710
+    e69       cusp45           -3479   cusp46           -4307
+    e69       cusp47            -374   cusp48           -4095
+    e69       cusp49           -3819   cusp50           -1074
+    e69       cusp51           -4455   cusp52           -3075
+    e69       cusp53           -2282   cusp54           -4559
+    e69       cusp55           -2075   cusp56           -3234
+    e69       cusp57           -4407   cusp58            -819
+    e69       cusp59           -3930   cusp60           -3999
+    e69       cusp61            -644   cusp62           -4370
+    e69       cusp63           -3335   cusp64           -1932
+    e69       cusp65           -4554   cusp66           -2415
+    e69       cusp67           -2964   cusp68           -4482
+    e69       cusp69           -1239   cusp70           -3740
+    e69       cusp71           -4154   cusp72            -189
+    e69       cusp73           -4260   cusp74           -3570
+    e69       cusp75           -1557   cusp76           -4524
+    e69       cusp77           -2730   cusp78           -2669
+    e69       cusp79           -4532   cusp80           -1634
+    e69       cusp81           -3525   cusp82           -4284
+    e69       cusp83            -282   cusp84           -4125
+    e69       cusp85           -3780   cusp86           -1157
+    e69       cusp87           -4469   cusp88           -3020
+    e69       cusp89           -2349   cusp90           -4557
+    e69       cusp91           -2004   cusp92           -3285
+    e69       cusp93           -4389   cusp94            -732
+    e69       cusp95           -3965
+    e70       sum_e                1   R0000003           125
+    e70       R0000241             1   R0000242            -1
+    e70       R0000243             1   R0000244            -1
+    e70       R0000245             1   R0000246             1
+    e70       R0000247            -1   R0000248            -1
+    e70       R0000617             1   R0000618            -1
+    e70       R0000619             1   R0000620            -1
+    e70       R0000625             1   R0000626             1
+    e70       R0000627            -1   R0000628            -1
+    e70       cusp1            -4235   cusp2            -3570
+    e70       cusp3            -1634   cusp4            -4539
+    e70       cusp5            -2544   cusp6            -2907
+    e70       cusp7            -4482   cusp8            -1157
+    e70       cusp9            -3819   cusp10           -4064
+    e70       cusp11            -555   cusp12           -4370
+    e70       cusp13           -3285   cusp14           -2075
+    e70       cusp15           -4560   cusp16           -2145
+    e70       cusp17           -3234   cusp18           -4389
+    e70       cusp19            -644   cusp20           -4032
+    e70       cusp21           -3857   cusp22           -1074
+    e70       cusp23           -4469   cusp24           -2964
+    e70       cusp25           -2480   cusp26           -4545
+    e70       cusp27           -1710   cusp28           -3525
+    e70       cusp29           -4260   cusp30             -95
+    e70       cusp31           -4209   cusp32           -3614
+    e70       cusp33           -1557   cusp34           -4532
+    e70       cusp35           -2607   cusp36           -2849
+    e70       cusp37           -4494   cusp38           -1239
+    e70       cusp39           -3780   cusp40           -4095
+    e70       cusp41            -465   cusp42           -4350
+    e70       cusp43           -3335   cusp44           -2004
+    e70       cusp45           -4559   cusp46           -2214
+    e70       cusp47           -3182   cusp48           -4407
+    e70       cusp49            -732   cusp50           -3999
+    e70       cusp51           -3894   cusp52            -990
+    e70       cusp53           -4455   cusp54           -3020
+    e70       cusp55           -2415   cusp56           -4550
+    e70       cusp57           -1785   cusp58           -3479
+    e70       cusp59           -4284   cusp60            -189
+    e70       cusp61           -4182   cusp62           -3657
+    e70       cusp63           -1479   cusp64           -4524
+    e70       cusp65           -2669   cusp66           -2790
+    e70       cusp67           -4505   cusp68           -1320
+    e70       cusp69           -3740   cusp70           -4125
+    e70       cusp71            -374   cusp72           -4329
+    e70       cusp73           -3384   cusp74           -1932
+    e70       cusp75           -4557   cusp76           -2282
+    e70       cusp77           -3129   cusp78           -4424
+    e70       cusp79            -819   cusp80           -3965
+    e70       cusp81           -3930   cusp82            -905
+    e70       cusp83           -4440   cusp84           -3075
+    e70       cusp85           -2349   cusp86           -4554
+    e70       cusp87           -1859   cusp88           -3432
+    e70       cusp89           -4307   cusp90            -282
+    e70       cusp91           -4154   cusp92           -3699
+    e70       cusp93           -1400   cusp94           -4515
+    e70       cusp95           -2730
+    e71       sum_e                1   R0000003            75
+    e71       R0000149             1   R0000150            -1
+    e71       R0000151             1   R0000152            -1
+    e71       R0000153             1   R0000154             1
+    e71       R0000155            -1   R0000156            -1
+    e71       R0000525             1   R0000526            -1
+    e71       R0000527             1   R0000528            -1
+    e71       R0000533             1   R0000534             1
+    e71       R0000535            -1   R0000536            -1
+    e71       cusp1            -4260   cusp2            -3479
+    e71       cusp3            -1859   cusp4            -4557
+    e71       cusp5            -2214   cusp6            -3234
+    e71       cusp7            -4370   cusp8             -465
+    e71       cusp9            -4125   cusp10           -3699
+    e71       cusp11           -1479   cusp12           -4532
+    e71       cusp13           -2544   cusp14           -2964
+    e71       cusp15           -4455   cusp16            -905
+    e71       cusp17           -3965   cusp18           -3894
+    e71       cusp19           -1074   cusp20           -4482
+    e71       cusp21           -2849   cusp22           -2669
+    e71       cusp23           -4515   cusp24           -1320
+    e71       cusp25           -3780   cusp26           -4064
+    e71       cusp27            -644   cusp28           -4407
+    e71       cusp29           -3129   cusp30           -2349
+    e71       cusp31           -4550   cusp32           -1710
+    e71       cusp33           -3570   cusp34           -4209
+    e71       cusp35            -189   cusp36           -4307
+    e71       cusp37           -3384   cusp38           -2004
+    e71       cusp39           -4560   cusp40           -2075
+    e71       cusp41           -3335   cusp42           -4329
+    e71       cusp43            -282   cusp44           -4182
+    e71       cusp45           -3614   cusp46           -1634
+    e71       cusp47           -4545   cusp48           -2415
+    e71       cusp49           -3075   cusp50           -4424
+    e71       cusp51            -732   cusp52           -4032
+    e71       cusp53           -3819   cusp54           -1239
+    e71       cusp55           -4505   cusp56           -2730
+    e71       cusp57           -2790   cusp58           -4494
+    e71       cusp59           -1157   cusp60           -3857
+    e71       cusp61           -3999   cusp62            -819
+    e71       cusp63           -4440   cusp64           -3020
+    e71       cusp65           -2480   cusp66           -4539
+    e71       cusp67           -1557   cusp68           -3657
+    e71       cusp69           -4154   cusp70            -374
+    e71       cusp71           -4350   cusp72           -3285
+    e71       cusp73           -2145   cusp74           -4559
+    e71       cusp75           -1932   cusp76           -3432
+    e71       cusp77           -4284   cusp78             -95
+    e71       cusp79           -4235   cusp80           -3525
+    e71       cusp81           -1785   cusp82           -4554
+    e71       cusp83           -2282   cusp84           -3182
+    e71       cusp85           -4389   cusp86            -555
+    e71       cusp87           -4095   cusp88           -3740
+    e71       cusp89           -1400   cusp90           -4524
+    e71       cusp91           -2607   cusp92           -2907
+    e71       cusp93           -4469   cusp94            -990
+    e71       cusp95           -3930
+    e72       sum_e                1   R0000003            27
+    e72       R0000345             1   R0000346            -1
+    e72       R0000347             1   R0000348            -1
+    e72       R0000349             1   R0000350             1
+    e72       R0000351            -1   R0000352            -1
+    e72       R0000721             1   R0000722            -1
+    e72       R0000723             1   R0000724            -1
+    e72       R0000729             1   R0000730             1
+    e72       R0000731            -1   R0000732            -1
+    e72       cusp1            -4284   cusp2            -3384
+    e72       cusp3            -2075   cusp4            -4559
+    e72       cusp5            -1859   cusp6            -3525
+    e72       cusp7            -4209   cusp8             -282
+    e72       cusp9            -4350   cusp10           -3234
+    e72       cusp11           -2282   cusp12           -4550
+    e72       cusp13           -1634   cusp14           -3657
+    e72       cusp15           -4125   cusp16            -555
+    e72       cusp17           -4407   cusp18           -3075
+    e72       cusp19           -2480   cusp20           -4532
+    e72       cusp21           -1400   cusp22           -3780
+    e72       cusp23           -4032   cusp24            -819
+    e72       cusp25           -4455   cusp26           -2907
+    e72       cusp27           -2669   cusp28           -4505
+    e72       cusp29           -1157   cusp30           -3894
+    e72       cusp31           -3930   cusp32           -1074
+    e72       cusp33           -4494   cusp34           -2730
+    e72       cusp35           -2849   cusp36           -4469
+    e72       cusp37            -905   cusp38           -3999
+    e72       cusp39           -3819   cusp40           -1320
+    e72       cusp41           -4524   cusp42           -2544
+    e72       cusp43           -3020   cusp44           -4424
+    e72       cusp45            -644   cusp46           -4095
+    e72       cusp47           -3699   cusp48           -1557
+    e72       cusp49           -4545   cusp50           -2349
+    e72       cusp51           -3182   cusp52           -4370
+    e72       cusp53            -374   cusp54           -4182
+    e72       cusp55           -3570   cusp56           -1785
+    e72       cusp57           -4557   cusp58           -2145
+    e72       cusp59           -3335   cusp60           -4307
+    e72       cusp61             -95   cusp62           -4260
+    e72       cusp63           -3432   cusp64           -2004
+    e72       cusp65           -4560   cusp66           -1932
+    e72       cusp67           -3479   cusp68           -4235
+    e72       cusp69            -189   cusp70           -4329
+    e72       cusp71           -3285   cusp72           -2214
+    e72       cusp73           -4554   cusp74           -1710
+    e72       cusp75           -3614   cusp76           -4154
+    e72       cusp77            -465   cusp78           -4389
+    e72       cusp79           -3129   cusp80           -2415
+    e72       cusp81           -4539   cusp82           -1479
+    e72       cusp83           -3740   cusp84           -4064
+    e72       cusp85            -732   cusp86           -4440
+    e72       cusp87           -2964   cusp88           -2607
+    e72       cusp89           -4515   cusp90           -1239
+    e72       cusp91           -3857   cusp92           -3965
+    e72       cusp93            -990   cusp94           -4482
+    e72       cusp95           -2790
+    e73       sum_e                1   R0000003           172
+    e73       R0000109             1   R0000110            -1
+    e73       R0000111             1   R0000112            -1
+    e73       R0000113             1   R0000114             1
+    e73       R0000115            -1   R0000116            -1
+    e73       R0000485             1   R0000486            -1
+    e73       R0000487             1   R0000488            -1
+    e73       R0000493             1   R0000494             1
+    e73       R0000495            -1   R0000496            -1
+    e73       cusp1            -4307   cusp2            -3285
+    e73       cusp3            -2282   cusp4            -4545
+    e73       cusp5            -1479   cusp6            -3780
+    e73       cusp7            -3999   cusp8             -990
+    e73       cusp9            -4494   cusp10           -2669
+    e73       cusp11           -2964   cusp12           -4424
+    e73       cusp13            -555   cusp14           -4154
+    e73       cusp15           -3570   cusp16           -1859
+    e73       cusp17           -4560   cusp18           -1932
+    e73       cusp19           -3525   cusp20           -4182
+    e73       cusp21            -465   cusp22           -4407
+    e73       cusp23           -3020   cusp24           -2607
+    e73       cusp25           -4505   cusp26           -1074
+    e73       cusp27           -3965   cusp28           -3819
+    e73       cusp29           -1400   cusp30           -4539
+    e73       cusp31           -2349   cusp32           -3234
+    e73       cusp33           -4329   cusp34             -95
+    e73       cusp35           -4284   cusp36           -3335
+    e73       cusp37           -2214   cusp38           -4550
+    e73       cusp39           -1557   cusp40           -3740
+    e73       cusp41           -4032   cusp42            -905
+    e73       cusp43           -4482   cusp44           -2730
+    e73       cusp45           -2907   cusp46           -4440
+    e73       cusp47            -644   cusp48           -4125
+    e73       cusp49           -3614   cusp50           -1785
+    e73       cusp51           -4559   cusp52           -2004
+    e73       cusp53           -3479   cusp54           -4209
+    e73       cusp55            -374   cusp56           -4389
+    e73       cusp57           -3075   cusp58           -2544
+    e73       cusp59           -4515   cusp60           -1157
+    e73       cusp61           -3930   cusp62           -3857
+    e73       cusp63           -1320   cusp64           -4532
+    e73       cusp65           -2415   cusp66           -3182
+    e73       cusp67           -4350   cusp68            -189
+    e73       cusp69           -4260   cusp70           -3384
+    e73       cusp71           -2145   cusp72           -4554
+    e73       cusp73           -1634   cusp74           -3699
+    e73       cusp75           -4064   cusp76            -819
+    e73       cusp77           -4469   cusp78           -2790
+    e73       cusp79           -2849   cusp80           -4455
+    e73       cusp81            -732   cusp82           -4095
+    e73       cusp83           -3657   cusp84           -1710
+    e73       cusp85           -4557   cusp86           -2075
+    e73       cusp87           -3432   cusp88           -4235
+    e73       cusp89            -282   cusp90           -4370
+    e73       cusp91           -3129   cusp92           -2480
+    e73       cusp93           -4524   cusp94           -1239
+    e73       cusp95           -3894
+    e74       sum_e                1   R0000003           128
+    e74       R0000205             1   R0000206            -1
+    e74       R0000207             1   R0000208            -1
+    e74       R0000209             1   R0000210             1
+    e74       R0000211            -1   R0000212            -1
+    e74       R0000581             1   R0000582            -1
+    e74       R0000583             1   R0000584            -1
+    e74       R0000589             1   R0000590             1
+    e74       R0000591            -1   R0000592            -1
+    e74       cusp1            -4329   cusp2            -3182
+    e74       cusp3            -2480   cusp4            -4515
+    e74       cusp5            -1074   cusp6            -3999
+    e74       cusp7            -3740   cusp8            -1634
+    e74       cusp9            -4557   cusp10           -2004
+    e74       cusp11           -3525   cusp12           -4154
+    e74       cusp13            -644   cusp14           -4455
+    e74       cusp15           -2790   cusp16           -2907
+    e74       cusp17           -4424   cusp18            -465
+    e74       cusp19           -4209   cusp20           -3432
+    e74       cusp21           -2145   cusp22           -4550
+    e74       cusp23           -1479   cusp24           -3819
+    e74       cusp25           -3930   cusp26           -1239
+    e74       cusp27           -4532   cusp28           -2349
+    e74       cusp29           -3285   cusp30           -4284
+    e74       cusp31            -189   cusp32           -4370
+    e74       cusp33           -3075   cusp34           -2607
+    e74       cusp35           -4494   cusp36            -905
+    e74       cusp37           -4064   cusp38           -3657
+    e74       cusp39           -1785   cusp40           -4560
+    e74       cusp41           -1859   cusp42           -3614
+    e74       cusp43           -4095   cusp44            -819
+    e74       cusp45           -4482   cusp46           -2669
+    e74       cusp47           -3020   cusp48           -4389
+    e74       cusp49            -282   cusp50           -4260
+    e74       cusp51           -3335   cusp52           -2282
+    e74       cusp53           -4539   cusp54           -1320
+    e74       cusp55           -3894   cusp56           -3857
+    e74       cusp57           -1400   cusp58           -4545
+    e74       cusp59           -2214   cusp60           -3384
+    e74       cusp61           -4235   cusp62            -374
+    e74       cusp63           -4407   cusp64           -2964
+    e74       cusp65           -2730   cusp66           -4469
+    e74       cusp67            -732   cusp68           -4125
+    e74       cusp69           -3570   cusp70           -1932
+    e74       cusp71           -4559   cusp72           -1710
+    e74       cusp73           -3699   cusp74           -4032
+    e74       cusp75            -990   cusp76           -4505
+    e74       cusp77           -2544   cusp78           -3129
+    e74       cusp79           -4350   cusp80             -95
+    e74       cusp81           -4307   cusp82           -3234
+    e74       cusp83           -2415   cusp84           -4524
+    e74       cusp85           -1157   cusp86           -3965
+    e74       cusp87           -3780   cusp88           -1557
+    e74       cusp89           -4554   cusp90           -2075
+    e74       cusp91           -3479   cusp92           -4182
+    e74       cusp93            -555   cusp94           -4440
+    e74       cusp95           -2849
+    e75       sum_e                1   R0000003            86
+    e75       R0000297             1   R0000298            -1
+    e75       R0000299             1   R0000300            -1
+    e75       R0000301             1   R0000302             1
+    e75       R0000303            -1   R0000304            -1
+    e75       R0000673             1   R0000674            -1
+    e75       R0000675             1   R0000676            -1
+    e75       R0000681             1   R0000682             1
+    e75       R0000683            -1   R0000684            -1
+    e75       cusp1            -4350   cusp2            -3075
+    e75       cusp3            -2669   cusp4            -4469
+    e75       cusp5             -644   cusp6            -4182
+    e75       cusp7            -3432   cusp8            -2214
+    e75       cusp9            -4539   cusp10           -1239
+    e75       cusp11           -3965   cusp12           -3740
+    e75       cusp13           -1710   cusp14           -4560
+    e75       cusp15           -1785   cusp16           -3699
+    e75       cusp17           -3999   cusp18           -1157
+    e75       cusp19           -4532   cusp20           -2282
+    e75       cusp21           -3384   cusp22           -4209
+    e75       cusp23            -555   cusp24           -4455
+    e75       cusp25           -2730   cusp26           -3020
+    e75       cusp27           -4370   cusp28             -95
+    e75       cusp29           -4329   cusp30           -3129
+    e75       cusp31           -2607   cusp32           -4482
+    e75       cusp33            -732   cusp34           -4154
+    e75       cusp35           -3479   cusp36           -2145
+    e75       cusp37           -4545   cusp38           -1320
+    e75       cusp39           -3930   cusp40           -3780
+    e75       cusp41           -1634   cusp42           -4559
+    e75       cusp43           -1859   cusp44           -3657
+    e75       cusp45           -4032   cusp46           -1074
+    e75       cusp47           -4524   cusp48           -2349
+    e75       cusp49           -3335   cusp50           -4235
+    e75       cusp51            -465   cusp52           -4440
+    e75       cusp53           -2790   cusp54           -2964
+    e75       cusp55           -4389   cusp56            -189
+    e75       cusp57           -4307   cusp58           -3182
+    e75       cusp59           -2544   cusp60           -4494
+    e75       cusp61            -819   cusp62           -4125
+    e75       cusp63           -3525   cusp64           -2075
+    e75       cusp65           -4550   cusp66           -1400
+    e75       cusp67           -3894   cusp68           -3819
+    e75       cusp69           -1557   cusp70           -4557
+    e75       cusp71           -1932   cusp72           -3614
+    e75       cusp73           -4064   cusp74            -990
+    e75       cusp75           -4515   cusp76           -2415
+    e75       cusp77           -3285   cusp78           -4260
+    e75       cusp79            -374   cusp80           -4424
+    e75       cusp81           -2849   cusp82           -2907
+    e75       cusp83           -4407   cusp84            -282
+    e75       cusp85           -4284   cusp86           -3234
+    e75       cusp87           -2480   cusp88           -4505
+    e75       cusp89            -905   cusp90           -4095
+    e75       cusp91           -3570   cusp92           -2004
+    e75       cusp93           -4554   cusp94           -1479
+    e75       cusp95           -3857
+    e76       sum_e                1   R0000003            46
+    e76       R0000225             1   R0000226            -1
+    e76       R0000227             1   R0000228            -1
+    e76       R0000229             1   R0000230             1
+    e76       R0000231            -1   R0000232            -1
+    e76       R0000601             1   R0000602            -1
+    e76       R0000603             1   R0000604            -1
+    e76       R0000609             1   R0000610             1
+    e76       R0000611            -1   R0000612            -1
+    e76       cusp1            -4370   cusp2            -2964
+    e76       cusp3            -2849   cusp4            -4407
+    e76       cusp5             -189   cusp6            -4329
+    e76       cusp7            -3075   cusp8            -2730
+    e76       cusp9            -4440   cusp10            -374
+    e76       cusp11           -4284   cusp12           -3182
+    e76       cusp13           -2607   cusp14           -4469
+    e76       cusp15            -555   cusp16           -4235
+    e76       cusp17           -3285   cusp18           -2480
+    e76       cusp19           -4494   cusp20            -732
+    e76       cusp21           -4182   cusp22           -3384
+    e76       cusp23           -2349   cusp24           -4515
+    e76       cusp25            -905   cusp26           -4125
+    e76       cusp27           -3479   cusp28           -2214
+    e76       cusp29           -4532   cusp30           -1074
+    e76       cusp31           -4064   cusp32           -3570
+    e76       cusp33           -2075   cusp34           -4545
+    e76       cusp35           -1239   cusp36           -3999
+    e76       cusp37           -3657   cusp38           -1932
+    e76       cusp39           -4554   cusp40           -1400
+    e76       cusp41           -3930   cusp42           -3740
+    e76       cusp43           -1785   cusp44           -4559
+    e76       cusp45           -1557   cusp46           -3857
+    e76       cusp47           -3819   cusp48           -1634
+    e76       cusp49           -4560   cusp50           -1710
+    e76       cusp51           -3780   cusp52           -3894
+    e76       cusp53           -1479   cusp54           -4557
+    e76       cusp55           -1859   cusp56           -3699
+    e76       cusp57           -3965   cusp58           -1320
+    e76       cusp59           -4550   cusp60           -2004
+    e76       cusp61           -3614   cusp62           -4032
+    e76       cusp63           -1157   cusp64           -4539
+    e76       cusp65           -2145   cusp66           -3525
+    e76       cusp67           -4095   cusp68            -990
+    e76       cusp69           -4524   cusp70           -2282
+    e76       cusp71           -3432   cusp72           -4154
+    e76       cusp73            -819   cusp74           -4505
+    e76       cusp75           -2415   cusp76           -3335
+    e76       cusp77           -4209   cusp78            -644
+    e76       cusp79           -4482   cusp80           -2544
+    e76       cusp81           -3234   cusp82           -4260
+    e76       cusp83            -465   cusp84           -4455
+    e76       cusp85           -2669   cusp86           -3129
+    e76       cusp87           -4307   cusp88            -282
+    e76       cusp89           -4424   cusp90           -2790
+    e76       cusp91           -3020   cusp92           -4350
+    e76       cusp93             -95   cusp94           -4389
+    e76       cusp95           -2907
+    e77       sum_e                1   R0000003             8
+    e77       R0000197             1   R0000198            -1
+    e77       R0000199             1   R0000200            -1
+    e77       R0000201             1   R0000202             1
+    e77       R0000203            -1   R0000204            -1
+    e77       R0000573             1   R0000574            -1
+    e77       R0000575             1   R0000576            -1
+    e77       R0000581             1   R0000582             1
+    e77       R0000583            -1   R0000584            -1
+    e77       cusp1            -4389   cusp2            -2849
+    e77       cusp3            -3020   cusp4            -4329
+    e77       cusp5             -282   cusp6            -4440
+    e77       cusp7            -2669   cusp8            -3182
+    e77       cusp9            -4260   cusp10            -555
+    e77       cusp11           -4482   cusp12           -2480
+    e77       cusp13           -3335   cusp14           -4182
+    e77       cusp15            -819   cusp16           -4515
+    e77       cusp17           -2282   cusp18           -3479
+    e77       cusp19           -4095   cusp20           -1074
+    e77       cusp21           -4539   cusp22           -2075
+    e77       cusp23           -3614   cusp24           -3999
+    e77       cusp25           -1320   cusp26           -4554
+    e77       cusp27           -1859   cusp28           -3740
+    e77       cusp29           -3894   cusp30           -1557
+    e77       cusp31           -4560   cusp32           -1634
+    e77       cusp33           -3857   cusp34           -3780
+    e77       cusp35           -1785   cusp36           -4557
+    e77       cusp37           -1400   cusp38           -3965
+    e77       cusp39           -3657   cusp40           -2004
+    e77       cusp41           -4545   cusp42           -1157
+    e77       cusp43           -4064   cusp44           -3525
+    e77       cusp45           -2214   cusp46           -4524
+    e77       cusp47            -905   cusp48           -4154
+    e77       cusp49           -3384   cusp50           -2415
+    e77       cusp51           -4494   cusp52            -644
+    e77       cusp53           -4235   cusp54           -3234
+    e77       cusp55           -2607   cusp56           -4455
+    e77       cusp57            -374   cusp58           -4307
+    e77       cusp59           -3075   cusp60           -2790
+    e77       cusp61           -4407   cusp62             -95
+    e77       cusp63           -4370   cusp64           -2907
+    e77       cusp65           -2964   cusp66           -4350
+    e77       cusp67            -189   cusp68           -4424
+    e77       cusp69           -2730   cusp70           -3129
+    e77       cusp71           -4284   cusp72            -465
+    e77       cusp73           -4469   cusp74           -2544
+    e77       cusp75           -3285   cusp76           -4209
+    e77       cusp77            -732   cusp78           -4505
+    e77       cusp79           -2349   cusp80           -3432
+    e77       cusp81           -4125   cusp82            -990
+    e77       cusp83           -4532   cusp84           -2145
+    e77       cusp85           -3570   cusp86           -4032
+    e77       cusp87           -1239   cusp88           -4550
+    e77       cusp89           -1932   cusp90           -3699
+    e77       cusp91           -3930   cusp92           -1479
+    e77       cusp93           -4559   cusp94           -1710
+    e77       cusp95           -3819
+    e78       sum_e                1   R0000003           163
+    e78       R0000233             1   R0000234            -1
+    e78       R0000235             1   R0000236            -1
+    e78       R0000237             1   R0000238             1
+    e78       R0000239            -1   R0000240            -1
+    e78       R0000609             1   R0000610            -1
+    e78       R0000611             1   R0000612            -1
+    e78       R0000617             1   R0000618             1
+    e78       R0000619            -1   R0000620            -1
+    e78       cusp1            -4407   cusp2            -2730
+    e78       cusp3            -3182   cusp4            -4235
+    e78       cusp5             -732   cusp6            -4515
+    e78       cusp7            -2214   cusp8            -3570
+    e78       cusp9            -3999   cusp10           -1400
+    e78       cusp11           -4559   cusp12           -1634
+    e78       cusp13           -3894   cusp14           -3699
+    e78       cusp15           -2004   cusp16           -4539
+    e78       cusp17            -990   cusp18           -4154
+    e78       cusp19           -3335   cusp20           -2544
+    e78       cusp21           -4455   cusp22            -282
+    e78       cusp23           -4350   cusp24           -2907
+    e78       cusp25           -3020   cusp26           -4307
+    e78       cusp27            -465   cusp28           -4482
+    e78       cusp29           -2415   cusp30           -3432
+    e78       cusp31           -4095   cusp32           -1157
+    e78       cusp33           -4550   cusp34           -1859
+    e78       cusp35           -3780   cusp36           -3819
+    e78       cusp37           -1785   cusp38           -4554
+    e78       cusp39           -1239   cusp40           -4064
+    e78       cusp41           -3479   cusp42           -2349
+    e78       cusp43           -4494   cusp44            -555
+    e78       cusp45           -4284   cusp46           -3075
+    e78       cusp47           -2849   cusp48           -4370
+    e78       cusp49            -189   cusp50           -4440
+    e78       cusp51           -2607   cusp52           -3285
+    e78       cusp53           -4182   cusp54            -905
+    e78       cusp55           -4532   cusp56           -2075
+    e78       cusp57           -3657   cusp58           -3930
+    e78       cusp59           -1557   cusp60           -4560
+    e78       cusp61           -1479   cusp62           -3965
+    e78       cusp63           -3614   cusp64           -2145
+    e78       cusp65           -4524   cusp66            -819
+    e78       cusp67           -4209   cusp68           -3234
+    e78       cusp69           -2669   cusp70           -4424
+    e78       cusp71             -95   cusp72           -4389
+    e78       cusp73           -2790   cusp74           -3129
+    e78       cusp75           -4260   cusp76            -644
+    e78       cusp77           -4505   cusp78           -2282
+    e78       cusp79           -3525   cusp80           -4032
+    e78       cusp81           -1320   cusp82           -4557
+    e78       cusp83           -1710   cusp84           -3857
+    e78       cusp85           -3740   cusp86           -1932
+    e78       cusp87           -4545   cusp88           -1074
+    e78       cusp89           -4125   cusp90           -3384
+    e78       cusp91           -2480   cusp92           -4469
+    e78       cusp93            -374   cusp94           -4329
+    e78       cusp95           -2964
+    e79       sum_e                1   R0000003           129
+    e79       R0000093             1   R0000094            -1
+    e79       R0000095             1   R0000096            -1
+    e79       R0000097             1   R0000098             1
+    e79       R0000099            -1   R0000100            -1
+    e79       R0000469             1   R0000470            -1
+    e79       R0000471             1   R0000472            -1
+    e79       R0000477             1   R0000478             1
+    e79       R0000479            -1   R0000480            -1
+    e79       cusp1            -4424   cusp2            -2607
+    e79       cusp3            -3335   cusp4            -4125
+    e79       cusp5            -1157   cusp6            -4554
+    e79       cusp7            -1710   cusp8            -3894
+    e79       cusp9            -3657   cusp10           -2145
+    e79       cusp11           -4515   cusp12            -644
+    e79       cusp13           -4284   cusp14           -3020
+    e79       cusp15           -2964   cusp16           -4307
+    e79       cusp17            -555   cusp18           -4505
+    e79       cusp19           -2214   cusp20           -3614
+    e79       cusp21           -3930   cusp22           -1634
+    e79       cusp23           -4557   cusp24           -1239
+    e79       cusp25           -4095   cusp26           -3384
+    e79       cusp27           -2544   cusp28           -4440
+    e79       cusp29             -95   cusp30           -4407
+    e79       cusp31           -2669   cusp32           -3285
+    e79       cusp33           -4154   cusp34           -1074
+    e79       cusp35           -4550   cusp36           -1785
+    e79       cusp37           -3857   cusp38           -3699
+    e79       cusp39           -2075   cusp40           -4524
+    e79       cusp41            -732   cusp42           -4260
+    e79       cusp43           -3075   cusp44           -2907
+    e79       cusp45           -4329   cusp46            -465
+    e79       cusp47           -4494   cusp48           -2282
+    e79       cusp49           -3570   cusp50           -3965
+    e79       cusp51           -1557   cusp52           -4559
+    e79       cusp53           -1320   cusp54           -4064
+    e79       cusp55           -3432   cusp56           -2480
+    e79       cusp57           -4455   cusp58            -189
+    e79       cusp59           -4389   cusp60           -2730
+    e79       cusp61           -3234   cusp62           -4182
+    e79       cusp63            -990   cusp64           -4545
+    e79       cusp65           -1859   cusp66           -3819
+    e79       cusp67           -3740   cusp68           -2004
+    e79       cusp69           -4532   cusp70            -819
+    e79       cusp71           -4235   cusp72           -3129
+    e79       cusp73           -2849   cusp74           -4350
+    e79       cusp75            -374   cusp76           -4482
+    e79       cusp77           -2349   cusp78           -3525
+    e79       cusp79           -3999   cusp80           -1479
+    e79       cusp81           -4560   cusp82           -1400
+    e79       cusp83           -4032   cusp84           -3479
+    e79       cusp85           -2415   cusp86           -4469
+    e79       cusp87            -282   cusp88           -4370
+    e79       cusp89           -2790   cusp90           -3182
+    e79       cusp91           -4209   cusp92            -905
+    e79       cusp93           -4539   cusp94           -1932
+    e79       cusp95           -3780
+    e80       sum_e                1   R0000003            97
+    e80       R0000177             1   R0000178            -1
+    e80       R0000179             1   R0000180            -1
+    e80       R0000181             1   R0000182             1
+    e80       R0000183            -1   R0000184            -1
+    e80       R0000553             1   R0000554            -1
+    e80       R0000555             1   R0000556            -1
+    e80       R0000561             1   R0000562             1
+    e80       R0000563            -1   R0000564            -1
+    e80       cusp1            -4440   cusp2            -2480
+    e80       cusp3            -3479   cusp4            -3999
+    e80       cusp5            -1557   cusp6            -4557
+    e80       cusp7            -1157   cusp8            -4154
+    e80       cusp9            -3234   cusp10           -2790
+    e80       cusp11           -4350   cusp12            -465
+    e80       cusp13           -4505   cusp14           -2145
+    e80       cusp15           -3699   cusp16           -3819
+    e80       cusp17           -1932   cusp18           -4532
+    e80       cusp19            -732   cusp20           -4284
+    e80       cusp21           -2964   cusp22           -3075
+    e80       cusp23           -4235   cusp24            -905
+    e80       cusp25           -4545   cusp26           -1785
+    e80       cusp27           -3894   cusp28           -3614
+    e80       cusp29           -2282   cusp30           -4482
+    e80       cusp31            -282   cusp32           -4389
+    e80       cusp33           -2669   cusp34           -3335
+    e80       cusp35           -4095   cusp36           -1320
+    e80       cusp37           -4560   cusp38           -1400
+    e80       cusp39           -4064   cusp40           -3384
+    e80       cusp41           -2607   cusp42           -4407
+    e80       cusp43            -189   cusp44           -4469
+    e80       cusp45           -2349   cusp46           -3570
+    e80       cusp47           -3930   cusp48           -1710
+    e80       cusp49           -4550   cusp50            -990
+    e80       cusp51           -4209   cusp52           -3129
+    e80       cusp53           -2907   cusp54           -4307
+    e80       cusp55            -644   cusp56           -4524
+    e80       cusp57           -2004   cusp58           -3780
+    e80       cusp59           -3740   cusp60           -2075
+    e80       cusp61           -4515   cusp62            -555
+    e80       cusp63           -4329   cusp64           -2849
+    e80       cusp65           -3182   cusp66           -4182
+    e80       cusp67           -1074   cusp68           -4554
+    e80       cusp69           -1634   cusp70           -3965
+    e80       cusp71           -3525   cusp72           -2415
+    e80       cusp73           -4455   cusp74             -95
+    e80       cusp75           -4424   cusp76           -2544
+    e80       cusp77           -3432   cusp78           -4032
+    e80       cusp79           -1479   cusp80           -4559
+    e80       cusp81           -1239   cusp82           -4125
+    e80       cusp83           -3285   cusp84           -2730
+    e80       cusp85           -4370   cusp86            -374
+    e80       cusp87           -4494   cusp88           -2214
+    e80       cusp89           -3657   cusp90           -3857
+    e80       cusp91           -1859   cusp92           -4539
+    e80       cusp93            -819   cusp94           -4260
+    e80       cusp95           -3020
+    e81       sum_e                1   R0000003            67
+    e81       R0000285             1   R0000286            -1
+    e81       R0000287             1   R0000288            -1
+    e81       R0000289             1   R0000290             1
+    e81       R0000291            -1   R0000292            -1
+    e81       R0000661             1   R0000662            -1
+    e81       R0000663             1   R0000664            -1
+    e81       R0000669             1   R0000670             1
+    e81       R0000671            -1   R0000672            -1
+    e81       cusp1            -4455   cusp2            -2349
+    e81       cusp3            -3614   cusp4            -3857
+    e81       cusp5            -1932   cusp6            -4524
+    e81       cusp7             -555   cusp8            -4350
+    e81       cusp9            -2730   cusp10           -3335
+    e81       cusp11           -4064   cusp12           -1479
+    e81       cusp13           -4557   cusp14           -1074
+    e81       cusp15           -4209   cusp16           -3075
+    e81       cusp17           -3020   cusp18           -4235
+    e81       cusp19            -990   cusp20           -4554
+    e81       cusp21           -1557   cusp22           -4032
+    e81       cusp23           -3384   cusp24           -2669
+    e81       cusp25           -4370   cusp26            -465
+    e81       cusp27           -4515   cusp28           -2004
+    e81       cusp29           -3819   cusp30           -3657
+    e81       cusp31           -2282   cusp32           -4469
+    e81       cusp33             -95   cusp34           -4440
+    e81       cusp35           -2415   cusp36           -3570
+    e81       cusp37           -3894   cusp38           -1859
+    e81       cusp39           -4532   cusp40            -644
+    e81       cusp41           -4329   cusp42           -2790
+    e81       cusp43           -3285   cusp44           -4095
+    e81       cusp45           -1400   cusp46           -4559
+    e81       cusp47           -1157   cusp48           -4182
+    e81       cusp49           -3129   cusp50           -2964
+    e81       cusp51           -4260   cusp52            -905
+    e81       cusp53           -4550   cusp54           -1634
+    e81       cusp55           -3999   cusp56           -3432
+    e81       cusp57           -2607   cusp58           -4389
+    e81       cusp59            -374   cusp60           -4505
+    e81       cusp61           -2075   cusp62           -3780
+    e81       cusp63           -3699   cusp64           -2214
+    e81       cusp65           -4482   cusp66            -189
+    e81       cusp67           -4424   cusp68           -2480
+    e81       cusp69           -3525   cusp70           -3930
+    e81       cusp71           -1785   cusp72           -4539
+    e81       cusp73            -732   cusp74           -4307
+    e81       cusp75           -2849   cusp76           -3234
+    e81       cusp77           -4125   cusp78           -1320
+    e81       cusp79           -4560   cusp80           -1239
+    e81       cusp81           -4154   cusp82           -3182
+    e81       cusp83           -2907   cusp84           -4284
+    e81       cusp85            -819   cusp86           -4545
+    e81       cusp87           -1710   cusp88           -3965
+    e81       cusp89           -3479   cusp90           -2544
+    e81       cusp91           -4407   cusp92            -282
+    e81       cusp93           -4494   cusp94           -2145
+    e81       cusp95           -3740
+    e82       sum_e                1   R0000003            39
+    e82       R0000305             1   R0000306            -1
+    e82       R0000307             1   R0000308            -1
+    e82       R0000309             1   R0000310             1
+    e82       R0000311            -1   R0000312            -1
+    e82       R0000681             1   R0000682            -1
+    e82       R0000683             1   R0000684            -1
+    e82       R0000689             1   R0000690             1
+    e82       R0000691            -1   R0000692            -1
+    e82       cusp1            -4469   cusp2            -2214
+    e82       cusp3            -3740   cusp4            -3699
+    e82       cusp5            -2282   cusp6            -4455
+    e82       cusp7              -95   cusp8            -4482
+    e82       cusp9            -2145   cusp10           -3780
+    e82       cusp11           -3657   cusp12           -2349
+    e82       cusp13           -4440   cusp14            -189
+    e82       cusp15           -4494   cusp16           -2075
+    e82       cusp17           -3819   cusp18           -3614
+    e82       cusp19           -2415   cusp20           -4424
+    e82       cusp21            -282   cusp22           -4505
+    e82       cusp23           -2004   cusp24           -3857
+    e82       cusp25           -3570   cusp26           -2480
+    e82       cusp27           -4407   cusp28            -374
+    e82       cusp29           -4515   cusp30           -1932
+    e82       cusp31           -3894   cusp32           -3525
+    e82       cusp33           -2544   cusp34           -4389
+    e82       cusp35            -465   cusp36           -4524
+    e82       cusp37           -1859   cusp38           -3930
+    e82       cusp39           -3479   cusp40           -2607
+    e82       cusp41           -4370   cusp42            -555
+    e82       cusp43           -4532   cusp44           -1785
+    e82       cusp45           -3965   cusp46           -3432
+    e82       cusp47           -2669   cusp48           -4350
+    e82       cusp49            -644   cusp50           -4539
+    e82       cusp51           -1710   cusp52           -3999
+    e82       cusp53           -3384   cusp54           -2730
+    e82       cusp55           -4329   cusp56            -732
+    e82       cusp57           -4545   cusp58           -1634
+    e82       cusp59           -4032   cusp60           -3335
+    e82       cusp61           -2790   cusp62           -4307
+    e82       cusp63            -819   cusp64           -4550
+    e82       cusp65           -1557   cusp66           -4064
+    e82       cusp67           -3285   cusp68           -2849
+    e82       cusp69           -4284   cusp70            -905
+    e82       cusp71           -4554   cusp72           -1479
+    e82       cusp73           -4095   cusp74           -3234
+    e82       cusp75           -2907   cusp76           -4260
+    e82       cusp77            -990   cusp78           -4557
+    e82       cusp79           -1400   cusp80           -4125
+    e82       cusp81           -3182   cusp82           -2964
+    e82       cusp83           -4235   cusp84           -1074
+    e82       cusp85           -4559   cusp86           -1320
+    e82       cusp87           -4154   cusp88           -3129
+    e82       cusp89           -3020   cusp90           -4209
+    e82       cusp91           -1157   cusp92           -4560
+    e82       cusp93           -1239   cusp94           -4182
+    e82       cusp95           -3075
+    e83       sum_e                1   R0000003            13
+    e83       R0000317             1   R0000318            -1
+    e83       R0000319             1   R0000320            -1
+    e83       R0000321             1   R0000322             1
+    e83       R0000323            -1   R0000324            -1
+    e83       R0000693             1   R0000694            -1
+    e83       R0000695             1   R0000696            -1
+    e83       R0000701             1   R0000702             1
+    e83       R0000703            -1   R0000704            -1
+    e83       cusp1            -4482   cusp2            -2075
+    e83       cusp3            -3857   cusp4            -3525
+    e83       cusp5            -2607   cusp6            -4350
+    e83       cusp7             -732   cusp8            -4550
+    e83       cusp9            -1479   cusp10           -4125
+    e83       cusp11           -3129   cusp12           -3075
+    e83       cusp13           -4154   cusp14           -1400
+    e83       cusp15           -4554   cusp16            -819
+    e83       cusp17           -4329   cusp18           -2669
+    e83       cusp19           -3479   cusp20           -3894
+    e83       cusp21           -2004   cusp22           -4494
+    e83       cusp23             -95   cusp24           -4469
+    e83       cusp25           -2145   cusp26           -3819
+    e83       cusp27           -3570   cusp28           -2544
+    e83       cusp29           -4370   cusp30            -644
+    e83       cusp31           -4545   cusp32           -1557
+    e83       cusp33           -4095   cusp34           -3182
+    e83       cusp35           -3020   cusp36           -4182
+    e83       cusp37           -1320   cusp38           -4557
+    e83       cusp39            -905   cusp40           -4307
+    e83       cusp41           -2730   cusp42           -3432
+    e83       cusp43           -3930   cusp44           -1932
+    e83       cusp45           -4505   cusp46            -189
+    e83       cusp47           -4455   cusp48           -2214
+    e83       cusp49           -3780   cusp50           -3614
+    e83       cusp51           -2480   cusp52           -4389
+    e83       cusp53            -555   cusp54           -4539
+    e83       cusp55           -1634   cusp56           -4064
+    e83       cusp57           -3234   cusp58           -2964
+    e83       cusp59           -4209   cusp60           -1239
+    e83       cusp61           -4559   cusp62            -990
+    e83       cusp63           -4284   cusp64           -2790
+    e83       cusp65           -3384   cusp66           -3965
+    e83       cusp67           -1859   cusp68           -4515
+    e83       cusp69            -282   cusp70           -4440
+    e83       cusp71           -2282   cusp72           -3740
+    e83       cusp73           -3657   cusp74           -2415
+    e83       cusp75           -4407   cusp76            -465
+    e83       cusp77           -4532   cusp78           -1710
+    e83       cusp79           -4032   cusp80           -3285
+    e83       cusp81           -2907   cusp82           -4235
+    e83       cusp83           -1157   cusp84           -4560
+    e83       cusp85           -1074   cusp86           -4260
+    e83       cusp87           -2849   cusp88           -3335
+    e83       cusp89           -3999   cusp90           -1785
+    e83       cusp91           -4524   cusp92            -374
+    e83       cusp93           -4424   cusp94           -2349
+    e83       cusp95           -3699
+    e84       sum_e                1   R0000003           180
+    e84       R0000061             1   R0000062            -1
+    e84       R0000063             1   R0000064            -1
+    e84       R0000065             1   R0000066             1
+    e84       R0000067            -1   R0000068            -1
+    e84       R0000437             1   R0000438            -1
+    e84       R0000439             1   R0000440            -1
+    e84       R0000445             1   R0000446             1
+    e84       R0000447            -1   R0000448            -1
+    e84       cusp1            -4494   cusp2            -1932
+    e84       cusp3            -3965   cusp4            -3335
+    e84       cusp5            -2907   cusp6            -4209
+    e84       cusp7            -1320   cusp8            -4554
+    e84       cusp9             -732   cusp10           -4370
+    e84       cusp11           -2480   cusp12           -3657
+    e84       cusp13           -3699   cusp14           -2415
+    e84       cusp15           -4389   cusp16            -644
+    e84       cusp17           -4550   cusp18           -1400
+    e84       cusp19           -4182   cusp20           -2964
+    e84       cusp21           -3285   cusp22           -3999
+    e84       cusp23           -1859   cusp24           -4505
+    e84       cusp25             -95   cusp26           -4482
+    e84       cusp27           -2004   cusp28           -3930
+    e84       cusp29           -3384   cusp30           -2849
+    e84       cusp31           -4235   cusp32           -1239
+    e84       cusp33           -4557   cusp34            -819
+    e84       cusp35           -4350   cusp36           -2544
+    e84       cusp37           -3614   cusp38           -3740
+    e84       cusp39           -2349   cusp40           -4407
+    e84       cusp41            -555   cusp42           -4545
+    e84       cusp43           -1479   cusp44           -4154
+    e84       cusp45           -3020   cusp46           -3234
+    e84       cusp47           -4032   cusp48           -1785
+    e84       cusp49           -4515   cusp50            -189
+    e84       cusp51           -4469   cusp52           -2075
+    e84       cusp53           -3894   cusp54           -3432
+    e84       cusp55           -2790   cusp56           -4260
+    e84       cusp57           -1157   cusp58           -4559
+    e84       cusp59            -905   cusp60           -4329
+    e84       cusp61           -2607   cusp62           -3570
+    e84       cusp63           -3780   cusp64           -2282
+    e84       cusp65           -4424   cusp66            -465
+    e84       cusp67           -4539   cusp68           -1557
+    e84       cusp69           -4125   cusp70           -3075
+    e84       cusp71           -3182   cusp72           -4064
+    e84       cusp73           -1710   cusp74           -4524
+    e84       cusp75            -282   cusp76           -4455
+    e84       cusp77           -2145   cusp78           -3857
+    e84       cusp79           -3479   cusp80           -2730
+    e84       cusp81           -4284   cusp82           -1074
+    e84       cusp83           -4560   cusp84            -990
+    e84       cusp85           -4307   cusp86           -2669
+    e84       cusp87           -3525   cusp88           -3819
+    e84       cusp89           -2214   cusp90           -4440
+    e84       cusp91            -374   cusp92           -4532
+    e84       cusp93           -1634   cusp94           -4095
+    e84       cusp95           -3129
+    e85       sum_e                1   R0000003           158
+    e85       R0000049             1   R0000050            -1
+    e85       R0000051             1   R0000052            -1
+    e85       R0000053             1   R0000054             1
+    e85       R0000055            -1   R0000056            -1
+    e85       R0000425             1   R0000426            -1
+    e85       R0000427             1   R0000428            -1
+    e85       R0000433             1   R0000434             1
+    e85       R0000435            -1   R0000436            -1
+    e85       cusp1            -4505   cusp2            -1785
+    e85       cusp3            -4064   cusp4            -3129
+    e85       cusp5            -3182   cusp6            -4032
+    e85       cusp7            -1859   cusp8            -4494
+    e85       cusp9              -95   cusp10           -4515
+    e85       cusp11           -1710   cusp12           -4095
+    e85       cusp13           -3075   cusp14           -3234
+    e85       cusp15           -3999   cusp16           -1932
+    e85       cusp17           -4482   cusp18            -189
+    e85       cusp19           -4524   cusp20           -1634
+    e85       cusp21           -4125   cusp22           -3020
+    e85       cusp23           -3285   cusp24           -3965
+    e85       cusp25           -2004   cusp26           -4469
+    e85       cusp27            -282   cusp28           -4532
+    e85       cusp29           -1557   cusp30           -4154
+    e85       cusp31           -2964   cusp32           -3335
+    e85       cusp33           -3930   cusp34           -2075
+    e85       cusp35           -4455   cusp36            -374
+    e85       cusp37           -4539   cusp38           -1479
+    e85       cusp39           -4182   cusp40           -2907
+    e85       cusp41           -3384   cusp42           -3894
+    e85       cusp43           -2145   cusp44           -4440
+    e85       cusp45            -465   cusp46           -4545
+    e85       cusp47           -1400   cusp48           -4209
+    e85       cusp49           -2849   cusp50           -3432
+    e85       cusp51           -3857   cusp52           -2214
+    e85       cusp53           -4424   cusp54            -555
+    e85       cusp55           -4550   cusp56           -1320
+    e85       cusp57           -4235   cusp58           -2790
+    e85       cusp59           -3479   cusp60           -3819
+    e85       cusp61           -2282   cusp62           -4407
+    e85       cusp63            -644   cusp64           -4554
+    e85       cusp65           -1239   cusp66           -4260
+    e85       cusp67           -2730   cusp68           -3525
+    e85       cusp69           -3780   cusp70           -2349
+    e85       cusp71           -4389   cusp72            -732
+    e85       cusp73           -4557   cusp74           -1157
+    e85       cusp75           -4284   cusp76           -2669
+    e85       cusp77           -3570   cusp78           -3740
+    e85       cusp79           -2415   cusp80           -4370
+    e85       cusp81            -819   cusp82           -4559
+    e85       cusp83           -1074   cusp84           -4307
+    e85       cusp85           -2607   cusp86           -3614
+    e85       cusp87           -3699   cusp88           -2480
+    e85       cusp89           -4350   cusp90            -905
+    e85       cusp91           -4560   cusp92            -990
+    e85       cusp93           -4329   cusp94           -2544
+    e85       cusp95           -3657
+    e86       sum_e                1   R0000003           138
+    e86       R0000213             1   R0000214            -1
+    e86       R0000215             1   R0000216            -1
+    e86       R0000217             1   R0000218             1
+    e86       R0000219            -1   R0000220            -1
+    e86       R0000589             1   R0000590            -1
+    e86       R0000591             1   R0000592            -1
+    e86       R0000597             1   R0000598             1
+    e86       R0000599            -1   R0000600            -1
+    e86       cusp1            -4515   cusp2            -1634
+    e86       cusp3            -4154   cusp4            -2907
+    e86       cusp5            -3432   cusp6            -3819
+    e86       cusp7            -2349   cusp8            -4370
+    e86       cusp9             -905   cusp10           -4560
+    e86       cusp11            -819   cusp12           -4389
+    e86       cusp13           -2282   cusp14           -3857
+    e86       cusp15           -3384   cusp16           -2964
+    e86       cusp17           -4125   cusp18           -1710
+    e86       cusp19           -4505   cusp20             -95
+    e86       cusp21           -4524   cusp22           -1557
+    e86       cusp23           -4182   cusp24           -2849
+    e86       cusp25           -3479   cusp26           -3780
+    e86       cusp27           -2415   cusp28           -4350
+    e86       cusp29            -990   cusp30           -4559
+    e86       cusp31            -732   cusp32           -4407
+    e86       cusp33           -2214   cusp34           -3894
+    e86       cusp35           -3335   cusp36           -3020
+    e86       cusp37           -4095   cusp38           -1785
+    e86       cusp39           -4494   cusp40            -189
+    e86       cusp41           -4532   cusp42           -1479
+    e86       cusp43           -4209   cusp44           -2790
+    e86       cusp45           -3525   cusp46           -3740
+    e86       cusp47           -2480   cusp48           -4329
+    e86       cusp49           -1074   cusp50           -4557
+    e86       cusp51            -644   cusp52           -4424
+    e86       cusp53           -2145   cusp54           -3930
+    e86       cusp55           -3285   cusp56           -3075
+    e86       cusp57           -4064   cusp58           -1859
+    e86       cusp59           -4482   cusp60            -282
+    e86       cusp61           -4539   cusp62           -1400
+    e86       cusp63           -4235   cusp64           -2730
+    e86       cusp65           -3570   cusp66           -3699
+    e86       cusp67           -2544   cusp68           -4307
+    e86       cusp69           -1157   cusp70           -4554
+    e86       cusp71            -555   cusp72           -4440
+    e86       cusp73           -2075   cusp74           -3965
+    e86       cusp75           -3234   cusp76           -3129
+    e86       cusp77           -4032   cusp78           -1932
+    e86       cusp79           -4469   cusp80            -374
+    e86       cusp81           -4545   cusp82           -1320
+    e86       cusp83           -4260   cusp84           -2669
+    e86       cusp85           -3614   cusp86           -3657
+    e86       cusp87           -2607   cusp88           -4284
+    e86       cusp89           -1239   cusp90           -4550
+    e86       cusp91            -465   cusp92           -4455
+    e86       cusp93           -2004   cusp94           -3999
+    e86       cusp95           -3182
+    e87       sum_e                1   R0000003           120
+    e87       R0000265             1   R0000266            -1
+    e87       R0000267             1   R0000268            -1
+    e87       R0000269             1   R0000270             1
+    e87       R0000271            -1   R0000272            -1
+    e87       R0000641             1   R0000642            -1
+    e87       R0000643             1   R0000644            -1
+    e87       R0000649             1   R0000650             1
+    e87       R0000651            -1   R0000652            -1
+    e87       cusp1            -4524   cusp2            -1479
+    e87       cusp3            -4235   cusp4            -2669
+    e87       cusp5            -3657   cusp6            -3570
+    e87       cusp7            -2790   cusp8            -4182
+    e87       cusp9            -1634   cusp10           -4505
+    e87       cusp11            -189   cusp12           -4539
+    e87       cusp13           -1320   cusp14           -4284
+    e87       cusp15           -2544   cusp16           -3740
+    e87       cusp17           -3479   cusp18           -2907
+    e87       cusp19           -4125   cusp20           -1785
+    e87       cusp21           -4482   cusp22            -374
+    e87       cusp23           -4550   cusp24           -1157
+    e87       cusp25           -4329   cusp26           -2415
+    e87       cusp27           -3819   cusp28           -3384
+    e87       cusp29           -3020   cusp30           -4064
+    e87       cusp31           -1932   cusp32           -4455
+    e87       cusp33            -555   cusp34           -4557
+    e87       cusp35            -990   cusp36           -4370
+    e87       cusp37           -2282   cusp38           -3894
+    e87       cusp39           -3285   cusp40           -3129
+    e87       cusp41           -3999   cusp42           -2075
+    e87       cusp43           -4424   cusp44            -732
+    e87       cusp45           -4560   cusp46            -819
+    e87       cusp47           -4407   cusp48           -2145
+    e87       cusp49           -3965   cusp50           -3182
+    e87       cusp51           -3234   cusp52           -3930
+    e87       cusp53           -2214   cusp54           -4389
+    e87       cusp55            -905   cusp56           -4559
+    e87       cusp57            -644   cusp58           -4440
+    e87       cusp59           -2004   cusp60           -4032
+    e87       cusp61           -3075   cusp62           -3335
+    e87       cusp63           -3857   cusp64           -2349
+    e87       cusp65           -4350   cusp66           -1074
+    e87       cusp67           -4554   cusp68            -465
+    e87       cusp69           -4469   cusp70           -1859
+    e87       cusp71           -4095   cusp72           -2964
+    e87       cusp73           -3432   cusp74           -3780
+    e87       cusp75           -2480   cusp76           -4307
+    e87       cusp77           -1239   cusp78           -4545
+    e87       cusp79            -282   cusp80           -4494
+    e87       cusp81           -1710   cusp82           -4154
+    e87       cusp83           -2849   cusp84           -3525
+    e87       cusp85           -3699   cusp86           -2607
+    e87       cusp87           -4260   cusp88           -1400
+    e87       cusp89           -4532   cusp90             -95
+    e87       cusp91           -4515   cusp92           -1557
+    e87       cusp93           -4209   cusp94           -2730
+    e87       cusp95           -3614
+    e88       sum_e                1   R0000003           104
+    e88       R0000133             1   R0000134            -1
+    e88       R0000135             1   R0000136            -1
+    e88       R0000137             1   R0000138             1
+    e88       R0000139            -1   R0000140            -1
+    e88       R0000509             1   R0000510            -1
+    e88       R0000511             1   R0000512            -1
+    e88       R0000517             1   R0000518             1
+    e88       R0000519            -1   R0000520            -1
+    e88       cusp1            -4532   cusp2            -1320
+    e88       cusp3            -4307   cusp4            -2415
+    e88       cusp5            -3857   cusp6            -3285
+    e88       cusp7            -3182   cusp8            -3930
+    e88       cusp9            -2282   cusp10           -4350
+    e88       cusp11           -1157   cusp12           -4545
+    e88       cusp13            -189   cusp14           -4515
+    e88       cusp15           -1479   cusp16           -4260
+    e88       cusp17           -2544   cusp18           -3780
+    e88       cusp19           -3384   cusp20           -3075
+    e88       cusp21           -3999   cusp22           -2145
+    e88       cusp23           -4389   cusp24            -990
+    e88       cusp25           -4554   cusp26            -374
+    e88       cusp27           -4494   cusp28           -1634
+    e88       cusp29           -4209   cusp30           -2669
+    e88       cusp31           -3699   cusp32           -3479
+    e88       cusp33           -2964   cusp34           -4064
+    e88       cusp35           -2004   cusp36           -4424
+    e88       cusp37            -819   cusp38           -4559
+    e88       cusp39            -555   cusp40           -4469
+    e88       cusp41           -1785   cusp42           -4154
+    e88       cusp43           -2790   cusp44           -3614
+    e88       cusp45           -3570   cusp46           -2849
+    e88       cusp47           -4125   cusp48           -1859
+    e88       cusp49           -4455   cusp50            -644
+    e88       cusp51           -4560   cusp52            -732
+    e88       cusp53           -4440   cusp54           -1932
+    e88       cusp55           -4095   cusp56           -2907
+    e88       cusp57           -3525   cusp58           -3657
+    e88       cusp59           -2730   cusp60           -4182
+    e88       cusp61           -1710   cusp62           -4482
+    e88       cusp63            -465   cusp64           -4557
+    e88       cusp65            -905   cusp66           -4407
+    e88       cusp67           -2075   cusp68           -4032
+    e88       cusp69           -3020   cusp70           -3432
+    e88       cusp71           -3740   cusp72           -2607
+    e88       cusp73           -4235   cusp74           -1557
+    e88       cusp75           -4505   cusp76            -282
+    e88       cusp77           -4550   cusp78           -1074
+    e88       cusp79           -4370   cusp80           -2214
+    e88       cusp81           -3965   cusp82           -3129
+    e88       cusp83           -3335   cusp84           -3819
+    e88       cusp85           -2480   cusp86           -4284
+    e88       cusp87           -1400   cusp88           -4524
+    e88       cusp89             -95   cusp90           -4539
+    e88       cusp91           -1239   cusp92           -4329
+    e88       cusp93           -2349   cusp94           -3894
+    e88       cusp95           -3234
+    e89       sum_e                1   R0000003            90
+    e89       R0000249             1   R0000250            -1
+    e89       R0000251             1   R0000252            -1
+    e89       R0000253             1   R0000254             1
+    e89       R0000255            -1   R0000256            -1
+    e89       R0000625             1   R0000626            -1
+    e89       R0000627             1   R0000628            -1
+    e89       R0000633             1   R0000634             1
+    e89       R0000635            -1   R0000636            -1
+    e89       cusp1            -4539   cusp2            -1157
+    e89       cusp3            -4370   cusp4            -2145
+    e89       cusp5            -4032   cusp6            -2964
+    e89       cusp7            -3525   cusp8            -3614
+    e89       cusp9            -2849   cusp10           -4095
+    e89       cusp11           -2004   cusp12           -4407
+    e89       cusp13            -990   cusp14           -4550
+    e89       cusp15            -189   cusp16           -4524
+    e89       cusp17           -1320   cusp18           -4329
+    e89       cusp19           -2282   cusp20           -3965
+    e89       cusp21           -3075   cusp22           -3432
+    e89       cusp23           -3699   cusp24           -2730
+    e89       cusp25           -4154   cusp26           -1859
+    e89       cusp27           -4440   cusp28            -819
+    e89       cusp29           -4557   cusp30            -374
+    e89       cusp31           -4505   cusp32           -1479
+    e89       cusp33           -4284   cusp34           -2415
+    e89       cusp35           -3894   cusp36           -3182
+    e89       cusp37           -3335   cusp38           -3780
+    e89       cusp39           -2607   cusp40           -4209
+    e89       cusp41           -1710   cusp42           -4469
+    e89       cusp43            -644   cusp44           -4560
+    e89       cusp45            -555   cusp46           -4482
+    e89       cusp47           -1634   cusp48           -4235
+    e89       cusp49           -2544   cusp50           -3819
+    e89       cusp51           -3285   cusp52           -3234
+    e89       cusp53           -3857   cusp54           -2480
+    e89       cusp55           -4260   cusp56           -1557
+    e89       cusp57           -4494   cusp58            -465
+    e89       cusp59           -4559   cusp60            -732
+    e89       cusp61           -4455   cusp62           -1785
+    e89       cusp63           -4182   cusp64           -2669
+    e89       cusp65           -3740   cusp66           -3384
+    e89       cusp67           -3129   cusp68           -3930
+    e89       cusp69           -2349   cusp70           -4307
+    e89       cusp71           -1400   cusp72           -4515
+    e89       cusp73            -282   cusp74           -4554
+    e89       cusp75            -905   cusp76           -4424
+    e89       cusp77           -1932   cusp78           -4125
+    e89       cusp79           -2790   cusp80           -3657
+    e89       cusp81           -3479   cusp82           -3020
+    e89       cusp83           -3999   cusp84           -2214
+    e89       cusp85           -4350   cusp86           -1239
+    e89       cusp87           -4532   cusp88             -95
+    e89       cusp89           -4545   cusp90           -1074
+    e89       cusp91           -4389   cusp92           -2075
+    e89       cusp93           -4064   cusp94           -2907
+    e89       cusp95           -3570
+    e90       sum_e                1   R0000003            78
+    e90       R0000117             1   R0000118            -1
+    e90       R0000119             1   R0000120            -1
+    e90       R0000121             1   R0000122             1
+    e90       R0000123            -1   R0000124            -1
+    e90       R0000493             1   R0000494            -1
+    e90       R0000495             1   R0000496            -1
+    e90       R0000501             1   R0000502             1
+    e90       R0000503            -1   R0000504            -1
+    e90       cusp1            -4545   cusp2             -990
+    e90       cusp3            -4424   cusp4            -1859
+    e90       cusp5            -4182   cusp6            -2607
+    e90       cusp7            -3819   cusp8            -3234
+    e90       cusp9            -3335   cusp10           -3740
+    e90       cusp11           -2730   cusp12           -4125
+    e90       cusp13           -2004   cusp14           -4389
+    e90       cusp15           -1157   cusp16           -4532
+    e90       cusp17            -189   cusp18           -4554
+    e90       cusp19            -819   cusp20           -4455
+    e90       cusp21           -1710   cusp22           -4235
+    e90       cusp23           -2480   cusp24           -3894
+    e90       cusp25           -3129   cusp26           -3432
+    e90       cusp27           -3657   cusp28           -2849
+    e90       cusp29           -4064   cusp30           -2145
+    e90       cusp31           -4350   cusp32           -1320
+    e90       cusp33           -4515   cusp34            -374
+    e90       cusp35           -4559   cusp36            -644
+    e90       cusp37           -4482   cusp38           -1557
+    e90       cusp39           -4284   cusp40           -2349
+    e90       cusp41           -3965   cusp42           -3020
+    e90       cusp43           -3525   cusp44           -3570
+    e90       cusp45           -2964   cusp46           -3999
+    e90       cusp47           -2282   cusp48           -4307
+    e90       cusp49           -1479   cusp50           -4494
+    e90       cusp51            -555   cusp52           -4560
+    e90       cusp53            -465   cusp54           -4505
+    e90       cusp55           -1400   cusp56           -4329
+    e90       cusp57           -2214   cusp58           -4032
+    e90       cusp59           -2907   cusp60           -3614
+    e90       cusp61           -3479   cusp62           -3075
+    e90       cusp63           -3930   cusp64           -2415
+    e90       cusp65           -4260   cusp66           -1634
+    e90       cusp67           -4469   cusp68            -732
+    e90       cusp69           -4557   cusp70            -282
+    e90       cusp71           -4524   cusp72           -1239
+    e90       cusp73           -4370   cusp74           -2075
+    e90       cusp75           -4095   cusp76           -2790
+    e90       cusp77           -3699   cusp78           -3384
+    e90       cusp79           -3182   cusp80           -3857
+    e90       cusp81           -2544   cusp82           -4209
+    e90       cusp83           -1785   cusp84           -4440
+    e90       cusp85            -905   cusp86           -4550
+    e90       cusp87             -95   cusp88           -4539
+    e90       cusp89           -1074   cusp90           -4407
+    e90       cusp91           -1932   cusp92           -4154
+    e90       cusp93           -2669   cusp94           -3780
+    e90       cusp95           -3285
+    e91       sum_e                1   R0000003            68
+    e91       R0000329             1   R0000330            -1
+    e91       R0000331             1   R0000332            -1
+    e91       R0000333             1   R0000334             1
+    e91       R0000335            -1   R0000336            -1
+    e91       R0000705             1   R0000706            -1
+    e91       R0000707             1   R0000708            -1
+    e91       R0000713             1   R0000714             1
+    e91       R0000715            -1   R0000716            -1
+    e91       cusp1            -4550   cusp2             -819
+    e91       cusp3            -4469   cusp4            -1557
+    e91       cusp5            -4307   cusp6            -2214
+    e91       cusp7            -4064   cusp8            -2790
+    e91       cusp9            -3740   cusp10           -3285
+    e91       cusp11           -3335   cusp12           -3699
+    e91       cusp13           -2849   cusp14           -4032
+    e91       cusp15           -2282   cusp16           -4284
+    e91       cusp17           -1634   cusp18           -4455
+    e91       cusp19            -905   cusp20           -4545
+    e91       cusp21             -95   cusp22           -4554
+    e91       cusp23            -732   cusp24           -4482
+    e91       cusp25           -1479   cusp26           -4329
+    e91       cusp27           -2145   cusp28           -4095
+    e91       cusp29           -2730   cusp30           -3780
+    e91       cusp31           -3234   cusp32           -3384
+    e91       cusp33           -3657   cusp34           -2907
+    e91       cusp35           -3999   cusp36           -2349
+    e91       cusp37           -4260   cusp38           -1710
+    e91       cusp39           -4440   cusp40            -990
+    e91       cusp41           -4539   cusp42            -189
+    e91       cusp43           -4557   cusp44            -644
+    e91       cusp45           -4494   cusp46           -1400
+    e91       cusp47           -4350   cusp48           -2075
+    e91       cusp49           -4125   cusp50           -2669
+    e91       cusp51           -3819   cusp52           -3182
+    e91       cusp53           -3432   cusp54           -3614
+    e91       cusp55           -2964   cusp56           -3965
+    e91       cusp57           -2415   cusp58           -4235
+    e91       cusp59           -1785   cusp60           -4424
+    e91       cusp61           -1074   cusp62           -4532
+    e91       cusp63            -282   cusp64           -4559
+    e91       cusp65            -555   cusp66           -4505
+    e91       cusp67           -1320   cusp68           -4370
+    e91       cusp69           -2004   cusp70           -4154
+    e91       cusp71           -2607   cusp72           -3857
+    e91       cusp73           -3129   cusp74           -3479
+    e91       cusp75           -3570   cusp76           -3020
+    e91       cusp77           -3930   cusp78           -2480
+    e91       cusp79           -4209   cusp80           -1859
+    e91       cusp81           -4407   cusp82           -1157
+    e91       cusp83           -4524   cusp84            -374
+    e91       cusp85           -4560   cusp86            -465
+    e91       cusp87           -4515   cusp88           -1239
+    e91       cusp89           -4389   cusp90           -1932
+    e91       cusp91           -4182   cusp92           -2544
+    e91       cusp93           -3894   cusp94           -3075
+    e91       cusp95           -3525
+    e92       sum_e                1   R0000003            60
+    e92       R0000073             1   R0000074            -1
+    e92       R0000075             1   R0000076            -1
+    e92       R0000077             1   R0000078             1
+    e92       R0000079            -1   R0000080            -1
+    e92       R0000449             1   R0000450            -1
+    e92       R0000451             1   R0000452            -1
+    e92       R0000457             1   R0000458             1
+    e92       R0000459            -1   R0000460            -1
+    e92       cusp1            -4554   cusp2             -644
+    e92       cusp3            -4505   cusp4            -1239
+    e92       cusp5            -4407   cusp6            -1785
+    e92       cusp7            -4260   cusp8            -2282
+    e92       cusp9            -4064   cusp10           -2730
+    e92       cusp11           -3819   cusp12           -3129
+    e92       cusp13           -3525   cusp14           -3479
+    e92       cusp15           -3182   cusp16           -3780
+    e92       cusp17           -2790   cusp18           -4032
+    e92       cusp19           -2349   cusp20           -4235
+    e92       cusp21           -1859   cusp22           -4389
+    e92       cusp23           -1320   cusp24           -4494
+    e92       cusp25            -732   cusp26           -4550
+    e92       cusp27             -95   cusp28           -4557
+    e92       cusp29            -555   cusp30           -4515
+    e92       cusp31           -1157   cusp32           -4424
+    e92       cusp33           -1710   cusp34           -4284
+    e92       cusp35           -2214   cusp36           -4095
+    e92       cusp37           -2669   cusp38           -3857
+    e92       cusp39           -3075   cusp40           -3570
+    e92       cusp41           -3432   cusp42           -3234
+    e92       cusp43           -3740   cusp44           -2849
+    e92       cusp45           -3999   cusp46           -2415
+    e92       cusp47           -4209   cusp48           -1932
+    e92       cusp49           -4370   cusp50           -1400
+    e92       cusp51           -4482   cusp52            -819
+    e92       cusp53           -4545   cusp54            -189
+    e92       cusp55           -4559   cusp56            -465
+    e92       cusp57           -4524   cusp58           -1074
+    e92       cusp59           -4440   cusp60           -1634
+    e92       cusp61           -4307   cusp62           -2145
+    e92       cusp63           -4125   cusp64           -2607
+    e92       cusp65           -3894   cusp66           -3020
+    e92       cusp67           -3614   cusp68           -3384
+    e92       cusp69           -3285   cusp70           -3699
+    e92       cusp71           -2907   cusp72           -3965
+    e92       cusp73           -2480   cusp74           -4182
+    e92       cusp75           -2004   cusp76           -4350
+    e92       cusp77           -1479   cusp78           -4469
+    e92       cusp79            -905   cusp80           -4539
+    e92       cusp81            -282   cusp82           -4560
+    e92       cusp83            -374   cusp84           -4532
+    e92       cusp85            -990   cusp86           -4455
+    e92       cusp87           -1557   cusp88           -4329
+    e92       cusp89           -2075   cusp90           -4154
+    e92       cusp91           -2544   cusp92           -3930
+    e92       cusp93           -2964   cusp94           -3657
+    e92       cusp95           -3335
+    e93       sum_e                1   R0000003            54
+    e93       R0000157             1   R0000158            -1
+    e93       R0000159             1   R0000160            -1
+    e93       R0000161             1   R0000162             1
+    e93       R0000163            -1   R0000164            -1
+    e93       R0000533             1   R0000534            -1
+    e93       R0000535             1   R0000536            -1
+    e93       R0000541             1   R0000542             1
+    e93       R0000543            -1   R0000544            -1
+    e93       cusp1            -4557   cusp2             -465
+    e93       cusp3            -4532   cusp4             -905
+    e93       cusp5            -4482   cusp6            -1320
+    e93       cusp7            -4407   cusp8            -1710
+    e93       cusp9            -4307   cusp10           -2075
+    e93       cusp11           -4182   cusp12           -2415
+    e93       cusp13           -4032   cusp14           -2730
+    e93       cusp15           -3857   cusp16           -3020
+    e93       cusp17           -3657   cusp18           -3285
+    e93       cusp19           -3432   cusp20           -3525
+    e93       cusp21           -3182   cusp22           -3740
+    e93       cusp23           -2907   cusp24           -3930
+    e93       cusp25           -2607   cusp26           -4095
+    e93       cusp27           -2282   cusp28           -4235
+    e93       cusp29           -1932   cusp30           -4350
+    e93       cusp31           -1557   cusp32           -4440
+    e93       cusp33           -1157   cusp34           -4505
+    e93       cusp35            -732   cusp36           -4545
+    e93       cusp37            -282   cusp38           -4560
+    e93       cusp39            -189   cusp40           -4550
+    e93       cusp41            -644   cusp42           -4515
+    e93       cusp43           -1074   cusp44           -4455
+    e93       cusp45           -1479   cusp46           -4370
+    e93       cusp47           -1859   cusp48           -4260
+    e93       cusp49           -2214   cusp50           -4125
+    e93       cusp51           -2544   cusp52           -3965
+    e93       cusp53           -2849   cusp54           -3780
+    e93       cusp55           -3129   cusp56           -3570
+    e93       cusp57           -3384   cusp58           -3335
+    e93       cusp59           -3614   cusp60           -3075
+    e93       cusp61           -3819   cusp62           -2790
+    e93       cusp63           -3999   cusp64           -2480
+    e93       cusp65           -4154   cusp66           -2145
+    e93       cusp67           -4284   cusp68           -1785
+    e93       cusp69           -4389   cusp70           -1400
+    e93       cusp71           -4469   cusp72            -990
+    e93       cusp73           -4524   cusp74            -555
+    e93       cusp75           -4554   cusp76             -95
+    e93       cusp77           -4559   cusp78            -374
+    e93       cusp79           -4539   cusp80            -819
+    e93       cusp81           -4494   cusp82           -1239
+    e93       cusp83           -4424   cusp84           -1634
+    e93       cusp85           -4329   cusp86           -2004
+    e93       cusp87           -4209   cusp88           -2349
+    e93       cusp89           -4064   cusp90           -2669
+    e93       cusp91           -3894   cusp92           -2964
+    e93       cusp93           -3699   cusp94           -3234
+    e93       cusp95           -3479
+    e94       sum_e                1   R0000003            50
+    e94       R0000353             1   R0000354            -1
+    e94       R0000355             1   R0000356            -1
+    e94       R0000357             1   R0000358             1
+    e94       R0000359            -1   R0000360            -1
+    e94       R0000729             1   R0000730            -1
+    e94       R0000731             1   R0000732            -1
+    e94       R0000737             1   R0000738             1
+    e94       R0000739            -1   R0000740            -1
+    e94       cusp1            -4559   cusp2             -282
+    e94       cusp3            -4550   cusp4             -555
+    e94       cusp5            -4532   cusp6             -819
+    e94       cusp7            -4505   cusp8            -1074
+    e94       cusp9            -4469   cusp10           -1320
+    e94       cusp11           -4424   cusp12           -1557
+    e94       cusp13           -4370   cusp14           -1785
+    e94       cusp15           -4307   cusp16           -2004
+    e94       cusp17           -4235   cusp18           -2214
+    e94       cusp19           -4154   cusp20           -2415
+    e94       cusp21           -4064   cusp22           -2607
+    e94       cusp23           -3965   cusp24           -2790
+    e94       cusp25           -3857   cusp26           -2964
+    e94       cusp27           -3740   cusp28           -3129
+    e94       cusp29           -3614   cusp30           -3285
+    e94       cusp31           -3479   cusp32           -3432
+    e94       cusp33           -3335   cusp34           -3570
+    e94       cusp35           -3182   cusp36           -3699
+    e94       cusp37           -3020   cusp38           -3819
+    e94       cusp39           -2849   cusp40           -3930
+    e94       cusp41           -2669   cusp42           -4032
+    e94       cusp43           -2480   cusp44           -4125
+    e94       cusp45           -2282   cusp46           -4209
+    e94       cusp47           -2075   cusp48           -4284
+    e94       cusp49           -1859   cusp50           -4350
+    e94       cusp51           -1634   cusp52           -4407
+    e94       cusp53           -1400   cusp54           -4455
+    e94       cusp55           -1157   cusp56           -4494
+    e94       cusp57            -905   cusp58           -4524
+    e94       cusp59            -644   cusp60           -4545
+    e94       cusp61            -374   cusp62           -4557
+    e94       cusp63             -95   cusp64           -4560
+    e94       cusp65            -189   cusp66           -4554
+    e94       cusp67            -465   cusp68           -4539
+    e94       cusp69            -732   cusp70           -4515
+    e94       cusp71            -990   cusp72           -4482
+    e94       cusp73           -1239   cusp74           -4440
+    e94       cusp75           -1479   cusp76           -4389
+    e94       cusp77           -1710   cusp78           -4329
+    e94       cusp79           -1932   cusp80           -4260
+    e94       cusp81           -2145   cusp82           -4182
+    e94       cusp83           -2349   cusp84           -4095
+    e94       cusp85           -2544   cusp86           -3999
+    e94       cusp87           -2730   cusp88           -3894
+    e94       cusp89           -2907   cusp90           -3780
+    e94       cusp91           -3075   cusp92           -3657
+    e94       cusp93           -3234   cusp94           -3525
+    e94       cusp95           -3384
+    e95       sum_e                1   R0000003            48
+    e95       R0000377             1   R0000378            -1
+    e95       R0000379             1   R0000380            -1
+    e95       R0000381             1   R0000382             1
+    e95       R0000383            -1   R0000384            -1
+    e95       R0000753             1   R0000754            -1
+    e95       R0000755             1   R0000756            -1
+    e95       R0000761             1   R0000762             1
+    e95       R0000763            -1   R0000764            -1
+    e95       cusp1            -4560   cusp2              -95
+    e95       cusp3            -4559   cusp4             -189
+    e95       cusp5            -4557   cusp6             -282
+    e95       cusp7            -4554   cusp8             -374
+    e95       cusp9            -4550   cusp10            -465
+    e95       cusp11           -4545   cusp12            -555
+    e95       cusp13           -4539   cusp14            -644
+    e95       cusp15           -4532   cusp16            -732
+    e95       cusp17           -4524   cusp18            -819
+    e95       cusp19           -4515   cusp20            -905
+    e95       cusp21           -4505   cusp22            -990
+    e95       cusp23           -4494   cusp24           -1074
+    e95       cusp25           -4482   cusp26           -1157
+    e95       cusp27           -4469   cusp28           -1239
+    e95       cusp29           -4455   cusp30           -1320
+    e95       cusp31           -4440   cusp32           -1400
+    e95       cusp33           -4424   cusp34           -1479
+    e95       cusp35           -4407   cusp36           -1557
+    e95       cusp37           -4389   cusp38           -1634
+    e95       cusp39           -4370   cusp40           -1710
+    e95       cusp41           -4350   cusp42           -1785
+    e95       cusp43           -4329   cusp44           -1859
+    e95       cusp45           -4307   cusp46           -1932
+    e95       cusp47           -4284   cusp48           -2004
+    e95       cusp49           -4260   cusp50           -2075
+    e95       cusp51           -4235   cusp52           -2145
+    e95       cusp53           -4209   cusp54           -2214
+    e95       cusp55           -4182   cusp56           -2282
+    e95       cusp57           -4154   cusp58           -2349
+    e95       cusp59           -4125   cusp60           -2415
+    e95       cusp61           -4095   cusp62           -2480
+    e95       cusp63           -4064   cusp64           -2544
+    e95       cusp65           -4032   cusp66           -2607
+    e95       cusp67           -3999   cusp68           -2669
+    e95       cusp69           -3965   cusp70           -2730
+    e95       cusp71           -3930   cusp72           -2790
+    e95       cusp73           -3894   cusp74           -2849
+    e95       cusp75           -3857   cusp76           -2907
+    e95       cusp77           -3819   cusp78           -2964
+    e95       cusp79           -3780   cusp80           -3020
+    e95       cusp81           -3740   cusp82           -3075
+    e95       cusp83           -3699   cusp84           -3129
+    e95       cusp85           -3657   cusp86           -3182
+    e95       cusp87           -3614   cusp88           -3234
+    e95       cusp89           -3570   cusp90           -3285
+    e95       cusp91           -3525   cusp92           -3335
+    e95       cusp93           -3479   cusp94           -3384
+    e95       cusp95           -3432
+    multiple  R0000003          -191
+    M0000002  'MARKER'                 'INTEND'
+RHS
+    RHS1      mass               380   endpoint             1
+    RHS1      gap1_0_0             1   gap1_0_1             1
+    RHS1      gap1_0_2             1   gap1_0_3             1
+    RHS1      gap1_1_0             1   gap1_1_1             1
+    RHS1      gap1_1_2             1   gap1_1_3             1
+    RHS1      gap1_2_0             1   gap1_2_1             1
+    RHS1      gap1_2_2             1   gap1_2_3             1
+    RHS1      gap1_3_0             1   gap1_3_1             1
+    RHS1      gap1_3_2             1   gap1_3_3             1
+    RHS1      gap1_4_0             1   gap1_4_1             1
+    RHS1      gap1_4_2             1   gap1_4_3             1
+    RHS1      gap1_5_0             1   gap1_5_1             1
+    RHS1      gap1_5_2             1   gap1_5_3             1
+    RHS1      gap1_6_0             1   gap1_6_1             1
+    RHS1      gap1_6_2             1   gap1_6_3             1
+    RHS1      gap1_7_0             1   gap1_7_1             1
+    RHS1      gap1_7_2             1   gap1_7_3             1
+    RHS1      gap1_8_0             1   gap1_8_1             1
+    RHS1      gap1_8_2             1   gap1_8_3             1
+    RHS1      gap1_9_0             1   gap1_9_1             1
+    RHS1      gap1_9_2             1   gap1_9_3             1
+    RHS1      R0000045             1   R0000046             1
+    RHS1      R0000047             1   R0000048             1
+    RHS1      R0000049             1   R0000050             1
+    RHS1      R0000051             1   R0000052             1
+    RHS1      R0000053             1   R0000054             1
+    RHS1      R0000055             1   R0000056             1
+    RHS1      R0000057             1   R0000058             1
+    RHS1      R0000059             1   R0000060             1
+    RHS1      R0000061             1   R0000062             1
+    RHS1      R0000063             1   R0000064             1
+    RHS1      R0000065             1   R0000066             1
+    RHS1      R0000067             1   R0000068             1
+    RHS1      R0000069             1   R0000070             1
+    RHS1      R0000071             1   R0000072             1
+    RHS1      R0000073             1   R0000074             1
+    RHS1      R0000075             1   R0000076             1
+    RHS1      R0000077             1   R0000078             1
+    RHS1      R0000079             1   R0000080             1
+    RHS1      R0000081             1   R0000082             1
+    RHS1      R0000083             1   R0000084             1
+    RHS1      R0000085             1   R0000086             1
+    RHS1      R0000087             1   R0000088             1
+    RHS1      R0000089             1   R0000090             1
+    RHS1      R0000091             1   R0000092             1
+    RHS1      R0000093             1   R0000094             1
+    RHS1      R0000095             1   R0000096             1
+    RHS1      R0000097             1   R0000098             1
+    RHS1      R0000099             1   R0000100             1
+    RHS1      R0000101             1   R0000102             1
+    RHS1      R0000103             1   R0000104             1
+    RHS1      R0000105             1   R0000106             1
+    RHS1      R0000107             1   R0000108             1
+    RHS1      R0000109             1   R0000110             1
+    RHS1      R0000111             1   R0000112             1
+    RHS1      R0000113             1   R0000114             1
+    RHS1      R0000115             1   R0000116             1
+    RHS1      R0000117             1   R0000118             1
+    RHS1      R0000119             1   R0000120             1
+    RHS1      R0000121             1   R0000122             1
+    RHS1      R0000123             1   R0000124             1
+    RHS1      R0000125             1   R0000126             1
+    RHS1      R0000127             1   R0000128             1
+    RHS1      R0000129             1   R0000130             1
+    RHS1      R0000131             1   R0000132             1
+    RHS1      R0000133             1   R0000134             1
+    RHS1      R0000135             1   R0000136             1
+    RHS1      R0000137             1   R0000138             1
+    RHS1      R0000139             1   R0000140             1
+    RHS1      R0000141             1   R0000142             1
+    RHS1      R0000143             1   R0000144             1
+    RHS1      R0000145             1   R0000146             1
+    RHS1      R0000147             1   R0000148             1
+    RHS1      R0000149             1   R0000150             1
+    RHS1      R0000151             1   R0000152             1
+    RHS1      R0000153             1   R0000154             1
+    RHS1      R0000155             1   R0000156             1
+    RHS1      R0000157             1   R0000158             1
+    RHS1      R0000159             1   R0000160             1
+    RHS1      R0000161             1   R0000162             1
+    RHS1      R0000163             1   R0000164             1
+    RHS1      R0000165             1   R0000166             1
+    RHS1      R0000167             1   R0000168             1
+    RHS1      R0000169             1   R0000170             1
+    RHS1      R0000171             1   R0000172             1
+    RHS1      R0000173             1   R0000174             1
+    RHS1      R0000175             1   R0000176             1
+    RHS1      R0000177             1   R0000178             1
+    RHS1      R0000179             1   R0000180             1
+    RHS1      R0000181             1   R0000182             1
+    RHS1      R0000183             1   R0000184             1
+    RHS1      R0000185             1   R0000186             1
+    RHS1      R0000187             1   R0000188             1
+    RHS1      R0000189             1   R0000190             1
+    RHS1      R0000191             1   R0000192             1
+    RHS1      R0000193             1   R0000194             1
+    RHS1      R0000195             1   R0000196             1
+    RHS1      R0000197             1   R0000198             1
+    RHS1      R0000199             1   R0000200             1
+    RHS1      R0000201             1   R0000202             1
+    RHS1      R0000203             1   R0000204             1
+    RHS1      R0000205             1   R0000206             1
+    RHS1      R0000207             1   R0000208             1
+    RHS1      R0000209             1   R0000210             1
+    RHS1      R0000211             1   R0000212             1
+    RHS1      R0000213             1   R0000214             1
+    RHS1      R0000215             1   R0000216             1
+    RHS1      R0000217             1   R0000218             1
+    RHS1      R0000219             1   R0000220             1
+    RHS1      R0000221             1   R0000222             1
+    RHS1      R0000223             1   R0000224             1
+    RHS1      R0000225             1   R0000226             1
+    RHS1      R0000227             1   R0000228             1
+    RHS1      R0000229             1   R0000230             1
+    RHS1      R0000231             1   R0000232             1
+    RHS1      R0000233             1   R0000234             1
+    RHS1      R0000235             1   R0000236             1
+    RHS1      R0000237             1   R0000238             1
+    RHS1      R0000239             1   R0000240             1
+    RHS1      R0000241             1   R0000242             1
+    RHS1      R0000243             1   R0000244             1
+    RHS1      R0000245             1   R0000246             1
+    RHS1      R0000247             1   R0000248             1
+    RHS1      R0000249             1   R0000250             1
+    RHS1      R0000251             1   R0000252             1
+    RHS1      R0000253             1   R0000254             1
+    RHS1      R0000255             1   R0000256             1
+    RHS1      R0000257             1   R0000258             1
+    RHS1      R0000259             1   R0000260             1
+    RHS1      R0000261             1   R0000262             1
+    RHS1      R0000263             1   R0000264             1
+    RHS1      R0000265             1   R0000266             1
+    RHS1      R0000267             1   R0000268             1
+    RHS1      R0000269             1   R0000270             1
+    RHS1      R0000271             1   R0000272             1
+    RHS1      R0000273             1   R0000274             1
+    RHS1      R0000275             1   R0000276             1
+    RHS1      R0000277             1   R0000278             1
+    RHS1      R0000279             1   R0000280             1
+    RHS1      R0000281             1   R0000282             1
+    RHS1      R0000283             1   R0000284             1
+    RHS1      R0000285             1   R0000286             1
+    RHS1      R0000287             1   R0000288             1
+    RHS1      R0000289             1   R0000290             1
+    RHS1      R0000291             1   R0000292             1
+    RHS1      R0000293             1   R0000294             1
+    RHS1      R0000295             1   R0000296             1
+    RHS1      R0000297             1   R0000298             1
+    RHS1      R0000299             1   R0000300             1
+    RHS1      R0000301             1   R0000302             1
+    RHS1      R0000303             1   R0000304             1
+    RHS1      R0000305             1   R0000306             1
+    RHS1      R0000307             1   R0000308             1
+    RHS1      R0000309             1   R0000310             1
+    RHS1      R0000311             1   R0000312             1
+    RHS1      R0000313             1   R0000314             1
+    RHS1      R0000315             1   R0000316             1
+    RHS1      R0000317             1   R0000318             1
+    RHS1      R0000319             1   R0000320             1
+    RHS1      R0000321             1   R0000322             1
+    RHS1      R0000323             1   R0000324             1
+    RHS1      R0000325             1   R0000326             1
+    RHS1      R0000327             1   R0000328             1
+    RHS1      R0000329             1   R0000330             1
+    RHS1      R0000331             1   R0000332             1
+    RHS1      R0000333             1   R0000334             1
+    RHS1      R0000335             1   R0000336             1
+    RHS1      R0000337             1   R0000338             1
+    RHS1      R0000339             1   R0000340             1
+    RHS1      R0000341             1   R0000342             1
+    RHS1      R0000343             1   R0000344             1
+    RHS1      R0000345             1   R0000346             1
+    RHS1      R0000347             1   R0000348             1
+    RHS1      R0000349             1   R0000350             1
+    RHS1      R0000351             1   R0000352             1
+    RHS1      R0000353             1   R0000354             1
+    RHS1      R0000355             1   R0000356             1
+    RHS1      R0000357             1   R0000358             1
+    RHS1      R0000359             1   R0000360             1
+    RHS1      R0000361             1   R0000362             1
+    RHS1      R0000363             1   R0000364             1
+    RHS1      R0000365             1   R0000366             1
+    RHS1      R0000367             1   R0000368             1
+    RHS1      R0000369             1   R0000370             1
+    RHS1      R0000371             1   R0000372             1
+    RHS1      R0000373             1   R0000374             1
+    RHS1      R0000375             1   R0000376             1
+    RHS1      R0000377             1   R0000378             1
+    RHS1      R0000379             1   R0000380             1
+    RHS1      R0000381             1   R0000382             1
+    RHS1      R0000383             1   R0000384             1
+    RHS1      gap2_0_0             1   gap2_0_1             1
+    RHS1      gap2_0_2             1   gap2_0_3             1
+    RHS1      gap2_1_0             1   gap2_1_1             1
+    RHS1      gap2_1_2             1   gap2_1_3             1
+    RHS1      gap2_2_0             1   gap2_2_1             1
+    RHS1      gap2_2_2             1   gap2_2_3             1
+    RHS1      gap2_3_0             1   gap2_3_1             1
+    RHS1      gap2_3_2             1   gap2_3_3             1
+    RHS1      gap2_4_0             1   gap2_4_1             1
+    RHS1      gap2_4_2             1   gap2_4_3             1
+    RHS1      gap2_5_0             1   gap2_5_1             1
+    RHS1      gap2_5_2             1   gap2_5_3             1
+    RHS1      gap2_6_0             1   gap2_6_1             1
+    RHS1      gap2_6_2             1   gap2_6_3             1
+    RHS1      gap2_7_0             1   gap2_7_1             1
+    RHS1      gap2_7_2             1   gap2_7_3             1
+    RHS1      gap2_8_0             1   gap2_8_1             1
+    RHS1      gap2_8_2             1   gap2_8_3             1
+    RHS1      gap2_9_0             1   gap2_9_1             1
+    RHS1      gap2_9_2             1   gap2_9_3             1
+    RHS1      R0000425             1   R0000426             1
+    RHS1      R0000427             1   R0000428             1
+    RHS1      R0000429             1   R0000430             1
+    RHS1      R0000431             1   R0000432             1
+    RHS1      R0000433             1   R0000434             1
+    RHS1      R0000435             1   R0000436             1
+    RHS1      R0000437             1   R0000438             1
+    RHS1      R0000439             1   R0000440             1
+    RHS1      R0000441             1   R0000442             1
+    RHS1      R0000443             1   R0000444             1
+    RHS1      R0000445             1   R0000446             1
+    RHS1      R0000447             1   R0000448             1
+    RHS1      R0000449             1   R0000450             1
+    RHS1      R0000451             1   R0000452             1
+    RHS1      R0000453             1   R0000454             1
+    RHS1      R0000455             1   R0000456             1
+    RHS1      R0000457             1   R0000458             1
+    RHS1      R0000459             1   R0000460             1
+    RHS1      R0000461             1   R0000462             1
+    RHS1      R0000463             1   R0000464             1
+    RHS1      R0000465             1   R0000466             1
+    RHS1      R0000467             1   R0000468             1
+    RHS1      R0000469             1   R0000470             1
+    RHS1      R0000471             1   R0000472             1
+    RHS1      R0000473             1   R0000474             1
+    RHS1      R0000475             1   R0000476             1
+    RHS1      R0000477             1   R0000478             1
+    RHS1      R0000479             1   R0000480             1
+    RHS1      R0000481             1   R0000482             1
+    RHS1      R0000483             1   R0000484             1
+    RHS1      R0000485             1   R0000486             1
+    RHS1      R0000487             1   R0000488             1
+    RHS1      R0000489             1   R0000490             1
+    RHS1      R0000491             1   R0000492             1
+    RHS1      R0000493             1   R0000494             1
+    RHS1      R0000495             1   R0000496             1
+    RHS1      R0000497             1   R0000498             1
+    RHS1      R0000499             1   R0000500             1
+    RHS1      R0000501             1   R0000502             1
+    RHS1      R0000503             1   R0000504             1
+    RHS1      R0000505             1   R0000506             1
+    RHS1      R0000507             1   R0000508             1
+    RHS1      R0000509             1   R0000510             1
+    RHS1      R0000511             1   R0000512             1
+    RHS1      R0000513             1   R0000514             1
+    RHS1      R0000515             1   R0000516             1
+    RHS1      R0000517             1   R0000518             1
+    RHS1      R0000519             1   R0000520             1
+    RHS1      R0000521             1   R0000522             1
+    RHS1      R0000523             1   R0000524             1
+    RHS1      R0000525             1   R0000526             1
+    RHS1      R0000527             1   R0000528             1
+    RHS1      R0000529             1   R0000530             1
+    RHS1      R0000531             1   R0000532             1
+    RHS1      R0000533             1   R0000534             1
+    RHS1      R0000535             1   R0000536             1
+    RHS1      R0000537             1   R0000538             1
+    RHS1      R0000539             1   R0000540             1
+    RHS1      R0000541             1   R0000542             1
+    RHS1      R0000543             1   R0000544             1
+    RHS1      R0000545             1   R0000546             1
+    RHS1      R0000547             1   R0000548             1
+    RHS1      R0000549             1   R0000550             1
+    RHS1      R0000551             1   R0000552             1
+    RHS1      R0000553             1   R0000554             1
+    RHS1      R0000555             1   R0000556             1
+    RHS1      R0000557             1   R0000558             1
+    RHS1      R0000559             1   R0000560             1
+    RHS1      R0000561             1   R0000562             1
+    RHS1      R0000563             1   R0000564             1
+    RHS1      R0000565             1   R0000566             1
+    RHS1      R0000567             1   R0000568             1
+    RHS1      R0000569             1   R0000570             1
+    RHS1      R0000571             1   R0000572             1
+    RHS1      R0000573             1   R0000574             1
+    RHS1      R0000575             1   R0000576             1
+    RHS1      R0000577             1   R0000578             1
+    RHS1      R0000579             1   R0000580             1
+    RHS1      R0000581             1   R0000582             1
+    RHS1      R0000583             1   R0000584             1
+    RHS1      R0000585             1   R0000586             1
+    RHS1      R0000587             1   R0000588             1
+    RHS1      R0000589             1   R0000590             1
+    RHS1      R0000591             1   R0000592             1
+    RHS1      R0000593             1   R0000594             1
+    RHS1      R0000595             1   R0000596             1
+    RHS1      R0000597             1   R0000598             1
+    RHS1      R0000599             1   R0000600             1
+    RHS1      R0000601             1   R0000602             1
+    RHS1      R0000603             1   R0000604             1
+    RHS1      R0000605             1   R0000606             1
+    RHS1      R0000607             1   R0000608             1
+    RHS1      R0000609             1   R0000610             1
+    RHS1      R0000611             1   R0000612             1
+    RHS1      R0000613             1   R0000614             1
+    RHS1      R0000615             1   R0000616             1
+    RHS1      R0000617             1   R0000618             1
+    RHS1      R0000619             1   R0000620             1
+    RHS1      R0000621             1   R0000622             1
+    RHS1      R0000623             1   R0000624             1
+    RHS1      R0000625             1   R0000626             1
+    RHS1      R0000627             1   R0000628             1
+    RHS1      R0000629             1   R0000630             1
+    RHS1      R0000631             1   R0000632             1
+    RHS1      R0000633             1   R0000634             1
+    RHS1      R0000635             1   R0000636             1
+    RHS1      R0000637             1   R0000638             1
+    RHS1      R0000639             1   R0000640             1
+    RHS1      R0000641             1   R0000642             1
+    RHS1      R0000643             1   R0000644             1
+    RHS1      R0000645             1   R0000646             1
+    RHS1      R0000647             1   R0000648             1
+    RHS1      R0000649             1   R0000650             1
+    RHS1      R0000651             1   R0000652             1
+    RHS1      R0000653             1   R0000654             1
+    RHS1      R0000655             1   R0000656             1
+    RHS1      R0000657             1   R0000658             1
+    RHS1      R0000659             1   R0000660             1
+    RHS1      R0000661             1   R0000662             1
+    RHS1      R0000663             1   R0000664             1
+    RHS1      R0000665             1   R0000666             1
+    RHS1      R0000667             1   R0000668             1
+    RHS1      R0000669             1   R0000670             1
+    RHS1      R0000671             1   R0000672             1
+    RHS1      R0000673             1   R0000674             1
+    RHS1      R0000675             1   R0000676             1
+    RHS1      R0000677             1   R0000678             1
+    RHS1      R0000679             1   R0000680             1
+    RHS1      R0000681             1   R0000682             1
+    RHS1      R0000683             1   R0000684             1
+    RHS1      R0000685             1   R0000686             1
+    RHS1      R0000687             1   R0000688             1
+    RHS1      R0000689             1   R0000690             1
+    RHS1      R0000691             1   R0000692             1
+    RHS1      R0000693             1   R0000694             1
+    RHS1      R0000695             1   R0000696             1
+    RHS1      R0000697             1   R0000698             1
+    RHS1      R0000699             1   R0000700             1
+    RHS1      R0000701             1   R0000702             1
+    RHS1      R0000703             1   R0000704             1
+    RHS1      R0000705             1   R0000706             1
+    RHS1      R0000707             1   R0000708             1
+    RHS1      R0000709             1   R0000710             1
+    RHS1      R0000711             1   R0000712             1
+    RHS1      R0000713             1   R0000714             1
+    RHS1      R0000715             1   R0000716             1
+    RHS1      R0000717             1   R0000718             1
+    RHS1      R0000719             1   R0000720             1
+    RHS1      R0000721             1   R0000722             1
+    RHS1      R0000723             1   R0000724             1
+    RHS1      R0000725             1   R0000726             1
+    RHS1      R0000727             1   R0000728             1
+    RHS1      R0000729             1   R0000730             1
+    RHS1      R0000731             1   R0000732             1
+    RHS1      R0000733             1   R0000734             1
+    RHS1      R0000735             1   R0000736             1
+    RHS1      R0000737             1   R0000738             1
+    RHS1      R0000739             1   R0000740             1
+    RHS1      R0000741             1   R0000742             1
+    RHS1      R0000743             1   R0000744             1
+    RHS1      R0000745             1   R0000746             1
+    RHS1      R0000747             1   R0000748             1
+    RHS1      R0000749             1   R0000750             1
+    RHS1      R0000751             1   R0000752             1
+    RHS1      R0000753             1   R0000754             1
+    RHS1      R0000755             1   R0000756             1
+    RHS1      R0000757             1   R0000758             1
+    RHS1      R0000759             1   R0000760             1
+    RHS1      R0000761             1   R0000762             1
+    RHS1      R0000763             1   R0000764             1
+BOUNDS
+ UP BND1      z1                 380
+ UP BND1      z2                 380
+ UP BND1      z3                 380
+ UP BND1      z4                 380
+ UP BND1      z5                 380
+ UP BND1      z6                 380
+ UP BND1      z7                 380
+ UP BND1      z8                 380
+ UP BND1      z9                 380
+ UP BND1      z10                380
+ UP BND1      z11                380
+ UP BND1      z12                380
+ UP BND1      z13                380
+ UP BND1      z14                380
+ UP BND1      z15                380
+ UP BND1      z16                380
+ UP BND1      z17                380
+ UP BND1      z18                380
+ UP BND1      z19                380
+ UP BND1      z20                380
+ UP BND1      z21                380
+ UP BND1      z22                380
+ UP BND1      z23                380
+ UP BND1      z24                380
+ UP BND1      z25                380
+ UP BND1      z26                380
+ UP BND1      z27                380
+ UP BND1      z28                380
+ UP BND1      z29                380
+ UP BND1      z30                380
+ UP BND1      z31                380
+ UP BND1      z32                380
+ UP BND1      z33                380
+ UP BND1      z34                380
+ UP BND1      z35                380
+ UP BND1      z36                380
+ UP BND1      z37                380
+ UP BND1      z38                380
+ UP BND1      z39                380
+ UP BND1      z40                380
+ UP BND1      z41                380
+ UP BND1      z42                380
+ UP BND1      z43                380
+ UP BND1      z44                380
+ UP BND1      z45                380
+ UP BND1      z46                380
+ UP BND1      z47                380
+ UP BND1      z48                380
+ UP BND1      z49                380
+ UP BND1      z50                380
+ UP BND1      z51                380
+ UP BND1      z52                380
+ UP BND1      z53                380
+ UP BND1      z54                380
+ UP BND1      z55                380
+ UP BND1      z56                380
+ UP BND1      z57                380
+ UP BND1      z58                380
+ UP BND1      z59                380
+ UP BND1      z60                380
+ UP BND1      z61                380
+ UP BND1      z62                380
+ UP BND1      z63                380
+ UP BND1      z64                380
+ UP BND1      z65                380
+ UP BND1      z66                380
+ UP BND1      z67                380
+ UP BND1      z68                380
+ UP BND1      z69                380
+ UP BND1      z70                380
+ UP BND1      z71                380
+ UP BND1      z72                380
+ UP BND1      z73                380
+ UP BND1      z74                380
+ UP BND1      z75                380
+ UP BND1      z76                380
+ UP BND1      z77                380
+ UP BND1      z78                380
+ UP BND1      z79                380
+ UP BND1      z80                380
+ UP BND1      z81                380
+ UP BND1      z82                380
+ UP BND1      z83                380
+ UP BND1      z84                380
+ UP BND1      z85                380
+ UP BND1      z86                380
+ UP BND1      z87                380
+ UP BND1      z88                380
+ UP BND1      z89                380
+ UP BND1      z90                380
+ UP BND1      z91                380
+ UP BND1      z92                380
+ UP BND1      z93                380
+ UP BND1      z94                380
+ UP BND1      z95                380
+ FX BND1      e1                   1
+ LO BND1      e2                  -1
+ UP BND1      e2                   1
+ LO BND1      e3                  -1
+ UP BND1      e3                   1
+ LO BND1      e4                  -1
+ UP BND1      e4                   1
+ LO BND1      e5                  -1
+ UP BND1      e5                   1
+ LO BND1      e6                  -1
+ UP BND1      e6                   1
+ LO BND1      e7                  -1
+ UP BND1      e7                   1
+ LO BND1      e8                  -1
+ UP BND1      e8                   1
+ LO BND1      e9                  -1
+ UP BND1      e9                   1
+ LO BND1      e10                 -1
+ UP BND1      e10                  1
+ LO BND1      e11                 -1
+ UP BND1      e11                  1
+ LO BND1      e12                 -1
+ UP BND1      e12                  1
+ LO BND1      e13                 -1
+ UP BND1      e13                  1
+ LO BND1      e14                 -1
+ UP BND1      e14                  1
+ LO BND1      e15                 -1
+ UP BND1      e15                  1
+ LO BND1      e16                 -1
+ UP BND1      e16                  1
+ LO BND1      e17                 -1
+ UP BND1      e17                  1
+ LO BND1      e18                 -1
+ UP BND1      e18                  1
+ LO BND1      e19                 -1
+ UP BND1      e19                  1
+ LO BND1      e20                 -1
+ UP BND1      e20                  1
+ LO BND1      e21                 -1
+ UP BND1      e21                  1
+ LO BND1      e22                 -1
+ UP BND1      e22                  1
+ LO BND1      e23                 -1
+ UP BND1      e23                  1
+ LO BND1      e24                 -1
+ UP BND1      e24                  1
+ LO BND1      e25                 -1
+ UP BND1      e25                  1
+ LO BND1      e26                 -1
+ UP BND1      e26                  1
+ LO BND1      e27                 -1
+ UP BND1      e27                  1
+ LO BND1      e28                 -1
+ UP BND1      e28                  1
+ LO BND1      e29                 -1
+ UP BND1      e29                  1
+ LO BND1      e30                 -1
+ UP BND1      e30                  1
+ LO BND1      e31                 -1
+ UP BND1      e31                  1
+ LO BND1      e32                 -1
+ UP BND1      e32                  1
+ LO BND1      e33                 -1
+ UP BND1      e33                  1
+ LO BND1      e34                 -1
+ UP BND1      e34                  1
+ LO BND1      e35                 -1
+ UP BND1      e35                  1
+ LO BND1      e36                 -1
+ UP BND1      e36                  1
+ LO BND1      e37                 -1
+ UP BND1      e37                  1
+ LO BND1      e38                 -1
+ UP BND1      e38                  1
+ LO BND1      e39                 -1
+ UP BND1      e39                  1
+ LO BND1      e40                 -1
+ UP BND1      e40                  1
+ LO BND1      e41                 -1
+ UP BND1      e41                  1
+ LO BND1      e42                 -1
+ UP BND1      e42                  1
+ LO BND1      e43                 -1
+ UP BND1      e43                  1
+ LO BND1      e44                 -1
+ UP BND1      e44                  1
+ LO BND1      e45                 -1
+ UP BND1      e45                  1
+ LO BND1      e46                 -1
+ UP BND1      e46                  1
+ LO BND1      e47                 -1
+ UP BND1      e47                  1
+ LO BND1      e48                 -1
+ UP BND1      e48                  1
+ LO BND1      e49                 -1
+ UP BND1      e49                  1
+ LO BND1      e50                 -1
+ UP BND1      e50                  1
+ LO BND1      e51                 -1
+ UP BND1      e51                  1
+ LO BND1      e52                 -1
+ UP BND1      e52                  1
+ LO BND1      e53                 -1
+ UP BND1      e53                  1
+ LO BND1      e54                 -1
+ UP BND1      e54                  1
+ LO BND1      e55                 -1
+ UP BND1      e55                  1
+ LO BND1      e56                 -1
+ UP BND1      e56                  1
+ LO BND1      e57                 -1
+ UP BND1      e57                  1
+ LO BND1      e58                 -1
+ UP BND1      e58                  1
+ LO BND1      e59                 -1
+ UP BND1      e59                  1
+ LO BND1      e60                 -1
+ UP BND1      e60                  1
+ LO BND1      e61                 -1
+ UP BND1      e61                  1
+ LO BND1      e62                 -1
+ UP BND1      e62                  1
+ LO BND1      e63                 -1
+ UP BND1      e63                  1
+ LO BND1      e64                 -1
+ UP BND1      e64                  1
+ LO BND1      e65                 -1
+ UP BND1      e65                  1
+ LO BND1      e66                 -1
+ UP BND1      e66                  1
+ LO BND1      e67                 -1
+ UP BND1      e67                  1
+ LO BND1      e68                 -1
+ UP BND1      e68                  1
+ LO BND1      e69                 -1
+ UP BND1      e69                  1
+ LO BND1      e70                 -1
+ UP BND1      e70                  1
+ LO BND1      e71                 -1
+ UP BND1      e71                  1
+ LO BND1      e72                 -1
+ UP BND1      e72                  1
+ LO BND1      e73                 -1
+ UP BND1      e73                  1
+ LO BND1      e74                 -1
+ UP BND1      e74                  1
+ LO BND1      e75                 -1
+ UP BND1      e75                  1
+ LO BND1      e76                 -1
+ UP BND1      e76                  1
+ LO BND1      e77                 -1
+ UP BND1      e77                  1
+ LO BND1      e78                 -1
+ UP BND1      e78                  1
+ LO BND1      e79                 -1
+ UP BND1      e79                  1
+ LO BND1      e80                 -1
+ UP BND1      e80                  1
+ LO BND1      e81                 -1
+ UP BND1      e81                  1
+ LO BND1      e82                 -1
+ UP BND1      e82                  1
+ LO BND1      e83                 -1
+ UP BND1      e83                  1
+ LO BND1      e84                 -1
+ UP BND1      e84                  1
+ LO BND1      e85                 -1
+ UP BND1      e85                  1
+ LO BND1      e86                 -1
+ UP BND1      e86                  1
+ LO BND1      e87                 -1
+ UP BND1      e87                  1
+ LO BND1      e88                 -1
+ UP BND1      e88                  1
+ LO BND1      e89                 -1
+ UP BND1      e89                  1
+ LO BND1      e90                 -1
+ UP BND1      e90                  1
+ LO BND1      e91                 -1
+ UP BND1      e91                  1
+ LO BND1      e92                 -1
+ UP BND1      e92                  1
+ LO BND1      e93                 -1
+ UP BND1      e93                  1
+ LO BND1      e94                 -1
+ UP BND1      e94                  1
+ LO BND1      e95                 -1
+ UP BND1      e95                  1
+ LO BND1      multiple           -95
+ UP BND1      multiple            95
+ENDATA

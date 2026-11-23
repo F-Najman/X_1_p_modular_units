@@ -1,0 +1,23 @@
+p =  11: minimal unit degree    2, max |e_a| = 2; gon_Q X_1(11) = 2 OK
+p =  13: minimal unit degree    2, max |e_a| = 1; gon_Q X_1(13) = 2 OK
+p =  17: minimal unit degree    4, max |e_a| = 1; gon_Q X_1(17) = 4 OK
+p =  19: minimal unit degree    5, max |e_a| = 1; gon_Q X_1(19) = 5 OK
+p =  23: minimal unit degree    7, max |e_a| = 1; gon_Q X_1(23) = 7 OK
+p =  29: minimal unit degree   11, max |e_a| = 1; gon_Q X_1(29) = 11 OK
+p =  31: minimal unit degree   12, max |e_a| = 1; gon_Q X_1(31) = 12 OK
+p =  37: minimal unit degree   18, max |e_a| = 1; gon_Q X_1(37) = 18 OK
+p =  41: minimal unit degree   22, max |e_a| = 1; Derickx-van Hoeij unit of degree 22 OK
+p =  43: minimal unit degree   24, max |e_a| = 1; Derickx-van Hoeij unit of degree 24 OK
+p =  47: minimal unit degree   29, max |e_a| = 1; Derickx-van Hoeij unit of degree 29 OK
+p =  53: minimal unit degree   37, max |e_a| = 1; Derickx-van Hoeij unit of degree 37 OK
+p =  59: minimal unit degree   46, max |e_a| = 1; Derickx-van Hoeij unit of degree 46 OK
+p =  61: minimal unit degree   49, max |e_a| = 1; Derickx-van Hoeij unit of degree 49 OK
+p =  67: minimal unit degree   58, max |e_a| = 1; Derickx-van Hoeij unit of degree 58 OK
+p =  71: minimal unit degree   66, max |e_a| = 1; Derickx-van Hoeij unit of degree 66 OK
+p =  73: minimal unit degree   70, max |e_a| = 1; Derickx-van Hoeij unit of degree 70 OK
+p =  79: minimal unit degree   82, max |e_a| = 1; Derickx-van Hoeij unit of degree 82 OK
+p =  83: minimal unit degree   90, max |e_a| = 1; Derickx-van Hoeij unit of degree 90 OK
+VALIDATION PASSED
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();

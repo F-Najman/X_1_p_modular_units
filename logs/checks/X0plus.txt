@@ -1,0 +1,7 @@
+genus of X_0^+(167) = 2, genus of X_0(167) = 14
+genus of X_0^+(191) = 2, genus of X_0(191) = 16
+genus of X_0^+(239) = 3, genus of X_0(239) = 20
+Claim 5 successfully verified
+X_0^+(191): Hyperelliptic Curve defined by y^2 + (x^3 + x + 1)*y = x^2 - 2*x over Rational Field
+Claim 6 successfully verified
+Claim 7 successfully verified

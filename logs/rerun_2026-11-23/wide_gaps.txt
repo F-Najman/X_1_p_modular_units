@@ -1,0 +1,6 @@
+2 nonzeros: 40 supports, 0 modular products
+4 nonzeros: 11440 supports, 180 modular products
+6 nonzeros: 433160 supports, 22746 modular products
+8 nonzeros: 1577532 supports, 288904 modular products
+10 nonzeros: 130752 supports, 86409 modular products
+Minimum degree for gaps at least eight: 501

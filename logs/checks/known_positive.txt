@@ -1,0 +1,3 @@
+(a) fixed to H4H7/(H1H8): problem is solved [optimal solution found] objective 478
+(b) exponents free: solving was interrupted [solution limit reached] objective 478 nonzero exponents {1: 1, 2: -1, 46: 1, 48: -1}
+Known positive successfully verified

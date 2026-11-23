@@ -1,0 +1,7 @@
+ 2 nonzero exponents: 80 supports through position 0, 0 satisfy the congruence
+ 4 nonzero exponents: 45760 supports through position 0, 720 satisfy the congruence
+ 6 nonzero exponents: 2598960 supports through position 0, 136476 satisfy the congruence
+ 8 nonzero exponents: 12620256 supports through position 0, 2311232 satisfy the congruence
+10 nonzero exponents: 1307504 supports through position 0, 864074 satisfy the congruence
+Minimal degree with all nonzero gaps at least 8: 501
+WIDE GAP CASE VERIFIED: all degrees > 380

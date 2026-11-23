@@ -1,0 +1,9 @@
+Claim 1 successfully verified: A invertible, column sums -95/12, deg H4H7/(H1H8) = 478
+  s = 0: every exponent lies in [-2, 2]
+  s = 1: every exponent lies in [-1, 1]
+  s = 2: every exponent lies in [-1, 1]
+  s = 3: every exponent lies in [0, 1]
+  s = 4: every exponent lies in [0, 1]
+Claim 2 successfully verified
+Claim 3 successfully verified: if s = 0 and e_1 = 2 then -0.303533 <= e_2 <= -0.246937
+Claim 4 successfully verified: 2 generates (Z/191Z)^*/{+-1}

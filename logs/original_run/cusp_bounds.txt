@@ -1,0 +1,11 @@
+cusp order 0 individual exponents -2 2
+cusp order 1 individual exponents -1 1
+cusp order 2 individual exponents -1 1
+cusp order 3 individual exponents 0 1
+cusp order 4 individual exponents 0 1
+s=4, one pole would have order at least 339 and at most 285
+s = 0 negative exponent count <= 47
+s = 1 negative exponent count <= 37
+s = 2 negative exponent count <= 17
+diamond subgroup 5 exponent bound below 0.9414593
+diamond subgroup 19 exponent bound below 0.3752305
