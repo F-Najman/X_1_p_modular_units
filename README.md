@@ -9,8 +9,9 @@ X_1(191) defined over Q has degree at least 381. So the Q-gonality of X_1(p) is 
 always attained by a modular unit: this disproves Conjecture 3.5 of Derickx and Stoll
 ([arXiv:2505.14109v2](https://arxiv.org/abs/2505.14109v2)) for p = 191 and answers
 Question 1 of Derickx and van Hoeij (J. Algebra 417 (2014)) negatively for N = 191.
-The paper also shows gon_Q X_1(191) >= 304 (Proposition 3.5, a proof without
-computations), so 304 <= gon_Q X_1(191) <= 380 < 381 <= mu_Q(191) <= 478.
+The paper also recalls gon_Q X_1(191) >= 304 (Proposition 3.4, which is Corollary 4.3 of
+[hexagon:2611.00884v1](https://hexagonmath.org/2611.00884v1); no computations), so
+304 <= gon_Q X_1(191) <= 380 < 381 <= mu_Q(191) <= 478.
 
 All commands below are run from the repository root.
 
